@@ -1,0 +1,72 @@
+firefox:
+  name: Firefox
+  primary_src: flathub
+  src_pkg_name: org.mozilla.firefox
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mozilla.firefox.png
+  author: Mozilla
+  summary: Firefox web browser
+  description: |
+    Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
+    Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+    In 2017, Firefox began incorporating new technology under the code name Quantum to promote parallelism and a more intuitive user interface.
+    An additional version, Firefox for iOS, was released on November 12, 2015.
+    Due to platform restrictions, it uses the WebKit layout engine instead of Gecko, as with all other iOS web browsers.
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+    - gecko
+    - mozilla
+    - quantum
+  mimetypes:
+    - text/html
+    - application/xhtml+xml
+    - application/vnd.mozilla.xul+xml
+    - application/vnd.mozilla.xul+xml-overlay
+    - image/svg+xml
+    - application/rss+xml
+    - application/rdf+xml
+    - application/atom+xml
+    - application/x-microsumm
+  license: MPL-2.0
+  homepage: https://www.mozilla.org/firefox/
+  donate: https://donate.mozilla.org/
+  ss_urls:
+    https://dl.flathub.org/repo/screenshots/org.mozilla.firefox-stable/1248x702/org.mozilla.firefox-af5d1ae7c121ea4864b3c5a1098f8f9c.png
+google-chrome:
+  name: Google Chrome
+  primary_src: flathub
+  src_pkg_name: com.google.Chrome
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.google.Chrome.png
+  author: Google
+  summary: Google Chrome web browser
+  description: |
+    Google Chrome is a web browser developed by Google.
+    It was first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android.
+    The browser is also the main component of Chrome OS, where it serves as the platform for web apps.
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+    - chromium
+    - google
+  mimetypes:
+    - text/html
+    - application/xhtml+xml
+    - application/vnd.mozilla.xul+xml
+    - application/vnd.mozilla.xul+xml-overlay
+    - image/svg+xml
+    - application/rss+xml
+    - application/rdf+xml
+    - application/atom+xml
+    - application/x-microsumm
+  license: Proprietary
+  homepage: https://www.google.com/chrome/
+  ss_urls:
+    https://dl.flathub.org/repo/screenshots/com.google.Chrome-stable/1248x702/com.google.Chrome-1b9e3b5e9e0b5b9d9b9b9b9b9b9b9b9b.png
