@@ -70,3 +70,155 @@ google-chrome:
   homepage: https://www.google.com/chrome/
   ss_urls:
     https://dl.flathub.org/repo/screenshots/com.google.Chrome-stable/1248x702/com.google.Chrome-1b9e3b5e9e0b5b9d9b9b9b9b9b9b9b9b.png
+microsoft-edge:
+  name: Microsoft Edge
+  primary_src: flathub
+  src_pkg_name: com.microsoft.Edge
+  author: Microsoft
+  summary: It’s time to expect more. More privacy. More control. More productivity. More value.
+  description: |
+    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
+    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
+    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need. 
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+  mimetypes:
+    - application/pdf
+    - application/rdf+xml
+    - application/rss+xml
+    - application/xhtml+xml
+    - application/xhtml_xml
+    - application/xml
+    - image/gif
+    - image/jpeg
+    - image/png
+    - image/webp
+    - text/html
+    - text/xml
+    - x-scheme-handler/ftp
+    - x-scheme-handler/http
+    - x-scheme-handler/https
+  license: Proprietary
+  homepage: https://www.microsoft.com/en-us/edge
+microsoft-edge:
+  name: Microsoft Edge Dev
+  primary_src: flathub
+  src_pkg_name: com.microsoft.EdgeDev
+  author: Microsoft
+  summary: It’s time to expect more. More privacy. More control. More productivity. More value.
+  description: |
+    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
+    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
+    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need. 
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+  mimetypes:
+    - application/pdf
+    - application/rdf+xml
+    - application/rss+xml
+    - application/xhtml+xml
+    - application/xhtml_xml
+    - application/xml
+    - image/gif
+    - image/jpeg
+    - image/png
+    - image/webp
+    - text/html
+    - text/xml
+    - x-scheme-handler/ftp
+    - x-scheme-handler/http
+    - x-scheme-handler/https
+  license: Proprietary
+  homepage: https://www.microsoft.com/en-us/edge
+opera:
+  name: Opera
+  primary_src: flathub
+  src_pkg_name: com.opera.Opera
+  author: Opera
+  summary: The web browser from Opera
+  description: |
+    Fast, secure, easy-to-use web browser.
+
+    Opera is a fast, secure, and user-friendly web browser. It includes a built-in ad blocker, Video pop-out, and free VPN.
+
+    NOTE: This package is not verified by, affiliated with, or supported by Opera.
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+  mimetypes:
+    - application/pdf
+    - application/rdf+xml
+    - application/rss+xml
+    - application/xhtml+xml
+    - application/xhtml_xml
+    - application/xml
+    - image/gif
+    - image/jpeg
+    - image/png
+    - image/webp
+    - text/html
+    - text/xml
+    - x-scheme-handler/http
+    - x-scheme-handler/https
+    - x-scheme-handler/ipfs
+    - x-scheme-handler/ipns
+    - application/x-opera-download
+  license: Proprietary
+  homepage: https://www.opera.com/
+vivaldi:
+  name: Vivaldi
+  primary_src: flathub
+  src_pkg_name: com.vivaldi.Vivaldi
+  author: Vivaldi Technologies
+  summary: Featured-packed web browser
+  description: |
+    The web browser for techies and people who need a browser that helps them get things done. The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.
+
+    • Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.
+    • Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)
+    • Jot down ideas and inspiration with the integrated Notes manager.
+    • End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.
+    • Efficient built-in Tracker and Ad Blocker.
+    • Compatible with most browser extensions from the Google Chrome Web Store.
+
+    NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.
+  categories:
+    - WebBrowser
+  keywords:
+    - web
+    - browser
+    - internet
+    - www
+  mimetypes:
+    - application/pdf
+    - application/rdf+xml
+    - application/rss+xml
+    - application/xhtml+xml
+    - application/xhtml_xml
+    - application/xml
+    - image/gif
+    - image/jpeg
+    - image/png
+    - image/webp
+    - text/html
+    - text/xml
+    - x-scheme-handler/ftp
+    - x-scheme-handler/http
+    - x-scheme-handler/https
+    - x-scheme-handler/mailto
+  license: Proprietary
+  homepage: https://vivaldi.com/
