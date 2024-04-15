@@ -105,7 +105,7 @@ microsoft-edge:
     - x-scheme-handler/https
   license: Proprietary
   homepage: https://www.microsoft.com/en-us/edge
-microsoft-edge:
+microsoft-edge-dev:
   name: Microsoft Edge Dev
   primary_src: flathub
   src_pkg_name: com.microsoft.EdgeDev
