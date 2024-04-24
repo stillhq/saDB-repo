@@ -76,6 +76,7 @@ microsoft-edge:
   src_pkg_name: com.microsoft.Edge
   author: Microsoft
   summary: It’s time to expect more. More privacy. More control. More productivity. More value.
+  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.Edge.png
   description: |
     Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
     Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
@@ -111,6 +112,7 @@ microsoft-edge-dev:
   src_pkg_name: com.microsoft.EdgeDev
   author: Microsoft
   summary: It’s time to expect more. More privacy. More control. More productivity. More value.
+  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.EdgeDev.png
   description: |
     Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
     Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
@@ -146,6 +148,7 @@ opera:
   src_pkg_name: com.opera.Opera
   author: Opera
   summary: The web browser from Opera
+  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.opera.Opera.png
   description: |
     Fast, secure, easy-to-use web browser.
 
@@ -185,6 +188,7 @@ vivaldi:
   src_pkg_name: com.vivaldi.Vivaldi
   author: Vivaldi Technologies
   summary: Featured-packed web browser
+  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.vivaldi.Vivaldi.png
   description: |
     The web browser for techies and people who need a browser that helps them get things done. The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.
 
@@ -222,3 +226,121 @@ vivaldi:
     - x-scheme-handler/mailto
   license: Proprietary
   homepage: https://vivaldi.com/
+spotify:
+  name: Spotify
+  primary_src: flathub
+  src_pkg_name: com.spotify.Client
+  author: Spotify
+  summary: Online music streaming service
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.spotify.Client.png
+  description: |
+    Access all of your favorite music, discover new songs, and share music online with your friends - all in one place. Create shared playlists or share individual songs with your Facebook friends with just a click of a button. Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists. Spotify is the best way to have access to millions of songs, and all the latest hits.
+  categories:
+    - Music
+    - Audio
+    - VideoAudio
+  keywords:
+    - music
+    - player
+    - online
+    - streaming
+  license: Proprietary
+  homepage: https://open.spotify.com/
+onlyoffice:
+  name: ONLYOFFICE Desktop Editors
+  primary_src: flathub
+  src_pkg_name: org.onlyoffice.desktopeditors
+  author: ONLYOFFICE
+  summary: Office productivity suite
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.onlyoffice.desktopeditors.png
+  description: |
+    Create, view and edit text documents, spreadsheets and presentations of any size and complexity. Work on documents of most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.
+  categories:
+    - Office
+    - WordProcessor
+    - Spreadsheet
+    - Presentation
+  license: AGPLv3
+  homepage: https://www.onlyoffice.com
+discord:
+  name: Discord
+  primary_src: flathub
+  src_pkg_name: com.discordapp.Discord
+  author: Discord
+  summary: Messaging, voice and video client
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.discordapp.Discord.png
+  description: |
+    Discord is a free all in one messaging, voice, and video client thats available on your computer and phone.
+
+    Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.
+
+      - Talk to your friends with messaging, voice, and video in a "Direct Message" (1 other person), group chat (up to 10 people), or a multi-channel server (practically infinite maximum members).
+      - Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.
+      - Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
+      - Get a community of any size running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
+      - Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
+      - Available on Linux, macOS, Windows, iOS, Android, and your web browser.
+
+    Discord is written in Javascript, React, Elixir, and Rust. The desktop application uses the electron framework.
+
+    The flatpak version runs in a sandbox to provide better safety and privacy for users. However, this sandboxing prevents the following features from working out of the box: Game Activity, Unrestricted File Access, Rich Presence. Check the README in the Github repo for details.
+  categories:
+    - Network
+    - InstantMessanging
+  license: Proprietary
+  homepage: https://discord.com/
+thunderbird:
+  name: Thunderbird
+  primary_src: flathub
+  src_pkg_name: org.mozilla.Thunderbird
+  author: MZLA Technologies, part of the Mozilla Foundation
+  summary: A free and open source email, newsfeed, chat, and calendaring client
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.mozilla.Thunderbird.png
+  description: |
+    Thunderbird is a free and open source email, newsfeed, chat, and calendaring client, that’s easy to set up and customize. One of the core principles of Thunderbird is the use and promotion of open standards - this focus is a rejection of our world of closed platforms and services that can’t communicate with each other. We want our users to have freedom and choice in how they communicate.
+
+    Thunderbird is an open source project, which means anyone can contribute ideas, designs, code, and time helping fellow users.
+  categories:
+    - Network
+    - Email
+  license: Proprietary
+  homepage: https://www.thunderbird.net/en-US/
+slack:
+  name: Slack
+  primary_src: flathub
+  src_pkg_name: com.slack.Slack
+  author: Slack Technologies Inc.
+  summary: Business communication
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.slack.Slack.png
+  description: |
+    Caution: Slack for Linux is in beta. We’re still busy adding features and ironing out potential issues.
+
+    Slack brings team communication and collaboration into one place so you can get more work done, whether you belong to a large enterprise or a small business. Check off your to-do list and move your projects forward by bringing the right people, conversations, tools, and information you need together. Slack is available on any device, so you can find and access your team and your work, whether you’re at your desk or on the go.
+
+    Scientifically proven (or at least rumored) to make your working life simpler, more pleasant, and more productive. We hope you’ll give Slack a try.
+  categories:
+    - Network
+    - InternetMessanging
+  license: Proprietary
+  homepage: https://slack.com/
+audacity:
+  name: Audacity
+  primary_src: flathub
+  src_pkg_name: org.audacityteam.Audacity
+  author: Muse Group
+  summary: Audacity is the world's most popular audio editing and recording app
+  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.audacityteam.Audacity.png
+  description: |
+    You can use Audacity to:
+
+    - Record live audio
+    - Convert tapes and records into digital recordings or CDs
+    - Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files
+    - Cut, copy, splice or mix sounds together
+    - Change the speed or pitch of a recording
+    - Apply a wide range of other effects to audio recordings
+    - and much more!
+  categories:
+    - Audio
+    - AudioVideo
+    - AudioVideoEditing
