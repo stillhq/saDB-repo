@@ -240,6 +240,7 @@ spotify:
     - Audio
     - VideoAudio
   keywords:
+    - essentials
     - music
     - player
     - online
@@ -260,6 +261,8 @@ onlyoffice:
     - WordProcessor
     - Spreadsheet
     - Presentation
+  keywords:
+    - essentials
   license: AGPLv3
   homepage: https://www.onlyoffice.com
 discord:
@@ -287,6 +290,8 @@ discord:
   categories:
     - Network
     - InstantMessanging
+  keywords:
+    - essentials
   license: Proprietary
   homepage: https://discord.com/
 thunderbird:
@@ -303,6 +308,8 @@ thunderbird:
   categories:
     - Network
     - Email
+  keywords:
+    - essentials
   license: Proprietary
   homepage: https://www.thunderbird.net/en-US/
 slack:
@@ -321,6 +328,8 @@ slack:
   categories:
     - Network
     - InternetMessanging
+  keywords:
+    - essentials
   license: Proprietary
   homepage: https://slack.com/
 audacity:
@@ -344,3 +353,7 @@ audacity:
     - Audio
     - AudioVideo
     - AudioVideoEditing
+  keywords:
+    - essentials
+  license: GPLv3
+  homepage: https://www.audacityteam.org/
