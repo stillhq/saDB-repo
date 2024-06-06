@@ -1,7 +1,7 @@
 firefox:
   name: Firefox
   primary_src: flathub
-  src_pkg_name: org.mozilla.firefox
+  src_pkg_name: app/org.mozilla.firefox/x86_64/stable
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mozilla.firefox.png
   author: Mozilla
   summary: Firefox web browser
@@ -39,7 +39,7 @@ firefox:
 google-chrome:
   name: Google Chrome
   primary_src: flathub
-  src_pkg_name: com.google.Chrome
+  src_pkg_name: app/com.google.Chrome/x86_64/stable
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.google.Chrome.png
   author: Google
   summary: Google Chrome web browser
@@ -73,7 +73,7 @@ google-chrome:
 microsoft-edge:
   name: Microsoft Edge
   primary_src: flathub
-  src_pkg_name: com.microsoft.Edge
+  src_pkg_name: app/com.microsoft.Edge/x86_64/stable
   author: Microsoft
   summary: It’s time to expect more. More privacy. More control. More productivity. More value.
   icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.Edge.png
@@ -109,7 +109,7 @@ microsoft-edge:
 microsoft-edge-dev:
   name: Microsoft Edge Dev
   primary_src: flathub
-  src_pkg_name: com.microsoft.EdgeDev
+  src_pkg_name: app/com.microsoft.EdgeDev/x86_64/stable
   author: Microsoft
   summary: It’s time to expect more. More privacy. More control. More productivity. More value.
   icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.EdgeDev.png
@@ -145,7 +145,7 @@ microsoft-edge-dev:
 opera:
   name: Opera
   primary_src: flathub
-  src_pkg_name: com.opera.Opera
+  src_pkg_name: app/com.opera.Opera/x86_64/stable
   author: Opera
   summary: The web browser from Opera
   icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.opera.Opera.png
@@ -185,7 +185,7 @@ opera:
 vivaldi:
   name: Vivaldi
   primary_src: flathub
-  src_pkg_name: com.vivaldi.Vivaldi
+  src_pkg_name: app/com.vivaldi.Vivaldi/x86_64/stable
   author: Vivaldi Technologies
   summary: Featured-packed web browser
   icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.vivaldi.Vivaldi.png
@@ -229,7 +229,7 @@ vivaldi:
 spotify:
   name: Spotify
   primary_src: flathub
-  src_pkg_name: com.spotify.Client
+  src_pkg_name: app/com.spotify.Client/x86_64/stable
   author: Spotify
   summary: Online music streaming service
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.spotify.Client.png
@@ -250,7 +250,7 @@ spotify:
 onlyoffice:
   name: ONLYOFFICE Desktop Editors
   primary_src: flathub
-  src_pkg_name: org.onlyoffice.desktopeditors
+  src_pkg_name: app/org.onlyoffice.desktopeditors/x86_64/stable
   author: ONLYOFFICE
   summary: Office productivity suite
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.onlyoffice.desktopeditors.png
@@ -268,7 +268,7 @@ onlyoffice:
 discord:
   name: Discord
   primary_src: flathub
-  src_pkg_name: com.discordapp.Discord
+  src_pkg_name: app/com.discordapp.Discord/x86_64/stable
   author: Discord
   summary: Messaging, voice and video client
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.discordapp.Discord.png
@@ -297,7 +297,7 @@ discord:
 thunderbird:
   name: Thunderbird
   primary_src: flathub
-  src_pkg_name: org.mozilla.Thunderbird
+  src_pkg_name: app/org.mozilla.Thunderbird/x86_64/stable
   author: MZLA Technologies, part of the Mozilla Foundation
   summary: A free and open source email, newsfeed, chat, and calendaring client
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.mozilla.Thunderbird.png
@@ -315,7 +315,7 @@ thunderbird:
 slack:
   name: Slack
   primary_src: flathub
-  src_pkg_name: com.slack.Slack
+  src_pkg_name: app/com.slack.Slack/x86_64/stable
   author: Slack Technologies Inc.
   summary: Business communication
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.slack.Slack.png
@@ -335,7 +335,7 @@ slack:
 audacity:
   name: Audacity
   primary_src: flathub
-  src_pkg_name: org.audacityteam.Audacity
+  src_pkg_name: app/org.audacityteam.Audacity/x86_64/stable
   author: Muse Group
   summary: Audacity is the world's most popular audio editing and recording app
   icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.audacityteam.Audacity.png
