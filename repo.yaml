@@ -338,7 +338,7 @@ audacity:
   src_pkg_name: app/org.audacityteam.Audacity/x86_64/stable
   author: Muse Group
   summary: Audacity is the world's most popular audio editing and recording app
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.audacityteam.Audacity.png
+  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.audacityteam.Audacity.png
   description: |
     You can use Audacity to:
 
