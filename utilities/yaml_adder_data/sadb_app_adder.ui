@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.90.4 -->
+<interface>
+  <!-- interface-name sadb_app_adder.ui -->
+  <requires lib="gtk" version="4.12"/>
+  <requires lib="libadwaita" version="1.4"/>
+  <object class="AdwApplicationWindow" id="application">
+    <property name="title">"sadb app adder"</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="AdwHeaderBar">
+            <property name="title-widget">
+              <object class="AdwWindowTitle">
+                <property name="title">sadb tool</property>
+              </object>
+            </property>
+            <child>
+              <object class="GtkButton" id="add_button">
+                <property name="label">Add to YAML</property>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <child>
+              <object class="GtkBox">
+                <property name="homogeneous">True</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="AdwPreferencesGroup">
+                        <child>
+                          <object class="AdwEntryRow" id="flatpak_package">
+                            <property name="show-apply-button">True</property>
+                            <property name="title">Flatpak Package</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="app_id">
+                            <property name="title">sadb ID</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="name">
+                            <property name="title">Name</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="author">
+                            <property name="title">Author</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="summary">
+                            <property name="title">Summary</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="primary_src">
+                            <property name="title">Primary Source</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="src_pkg_name">
+                            <property name="title">Source Package Name</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="categories">
+                            <property name="title">Categories</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="mimetypes">
+                            <property name="title">Mimetypes</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="keywords">
+                            <property name="title">Keywords</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwComboRow" id="pricing">
+                            <property name="model">
+                              <object class="GtkStringList">
+                                <items>
+                                  <item>UNKNOWN</item>
+                                  <item>FREE</item>
+                                  <item>FREE_WITH_ADS</item>
+                                  <item>FREE_WITH_IN_APP_PURCHASES</item>
+                                  <item>FREEMIUM</item>
+                                  <item>ONE_TIME</item>
+                                  <item>SUBSCRIPTION</item>
+                                  <item>EXTERNAL_SUBSCRIPTION</item>
+                                </items>
+                              </object>
+                            </property>
+                            <property name="title">Pricing</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwComboRow" id="rating">
+                            <property name="model">
+                              <object class="GtkStringList">
+                                <items>
+                                  <item>UNKNOWN</item>
+                                  <item>WARNING</item>
+                                  <item>BRONZE</item>
+                                  <item>SILVER</item>
+                                  <item>GOLD</item>
+                                  <item>GOLD_PLUS</item>
+                                </items>
+                              </object>
+                            </property>
+                            <property name="title">stillRating</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwComboRow" id="mobile">
+                            <property name="model">
+                              <object class="GtkStringList">
+                                <items>
+                                  <item/>
+                                </items>
+                              </object>
+                            </property>
+                            <property name="title">Mobile</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="icon_url">
+                            <property name="show-apply-button">True</property>
+                            <property name="title">Icon URL</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="license">
+                            <property name="title">License</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="homepage">
+                            <property name="title">Homepage</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="donate">
+                            <property name="title">Donate</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwEntryRow" id="demo_url">
+                            <property name="title">Demo URL</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label">Description</property>
+                            <property name="xalign">0.0</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkTextView" id="description">
+                            <property name="vexpand">True</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label">stillRating Notes</property>
+                            <property name="xalign">0.0</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkTextView" id="rating_notes">
+                            <property name="vexpand">True</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="hexpand">True</property>
+                            <child>
+                              <object class="GtkLabel">
+                                <property name="hexpand">True</property>
+                                <property name="label">Screenshots</property>
+                                <property name="xalign">0.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="halign">end</property>
+                                <property name="label">Preview</property>
+                                <style>
+                                  <class name="suggested-action"/>
+                                </style>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkTextView" id="screenshots">
+                            <property name="vexpand">True</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox">
+                    <child>
+                      <object class="GtkScrolledWindow">
+                        <property name="hscrollbar-policy">never</property>
+                        <child>
+                          <object class="GtkBox" id="screenshot_box"/>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="hexpand">True</property>
+                        <child>
+                          <object class="GtkPicture" id="icon">
+                            <property name="halign">center</property>
+                            <property name="height-request">128</property>
+                            <property name="hexpand">True</property>
+                            <property name="valign">start</property>
+                            <property name="width-request">128</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
