@@ -1,11 +1,13 @@
 import os
 
 import copy
+import threading
 from xml.etree import ElementTree as etree
 from html.parser import HTMLParser
 import re
 
 import yaml
+import requests
 
 import gi
 gi.require_version('Gtk', '4.0')
@@ -17,6 +19,7 @@ gi.require_version("Soup", "3.0")
 from gi.repository import Gtk, Adw, Gio, Flatpak, AppStream, Soup, GLib, Gdk
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "yaml_adder_data")
+ARTIFACTS_DIR = os.path.join(os.path.dirname(__file__), "artifacts")
 
 pool = AppStream.Pool()
 pool.load()
@@ -52,6 +55,15 @@ def html_to_plain_text(html):
     text = re.sub(r'\n\s*\n', '\n\n', text).strip()
     return text
 
+
+def download_image(url, dest_path):
+    response = requests.get(url, stream=True)
+    response.raise_for_status()  # Raise exception if invalid response
+    with open(dest_path, 'wb') as file:
+        for chunk in response.iter_content(chunk_size=8192):
+            file.write(chunk)
+
+
 def find_appstream(flatpak_id):
     for component in pool.get_components().as_array():
         if component.get_id() == flatpak_id and component.get_origin() == "flatpak":
@@ -67,6 +79,7 @@ class Application(Adw.Application):
         self.connect("activate", self.on_activate)
 
         self.flatpak_package = self.builder.get_object("flatpak_package")
+        self.add_button = self.builder.get_object("add_button")
         self.sadb_id = self.builder.get_object("app_id")
         self.name = self.builder.get_object("name")
         self.author = self.builder.get_object("author")
@@ -93,6 +106,8 @@ class Application(Adw.Application):
         self.screenshot_box = self.builder.get_object("screenshot_box")
 
         self.flatpak_package.connect("apply", self.flatpak_id_apply)
+        self.icon_url.connect("apply", lambda _button: self.update_icon())
+        self.add_button.connect("clicked", self.add_to_yaml_clicked)
         self.preview_screenshots_button.connect("clicked", lambda _button: self.update_screenshots())
 
     def flatpak_id_apply(self, _entry):
@@ -137,7 +152,6 @@ class Application(Adw.Application):
         except GLib.Error:
             pass
 
-
     def on_receive_bytes(self, session, result, user_data):
         message, picture = user_data
         bytes = session.send_and_read_finish(result)
@@ -162,6 +176,8 @@ class Application(Adw.Application):
         window.present()
 
     def update_icon(self):
+        if self.icon_url.get_text() == "":
+            self.icon.set_filename(os.path.join(DATA_DIR, "icon.png"))
         self.load_picture_url(self.icon_url.get_text(), self.icon)
 
     def update_screenshots(self):
@@ -175,11 +191,111 @@ class Application(Adw.Application):
         screenshot_urls = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter(), False).split("\n")
         for url in screenshot_urls:
             picture = Gtk.Picture()
-            picture.set_content_fit(Gtk.ContentFit.SCALE_DOWN)
-            picture.set_can_shrink(False)
-            picture.set_vexpand(True)
             self.screenshot_box.append(picture)
-            self.load_picture_url(url, picture)
+            try:
+                self.load_picture_url(url, picture)
+            except GLib.Error:
+                pass
+
+    def add_to_yaml_clicked(self, button):
+        thread = threading.Thread(target=self.add_to_yaml, args=(button,))
+        thread.start()
+
+    def add_to_yaml(self, button):
+        yaml_container = {}
+        sadb_id = self.sadb_id.get_text()
+
+        description_buffer = self.description.get_buffer()
+        still_rating_notes_buffer = self.still_rating_notes.get_buffer()
+        screenshots_buffer = self.screenshots.get_buffer()
+
+        app_yml = {
+            "sadb_id": sadb_id,
+            "name": self.name.get_text(),
+            "author": self.author.get_text(),
+            "summary": self.summary.get_text(),
+            "primary_src": self.primary_src.get_text(),
+            "src_pkg_name": self.src_pkg_name.get_text(),
+            "categories": self.categories.get_text(),
+            "keywords": self.keywords.get_text(),
+            "mimetypes": self.mimetypes.get_text(),
+            "pricing": self.pricing.get_selected(),
+            "still_rating": self.still_rating.get_selected(),
+            "mobile": self.mobile.get_selected(),
+            "icon_url": self.icon_url.get_text(),
+            "license": self.license.get_text(),
+            "homepage": self.homepage.get_text(),
+            "donate": self.donate.get_text(),
+            "demo_url": self.demo_url.get_text(),
+            "description": description_buffer.get_text(description_buffer.get_start_iter(), description_buffer.get_end_iter(), False),
+            "still_rating_notes": still_rating_notes_buffer.get_text(still_rating_notes_buffer.get_start_iter(), still_rating_notes_buffer.get_end_iter(), False),
+            "ss_urls": screenshots_buffer.get_text(screenshots_buffer.get_start_iter(), screenshots_buffer.get_end_iter(), False).split("\n")
+        }
+        # Remove empty strings
+        app_yml = {k: v for k, v in app_yml.items() if v != ""}
+        # remove ss_urls if length 1 and item is ""
+        if len(app_yml["ss_urls"]) == 1 and app_yml["ss_urls"][0] == "":
+            app_yml.pop("ss_urls")
+
+        # Create artifact directories if they don't exist
+        for dir in ["icons", "screenshots"]:
+            if not os.path.exists(os.path.join(ARTIFACTS_DIR, dir)):
+                os.makedirs(os.path.join(ARTIFACTS_DIR, dir))
+
+        GLib.idle_add(lambda: self.add_button.set_label("Downloading images"))
+        # Download icons and screenshots
+        if "icon_url" in app_yml:
+            icon_path = os.path.join(ARTIFACTS_DIR, "icons", sadb_id + ".png")
+            download_image(app_yml["icon_url"], icon_path)
+            app_yml["icon_path"] = icon_path
+        if "ss_urls" in app_yml:
+            screenshot_paths = []
+            for i, url in enumerate(app_yml["ss_urls"]):
+                screenshot_path = os.path.join(ARTIFACTS_DIR, "screenshots", f"{sadb_id}-{i}.png")
+                download_image(url, screenshot_path)
+                screenshot_paths.append(screenshot_path)
+            app_yml["screenshot_paths"] = screenshot_paths
+
+        GLib.idle_add(lambda: self.add_button.set_label("Adding to yaml"))
+        yaml_container = {sadb_id: app_yml}
+        with open(os.path.join(ARTIFACTS_DIR, "apps.yaml"), "a") as f:
+            yaml.dump(yaml_container, f)
+        GLib.idle_add(lambda: self.clear())
+
+    def clear(self):
+        self.flatpak_package.set_text("")
+        self.sadb_id.set_text("")
+        self.name.set_text("")
+        self.author.set_text("")
+        self.summary.set_text("")
+        self.primary_src.set_text("")
+        self.src_pkg_name.set_text("")
+        self.categories.set_text("")
+        self.keywords.set_text("")
+        self.mimetypes.set_text("")
+        self.pricing.set_selected(0)
+        self.still_rating.set_selected(0)
+        self.mobile.set_selected(0)
+        self.icon_url.set_text("")
+        self.license.set_text("")
+        self.homepage.set_text("")
+        self.donate.set_text("")
+        self.demo_url.set_text("")
+        self.description.get_buffer().set_text("")
+        self.still_rating_notes.get_buffer().set_text("")
+        self.screenshots.get_buffer().set_text("")
+        self.add_button.set_label("Add to YAML")
+
+        try:
+            self.update_icon()
+        except GLib.Error:
+            pass
+
+        try:
+            self.update_screenshots()
+        except GLib.Error:
+            pass
+
 
 if __name__ == "__main__":
     app = Application()
