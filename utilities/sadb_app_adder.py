@@ -12,7 +12,9 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 gi.require_version("AppStream", "1.0")
 gi.require_version("Flatpak", "1.0")
-from gi.repository import Gtk, Adw, Gio, Flatpak, AppStream
+gi.require_version("Gdk", "4.0")
+gi.require_version("Soup", "3.0")
+from gi.repository import Gtk, Adw, Gio, Flatpak, AppStream, Soup, GLib, Gdk
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "yaml_adder_data")
 
@@ -85,11 +87,13 @@ class Application(Adw.Application):
 
         self.description = self.builder.get_object("description")
         self.still_rating_notes = self.builder.get_object("rating_notes")
+        self.preview_screenshots_button = self.builder.get_object("preview_screenshots_button")
         self.screenshots = self.builder.get_object("screenshots")
         self.icon = self.builder.get_object("icon")
         self.screenshot_box = self.builder.get_object("screenshot_box")
 
         self.flatpak_package.connect("apply", self.flatpak_id_apply)
+        self.preview_screenshots_button.connect("clicked", lambda _button: self.update_screenshots())
 
     def flatpak_id_apply(self, _entry):
         flatpak_id = self.flatpak_package.get_text()
@@ -118,9 +122,39 @@ class Application(Adw.Application):
 
         self.description.get_buffer().set_text(html_to_plain_text(component.get_description()))
         self.still_rating_notes.get_buffer().set_text("")
-        self.screenshots.get_buffer().set_text("")
-        self.update_icon()
 
+        screenshots_all = component.get_screenshots_all()
+        screenshots = []
+        for screenshot in screenshots_all:
+            images = screenshot.get_images()
+            screenshots.append(images[-1].get_url())
+        print(screenshots)
+        self.screenshots.get_buffer().set_text("\n".join(screenshots))
+
+        self.update_icon()
+        try:
+            self.update_screenshots()
+        except GLib.Error:
+            pass
+
+
+    def on_receive_bytes(self, session, result, user_data):
+        message, picture = user_data
+        bytes = session.send_and_read_finish(result)
+        if message.get_status() != Soup.Status.OK:
+            raise Exception(f"Got {message.get_status()}, {message.get_reason_phrase()}")
+        texture = Gdk.Texture.new_from_bytes(bytes)
+        picture.set_paintable(texture)
+
+    def load_picture_url(self, url, picture):
+        session = Soup.Session()
+        message = Soup.Message(
+            method="GET",
+            uri=GLib.Uri.parse(url, GLib.UriFlags.NONE),
+        )
+        session.send_and_read_async(
+            message, GLib.PRIORITY_DEFAULT, None, self.on_receive_bytes, [message, picture]
+        )
 
     def on_activate(self, app):
         window = self.builder.get_object("application")
@@ -128,10 +162,24 @@ class Application(Adw.Application):
         window.present()
 
     def update_icon(self):
-        pass
+        self.load_picture_url(self.icon_url.get_text(), self.icon)
 
     def update_screenshots(self):
-        pass
+        # Clear screenshots
+        child = self.screenshot_box.get_first_child()
+        while child is not None:
+            self.screenshot_box.remove(child)
+            child = self.screenshot_box.get_first_child()
+
+        buffer = self.screenshots.get_buffer()
+        screenshot_urls = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter(), False).split("\n")
+        for url in screenshot_urls:
+            picture = Gtk.Picture()
+            picture.set_content_fit(Gtk.ContentFit.SCALE_DOWN)
+            picture.set_can_shrink(False)
+            picture.set_vexpand(True)
+            self.screenshot_box.append(picture)
+            self.load_picture_url(url, picture)
 
 if __name__ == "__main__":
     app = Application()

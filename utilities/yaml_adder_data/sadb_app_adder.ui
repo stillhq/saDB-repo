@@ -130,7 +130,10 @@
                             <property name="model">
                               <object class="GtkStringList">
                                 <items>
-                                  <item/>
+                                  <item>UNKNOWN</item>
+                                  <item>PC_ONLY</item>
+                                  <item>MOBILE_ONLY</item>
+                                  <item>HYBRID</item>
                                 </items>
                               </object>
                             </property>
@@ -180,8 +183,15 @@
                           </object>
                         </child>
                         <child>
-                          <object class="GtkTextView" id="description">
-                            <property name="vexpand">True</property>
+                          <object class="GtkScrolledWindow">
+                            <child>
+                              <object class="GtkTextView" id="description">
+                                <property name="hexpand">True</property>
+                                <property name="hscroll-policy">natural</property>
+                                <property name="vexpand">True</property>
+                                <property name="vscroll-policy">natural</property>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>
@@ -196,8 +206,15 @@
                           </object>
                         </child>
                         <child>
-                          <object class="GtkTextView" id="rating_notes">
+                          <object class="GtkScrolledWindow">
+                            <property name="hexpand">True</property>
                             <property name="vexpand">True</property>
+                            <child>
+                              <object class="GtkTextView" id="rating_notes">
+                                <property name="hexpand">True</property>
+                                <property name="vexpand">True</property>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>
@@ -216,7 +233,7 @@
                               </object>
                             </child>
                             <child>
-                              <object class="GtkButton">
+                              <object class="GtkButton" id="preview_screenshots_button">
                                 <property name="halign">end</property>
                                 <property name="label">Preview</property>
                                 <style>
@@ -227,8 +244,13 @@
                           </object>
                         </child>
                         <child>
-                          <object class="GtkTextView" id="screenshots">
+                          <object class="GtkScrolledWindow">
                             <property name="vexpand">True</property>
+                            <child>
+                              <object class="GtkTextView" id="screenshots">
+                                <property name="vexpand">True</property>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>
@@ -237,24 +259,26 @@
                 </child>
                 <child>
                   <object class="GtkBox">
+                    <property name="orientation">vertical</property>
                     <child>
-                      <object class="GtkScrolledWindow">
-                        <property name="hscrollbar-policy">never</property>
-                        <child>
-                          <object class="GtkBox" id="screenshot_box"/>
-                        </child>
+                      <object class="GtkPicture" id="icon">
+                        <property name="can-shrink">False</property>
+                        <property name="content-fit">fill</property>
+                        <property name="halign">center</property>
+                        <property name="height-request">128</property>
+                        <property name="hexpand">True</property>
+                        <property name="valign">start</property>
                       </object>
                     </child>
                     <child>
-                      <object class="GtkBox">
-                        <property name="hexpand">True</property>
+                      <object class="GtkScrolledWindow">
+                        <property name="hscrollbar-policy">always</property>
+                        <property name="vexpand">True</property>
                         <child>
-                          <object class="GtkPicture" id="icon">
-                            <property name="halign">center</property>
-                            <property name="height-request">128</property>
-                            <property name="hexpand">True</property>
-                            <property name="valign">start</property>
-                            <property name="width-request">128</property>
+                          <object class="GtkBox" id="screenshot_box">
+                            <property name="orientation">vertical</property>
+                            <property name="vexpand">True</property>
+                            <property name="vexpand-set">True</property>
                           </object>
                         </child>
                       </object>
