@@ -47,6 +47,7 @@ class HTMLTextExtractor(HTMLParser):
         if data.strip():
             self.result.append(data)
 
+
 def html_to_plain_text(html):
     parser = HTMLTextExtractor()
     parser.feed(html)
@@ -114,9 +115,9 @@ class Application(Adw.Application):
         flatpak_id = self.flatpak_package.get_text()
         component = find_appstream(flatpak_id)
         try:
-            self.sadb_id.set_text(flatpak_id.split(".")[2])
+            self.sadb_id.set_text(flatpak_id.split(".")[2].lower())
         except IndexError:
-            self.sadb_id.set_text(flatpak_id.replace(".", "-"))
+            self.sadb_id.set_text(flatpak_id.replace(".", "-").lower())
         self.name.set_text(component.get_name())
         self.author.set_text(component.get_developer().get_name())
         self.summary.set_text(component.get_summary())
@@ -132,11 +133,14 @@ class Application(Adw.Application):
         self.mobile.set_selected(1)
         self.icon_url.set_text(f"https://flathub.org/repo/appstream/x86_64/icons/128x128/{flatpak_id}.png")
         self.license.set_text(component.get_project_license())
-        self.homepage.set_text(component.get_url(AppStream.UrlKind.HOMEPAGE))
-        self.donate.set_text(component.get_url(AppStream.UrlKind.DONATION))
+
+        if component.get_url(AppStream.UrlKind.HOMEPAGE):
+            self.homepage.set_text(component.get_url(AppStream.UrlKind.HOMEPAGE))
+        if component.get_url(AppStream.UrlKind.DONATION):
+            self.donate.set_text(component.get_url(AppStream.UrlKind.DONATION))
 
         self.description.get_buffer().set_text(html_to_plain_text(component.get_description()))
-        self.still_rating_notes.get_buffer().set_text("")
+        self.still_rating_notes.get_buffer().set_text("No notes have been left.")
 
         screenshots_all = component.get_screenshots_all()
         screenshots = []
@@ -210,26 +214,25 @@ class Application(Adw.Application):
         screenshots_buffer = self.screenshots.get_buffer()
 
         app_yml = {
-            "sadb_id": sadb_id,
             "name": self.name.get_text(),
             "author": self.author.get_text(),
             "summary": self.summary.get_text(),
             "primary_src": self.primary_src.get_text(),
             "src_pkg_name": self.src_pkg_name.get_text(),
-            "categories": self.categories.get_text(),
-            "keywords": self.keywords.get_text(),
-            "mimetypes": self.mimetypes.get_text(),
+            "categories": self.categories.get_text().split(", "),
+            "keywords": self.keywords.get_text().split(", "),
+            "mimetypes": self.mimetypes.get_text().split(", "),
             "pricing": self.pricing.get_selected(),
             "still_rating": self.still_rating.get_selected(),
             "mobile": self.mobile.get_selected(),
             "icon_url": self.icon_url.get_text(),
             "license": self.license.get_text(),
             "homepage": self.homepage.get_text(),
-            "donate": self.donate.get_text(),
+            "donate_url": self.donate.get_text(),
             "demo_url": self.demo_url.get_text(),
             "description": description_buffer.get_text(description_buffer.get_start_iter(), description_buffer.get_end_iter(), False),
             "still_rating_notes": still_rating_notes_buffer.get_text(still_rating_notes_buffer.get_start_iter(), still_rating_notes_buffer.get_end_iter(), False),
-            "ss_urls": screenshots_buffer.get_text(screenshots_buffer.get_start_iter(), screenshots_buffer.get_end_iter(), False).split("\n")
+            "screenshot_urls": screenshots_buffer.get_text(screenshots_buffer.get_start_iter(), screenshots_buffer.get_end_iter(), False).split("\n")
         }
         # Remove empty strings
         app_yml = {k: v for k, v in app_yml.items() if v != ""}
@@ -247,14 +250,14 @@ class Application(Adw.Application):
         if "icon_url" in app_yml:
             icon_path = os.path.join(ARTIFACTS_DIR, "icons", sadb_id + ".png")
             download_image(app_yml["icon_url"], icon_path)
-            app_yml["icon_path"] = icon_path
+            app_yml["icon_url"] = f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/{sadb_id}.png"
         if "ss_urls" in app_yml:
-            screenshot_paths = []
+            ss_urls = []
             for i, url in enumerate(app_yml["ss_urls"]):
                 screenshot_path = os.path.join(ARTIFACTS_DIR, "screenshots", f"{sadb_id}-{i}.png")
                 download_image(url, screenshot_path)
-                screenshot_paths.append(screenshot_path)
-            app_yml["screenshot_paths"] = screenshot_paths
+                ss_urls.append(f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/{sadb_id}-{i}.png")
+            app_yml["ss_urls"] = ss_urls
 
         GLib.idle_add(lambda: self.add_button.set_label("Adding to yaml"))
         yaml_container = {sadb_id: app_yml}
