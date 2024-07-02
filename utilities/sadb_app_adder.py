@@ -261,10 +261,12 @@ class Application(Adw.Application):
             "screenshot_urls": screenshots_buffer.get_text(screenshots_buffer.get_start_iter(), screenshots_buffer.get_end_iter(), False).split("\n")
         }
         # Remove empty strings
-        app_yml = {k: v for k, v in app_yml.items() if v != ""}
+        app_yml = {k: v for k, v in app_yml.items() if v != "" and v != [] and v != ['']}
         # remove ss_urls if length 1 and item is ""
-        if len(app_yml["screenshot_urls"]) == 1 and app_yml["screenshot_urls"][0] == "":
-            app_yml.pop("screenshot_urls")
+        # if len(app_yml["screenshot_urls"]) == 1 and app_yml["screenshot_urls"][0] == "":
+        #     app_yml.pop("screenshot_urls")
+        # if len(app_yml["keywords"]) == 1 and app_yml["keywords"][0] == "":
+        #     app_yml.pop("keywords")
 
         # Create artifact directories if they don't exist
         for dir in ["icons", "screenshots"]:

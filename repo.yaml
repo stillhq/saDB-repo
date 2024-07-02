@@ -1,44 +1,446 @@
-dolphin:
+chrome:
+  author: Google
+  categories:
+  - Network
+  - WebBrowser
+  description: "Google Chrome is a browser that combines a minimal design with sophisticated\
+    \ technology to make the web faster,\n    safer, and easier.\n\nNOTE: This flatpak\
+    \ is not verified by, affiliated with, or supported by Google."
+  homepage: https://chrome.google.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/chrome.png
+  license: Proprietary
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
+  name: Google Chrome
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/chrome-0.png
+  src_pkg_name: app/com.google.Chrome/x86_64/stable
+  still_rating: 3
+  still_rating_notes: '- Permission needs to be provided for write access to install
+    web apps.
+
+    - Titlebars are ultra thin under Wayland'
+  summary: The web browser from Google
+firefox:
+  author: Mozilla
+  categories:
+  - Network
+  - WebBrowser
+  description: "When it comes to your life online, you have a choice: accept the factory\
+    \ settings or put your privacy first. When you choose Firefox as your default\
+    \ browser, you\u2019re choosing to protect your data while supporting an independent\
+    \ tech company. Firefox is also the only major browser backed by a non-profit\
+    \ fighting to give you more openness, transparency and control of your life online.\
+    \ Join hundreds of millions of people who choose to protect what's important by\
+    \ choosing Firefox - a web browser designed to be fast, easy to use, customizable\
+    \ and private."
+  donate_url: https://donate.mozilla.org/
+  homepage: https://www.mozilla.org/firefox/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/firefox.png
+  keywords:
+  - Browser
+  - Explorer
+  - Internet
+  - WWW
+  - Web
+  - internet
+  - mozilla
+  - web
+  license: MPL-2.0
+  mimetypes:
+  - application/vnd.mozilla.xul+xml
+  - application/xhtml+xml
+  - text/html
+  - text/mml
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
+  name: Firefox
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/firefox-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/firefox-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/firefox-2.png
+  src_pkg_name: app/org.mozilla.firefox/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Fast, Private & Safe Web Browser
+discord:
+  author: Discord Inc.
+  categories:
+  - InstantMessaging
+  - Network
+  description: "Discord is a free all in one messaging, voice, and video client thats\
+    \ available on your computer and phone.\n\nWhether you\u2019re part of a school\
+    \ club, gaming group, worldwide art community, or just a handful of friends that\
+    \ want to spend time together, Discord makes it easy to talk every day and hang\
+    \ out more often.\n- Talk to your friends with messaging, voice, and video in\
+    \ a \"Direct Message\" (1 other person), group chat (up to 10 people), or a multi-channel\
+    \ server (practically infinite maximum members).\n- Discord servers are organized\
+    \ into topic-based channels where you can collaborate, share, and just talk about\
+    \ your day without clogging up a group chat.\n- Grab a seat in a voice channel\
+    \ when you\u2019re free. Friends in your server can see you\u2019re around and\
+    \ instantly pop in to talk without having to call.\n- Get a community of any size\
+    \ running with moderation tools and custom member access. Give members special\
+    \ powers, set up private channels, and more.\n- Low-latency voice and video feels\
+    \ like you\u2019re in the same room. Wave hello over video, watch friends stream\
+    \ their games, or gather up and have a drawing session with screen share.\n- Available\
+    \ on Linux, macOS, Windows, iOS, Android, and your web browser.\n\nDiscord is\
+    \ written in Javascript, React, Elixir, and Rust. The desktop application uses\
+    \ the electron framework.\n\nThe flatpak version runs in a sandbox to provide\
+    \ better safety and privacy for users. However, this sandboxing prevents the following\
+    \ features from working out of the box: Game Activity, Unrestricted File Access,\
+    \ Rich Presence. Check the README in the Github repo for details."
+  homepage: https://discord.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/discord.png
+  license: Proprietary
+  mimetypes:
+  - x-scheme-handler/discord
+  mobile: 1
+  name: Discord
+  pricing: 4
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/discord-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/discord-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/discord-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/discord-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/discord-4.png
+  src_pkg_name: app/com.discordapp.Discord/x86_64/stable
+  still_rating: 2
+  still_rating_notes: 'Discord on stillOS does not natively support screen sharing
+    with or without audio.
+    ( A workaround is to switch to Xorg which is not supported by stillOS )
+
+    The following features do not work on the Flatpak: Game Activity, Unrestricted
+    File Access, Rich Presence.
+
+    More Info:
+    https://support.discord.com/hc/en-us/community/posts/360050971374-Linux-Screen-Share-Sound-Support
+    https://github.com/flathub/com.discordapp.Discord/blob/master/README.md'
+  summary: Messaging, voice and video client
+brave:
+  author: Brave Software
+  categories:
+  - Network
+  - WebBrowser
+  description: "Brave is on a mission to fix the web by giving users a safer, faster\
+    \ and better\n      browsing experience while growing support for content creators\
+    \ through a new\n      attention-based ecosystem of rewards.\n\n      Browse faster\
+    \ by blocking ads and trackers that violate your privacy and cost\n      you time\
+    \ and money."
+  homepage: https://brave.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/brave.png
+  license: MPL-2.0
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  - x-scheme-handler/ipfs
+  - x-scheme-handler/ipns
+  mobile: 1
+  name: Brave Browser
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/brave-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/brave-1.png
+  src_pkg_name: app/com.brave.Browser/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Doesn't use Gtk theming by default, but it can be enabled, and
+    supports light and dark modes.
+  summary: The web browser from Brave
+vlc:
+  author: VideoLAN et al.
+  categories:
+  - AudioVideo
+  - Player
+  - Recorder
+  description: "VLC is a free and open source cross-platform multimedia player and\n\
+    \            framework that plays most multimedia files as well as DVDs, Audio\
+    \ CDs,\n            VCDs, and various streaming protocols."
+  donate_url: https://www.videolan.org/contribute.html
+  homepage: https://www.videolan.org/vlc/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vlc.png
+  keywords:
+  - Player
+  - Capture
+  - DVD
+  - Audio
+  - Video
+  - Server
+  - Broadcast
+  license: GPL-2.0+
+  mimetypes:
+  - application/ogg
+  - application/x-ogg
+  - audio/ogg
+  - audio/vorbis
+  - audio/x-vorbis
+  - audio/x-vorbis+ogg
+  - video/ogg
+  - video/x-ogm
+  - video/x-ogm+ogg
+  - video/x-theora+ogg
+  - video/x-theora
+  - audio/x-speex
+  - audio/opus
+  - application/x-flac
+  - audio/flac
+  - audio/x-flac
+  - audio/x-ms-asf
+  - audio/x-ms-asx
+  - audio/x-ms-wax
+  - audio/x-ms-wma
+  - video/x-ms-asf
+  - video/x-ms-asf-plugin
+  - video/x-ms-asx
+  - video/x-ms-wm
+  - video/x-ms-wmv
+  - video/x-ms-wmx
+  - video/x-ms-wvx
+  - video/x-msvideo
+  - audio/x-pn-windows-acm
+  - video/divx
+  - video/msvideo
+  - video/vnd.divx
+  - video/avi
+  - video/x-avi
+  - application/vnd.rn-realmedia
+  - application/vnd.rn-realmedia-vbr
+  - audio/vnd.rn-realaudio
+  - audio/x-pn-realaudio
+  - audio/x-pn-realaudio-plugin
+  - audio/x-real-audio
+  - audio/x-realaudio
+  - video/vnd.rn-realvideo
+  - audio/mpeg
+  - audio/mpg
+  - audio/mp1
+  - audio/mp2
+  - audio/mp3
+  - audio/x-mp1
+  - audio/x-mp2
+  - audio/x-mp3
+  - audio/x-mpeg
+  - audio/x-mpg
+  - video/mp2t
+  - video/mpeg
+  - video/mpeg-system
+  - video/x-mpeg
+  - video/x-mpeg2
+  - video/x-mpeg-system
+  - application/mpeg4-iod
+  - application/mpeg4-muxcodetable
+  - application/x-extension-m4a
+  - application/x-extension-mp4
+  - audio/aac
+  - audio/m4a
+  - audio/mp4
+  - audio/x-m4a
+  - audio/x-aac
+  - video/mp4
+  - video/mp4v-es
+  - video/x-m4v
+  - application/x-quicktime-media-link
+  - application/x-quicktimeplayer
+  - video/quicktime
+  - application/x-matroska
+  - audio/x-matroska
+  - video/x-matroska
+  - video/webm
+  - audio/webm
+  - audio/3gpp
+  - audio/3gpp2
+  - audio/AMR
+  - audio/AMR-WB
+  - video/3gp
+  - video/3gpp
+  - video/3gpp2
+  - x-scheme-handler/mms
+  - x-scheme-handler/mmsh
+  - x-scheme-handler/rtsp
+  - x-scheme-handler/rtp
+  - x-scheme-handler/rtmp
+  - x-scheme-handler/icy
+  - x-scheme-handler/icyx
+  - application/x-cd-image
+  - x-content/audio-player
+  - application/ram
+  - application/xspf+xml
+  - audio/mpegurl
+  - audio/x-mpegurl
+  - audio/scpls
+  - audio/x-scpls
+  - text/google-video-pointer
+  - text/x-google-video-pointer
+  - video/vnd.mpegurl
+  - application/vnd.apple.mpegurl
+  - application/vnd.ms-asf
+  - application/vnd.ms-wpl
+  - application/sdp
+  - audio/dv
+  - video/dv
+  - audio/x-aiff
+  - audio/x-pn-aiff
+  - video/x-anim
+  - video/x-nsv
+  - video/fli
+  - video/flv
+  - video/x-flc
+  - video/x-fli
+  - video/x-flv
+  - audio/wav
+  - audio/x-pn-au
+  - audio/x-pn-wav
+  - audio/x-wav
+  - audio/x-adpcm
+  - audio/ac3
+  - audio/eac3
+  - audio/vnd.dts
+  - audio/vnd.dts.hd
+  - audio/vnd.dolby.heaac.1
+  - audio/vnd.dolby.heaac.2
+  - audio/vnd.dolby.mlp
+  - audio/basic
+  - audio/midi
+  - audio/x-ape
+  - audio/x-gsm
+  - audio/x-musepack
+  - audio/x-tta
+  - audio/x-wavpack
+  - audio/x-shorten
+  - application/x-shockwave-flash
+  - application/x-flash-video
+  - misc/ultravox
+  - image/vnd.rn-realpix
+  - audio/x-it
+  - audio/x-mod
+  - audio/x-s3m
+  - audio/x-xm
+  - application/mxf
+  mobile: 1
+  name: VLC
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vlc-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vlc-1.png
+  src_pkg_name: app/org.videolan.VLC/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app. Obeys Light/Dark mode, no theming issues
+  summary: VLC media player, open-source multimedia player
+dolphin-emu:
+  author: dolphin-emu team
   categories:
   - Game
   - Emulator
-  description: |
-    Dolphin is an emulator for two recent Nintendo video game consoles:
+  description: 'Dolphin is an emulator for two recent Nintendo video game consoles:
     the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles
     in full HD (1080p) with several enhancements: compatibility with all PC controllers,
-    turbo speed, networked multiplayer, and even more!
+    turbo speed, networked multiplayer, and even more!'
   homepage: https://dolphin-emu.org
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.DolphinEmu.dolphin-emu.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/dolphin-emu.png
   license: GPL-2.0+
+  mobile: 1
   name: Dolphin Emulator
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dolphin-emu-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dolphin-emu-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dolphin-emu-2.png
   src_pkg_name: app/org.DolphinEmu.dolphin-emu/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Emulators allow running software designed for other systems.
+    Use emulators responsibly and only to play games you legally own. Downloading
+    or distributing copyrighted ROMs without permission is illegal. Users are responsible
+    for complying with all applicable laws when using emulators.
   summary: GameCube / Wii / Triforce Emulator
 steam:
+  author: Valve Corporation
   categories:
-    - Game
-  description: |
-    Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.
+  - Game
+  - PackageManager
+  description: 'Steam is a software distribution service with an online store, automated
+    installation, automatic updates, achievements, SteamCloud synchronized savegame
+    and screenshot functionality, and many social features.
 
-    Note: This is a community package of Steam gaming plaform not officially supported by Valve. Report bugs through linked issue tracker.
 
-    Note: To add a game library on another drive, first you need to grant the app access to it:
+    Note: This is a community package of Steam gaming plaform not officially supported
+    by Valve. Report bugs through linked issue tracker.
+
+
+    Note: To add a game library on another drive, first you need to grant the app
+    access to it:
+
+
+    flatpak override --user --filesystem=/path/to/your/Steam/Library com.valvesoftware.Steam'
+  homepage: https://store.steampowered.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/steam.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/steam
+  - x-scheme-handler/steamlink
+  mobile: 1
+  name: Steam
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steam-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steam-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steam-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steam-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steam-4.png
+  src_pkg_name: app/com.valvesoftware.Steam/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Has some minor flatpak containment issues (requires override
+    for external drives)
 
     flatpak override --user --filesystem=/path/to/your/Steam/Library com.valvesoftware.Steam
-  homepage: https://store.steampowered.com/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.valvesoftware.Steam.png
-  license: LicenseRef-proprietary
-  name: Steam
-  primary_src: flathub
-  src_pkg_name: app/com.valvesoftware.Steam/x86_64/stable
+
+
+    Hard coded non-system theme.'
   summary: Launcher for the Steam software distribution service
 ppsspp:
+  author: "Henrik Rydg\xE5rd"
   categories:
   - Emulator
   - Game
-  description: PPSSPP is a PSP emulator that can run games in full HD resolution. It can even upscale textures that would otherwise be too blurry as they were made for the small screen of the original PSP.
+  description: PPSSPP is a PSP emulator that can run games in full HD resolution.
+    It can even upscale textures that would otherwise be too blurry as they were made
+    for the small screen of the original PSP.
   homepage: https://www.ppsspp.org/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.ppsspp.PPSSPP.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/ppsspp.png
   keywords:
   - PSP
   - PlayStation
@@ -48,60 +450,195 @@ ppsspp:
   - emulator
   - handheld
   - Emulator
+  - Konsole
+  - handlich
+  - konsola
+  - "r\u0119czna"
   license: GPL-2.0-or-later
+  mimetypes:
+  - application/x-cd-image
+  - application/x-compressed-iso
+  - application/x-iso9660-image
+  - application/zip
+  mobile: 1
   name: PPSSPP
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ppsspp-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ppsspp-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ppsspp-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ppsspp-3.png
   src_pkg_name: app/org.ppsspp.PPSSPP/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
   summary: A PlayStation Portable emulator
 duckstation:
+  author: Stenzek
   categories:
   - Game
   - Emulator
-  description: |
-    DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices.
+  description: 'DuckStation is an simulator/emulator of the Sony PlayStation(TM) console,
+    focusing on playability, speed, and long-term maintainability. The goal is to
+    be as accurate as possible while maintaining performance suitable for low-end
+    devices.
 
-    "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
-    "PlayStation" and "PSX" are registered trademarks of Sony Interactive Entertainment Europe Limited. This project is not affiliated in any way with Sony Interactive Entertainment.
+    "Hack" options are discouraged, the default configuration should support all playable
+    games with only some of the enhancements having compatibility issues.
+
+
+    "PlayStation" and "PSX" are registered trademarks of Sony Interactive Entertainment
+    Europe Limited. This project is not affiliated in any way with Sony Interactive
+    Entertainment.'
   homepage: https://www.duckstation.org/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.duckstation.DuckStation.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/duckstation.png
   license: GPL-3.0
+  mobile: 1
   name: DuckStation
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/duckstation-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/duckstation-1.png
   src_pkg_name: app/org.duckstation.DuckStation/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
   summary: PlayStation Emulator
+spotify:
+  author: Spotify
+  categories:
+  - Audio
+  - Music
+  - AudioVideo
+  description: "Access all of your favorite music, discover new songs, and share music\
+    \ online with your friends - all in one place. \n    Create shared playlists or\
+    \ share individual songs with your Facebook friends with just a click of a button.\
+    \ \n    Follow your favorite artists or friends to know what they are listening\
+    \ to, and then save the songs to your own playlists. \n      Spotify is the best\
+    \ way to have access to millions of songs, and all the latest hits."
+  homepage: https://www.spotify.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/spotify.png
+  keywords:
+  - Music
+  - Player
+  - Streaming
+  - Online
+  license: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/
+  mimetypes:
+  - x-scheme-handler/spotify
+  mobile: 1
+  name: Spotify
+  pricing: 4
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spotify-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spotify-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spotify-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spotify-3.png
+  src_pkg_name: app/com.spotify.Client/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: Online music streaming service
 bottles:
+  author: Bottles Contributors
   categories:
   - Utility
-  description: |
-    Bottles lets you run Windows software on Linux, such as applications and games. It introduces a workflow that helps you organize by categorizing each software to your liking. Bottles provides several tools and integrations to help you manage and optimize your applications.
+  description: 'Bottles lets you run Windows software on Linux, such as applications
+    and games. It introduces a workflow that helps you organize by categorizing each
+    software to your liking. Bottles provides several tools and integrations to help
+    you manage and optimize your applications.
+
 
     Features:
 
     - Use pre-configured environments as a base
+
     - Change runners for any bottle
+
     - Various optimizations and options for gaming
+
     - Repair in case software or bottle is broken
+
     - Install various known dependencies
+
     - Integrated task manager to manage and monitor processes
-    - Backup and restore
+
+    - Backup and restore'
   donate_url: https://usebottles.com/funding
   homepage: https://usebottles.com
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.usebottles.bottles.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/bottles.png
   keywords:
   - wine
   - windows
   license: GPL-3.0-only
+  mimetypes:
+  - application/x-ms-dos-executable
+  - application/x-msi
+  - application/x-ms-shortcut
+  - application/x-wine-extension-msp
+  mobile: 1
   name: Bottles
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bottles-5.png
   src_pkg_name: app/com.usebottles.bottles/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
   summary: Run Windows Software
-telegram:
+Telegram:
+  author: John Preston
   categories:
   - Network
   - InstantMessaging
+  description: "Pure instant messaging \u2014 simple, fast, secure, and synced across\
+    \ all your devices. One of the world's top 10 most downloaded apps with over 500\
+    \ million active users.\n\nFAST: Telegram is the fastest messaging app on the\
+    \ market, connecting people via a unique, distributed network of data centers\
+    \ around the globe.\n\nSYNCED: You can access your messages from all your phones,\
+    \ tablets and computers at once. Telegram apps are standalone, so you don\u2019\
+    t need to keep your phone connected. Start typing on one device and finish the\
+    \ message from another. Never lose your data again.\n\nUNLIMITED: You can send\
+    \ media and files, without any limits on their type and size. Your entire chat\
+    \ history will require no disk space on your device, and will be securely stored\
+    \ in the Telegram cloud for as long as you need it.\n\nSECURE: We made it our\
+    \ mission to provide the best security combined with ease of use. Everything on\
+    \ Telegram, including chats, groups, media, etc. is encrypted using a combination\
+    \ of 256-bit symmetric AES encryption, 2048-bit RSA encryption, and Diffie\u2013\
+    Hellman secure key exchange.\n\n100% FREE & OPEN: Telegram has a fully documented\
+    \ and free API for developers, open source apps and verifiable builds to prove\
+    \ the app you download is built from the exact same source code that is published.\n\
+    \nPOWERFUL: You can create group chats with up to 200,000 members, share large\
+    \ videos, documents of any type (.DOCX, .MP3, .ZIP, etc.) up to 2 GB each, and\
+    \ even set up bots for specific tasks. Telegram is the perfect tool for hosting\
+    \ online communities and coordinating teamwork.\n\nRELIABLE: Built to deliver\
+    \ your messages using as little data as possible, Telegram is the most reliable\
+    \ messaging system ever made. It works even on the weakest mobile connections.\n\
+    \nFUN: Telegram has powerful photo and video editing tools, animated stickers\
+    \ and emoji, fully customizable themes to change the appearance of your app, and\
+    \ an open sticker/GIF platform to cater to all your expressive needs.\n\nSIMPLE:\
+    \ While providing an unprecedented array of features, we take great care to keep\
+    \ the interface clean. Telegram is so simple you already know how to use it.\n\
+    \nPRIVATE: We take your privacy seriously and will never give any third parties\
+    \ access to your data. You can delete any message you ever sent or received for\
+    \ both sides, at any time and without a trace. Telegram will never use your data\
+    \ to show you ads.\n\nWe keep expanding the boundaries of what you can do with\
+    \ a messaging app. Don\u2019t wait years for older messengers to catch up with\
+    \ Telegram \u2014 join the revolution today."
   homepage: https://desktop.telegram.org/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.telegram.desktop.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/Telegram.png
   keywords:
   - tg
   - telegram
@@ -112,779 +649,700 @@ telegram:
   - sms
   - im
   license: GPL-3.0
+  mimetypes:
+  - x-scheme-handler/tg
+  mobile: 3
   name: Telegram Desktop
+  pricing: 4
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/Telegram-0.png
   src_pkg_name: app/org.telegram.desktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non-system theme
   summary: Fast. Secure. Powerful.
-  description: |
-    Pure instant messaging — simple, fast, secure, and synced across all your devices. One of the world's top 10 most downloaded apps with over 500 million active users.
-
-    FAST: Telegram is the fastest messaging app on the market, connecting people via a unique, distributed network of data centers around the globe.
-
-    SYNCED: You can access your messages from all your phones, tablets and computers at once. Telegram apps are standalone, so you don’t need to keep your phone connected. Start typing on one device and finish the message from another. Never lose your data again.
-
-    UNLIMITED: You can send media and files, without any limits on their type and size. Your entire chat history will require no disk space on your device, and will be securely stored in the Telegram cloud for as long as you need it.
-
-    SECURE: We made it our mission to provide the best security combined with ease of use. Everything on Telegram, including chats, groups, media, etc. is encrypted using a combination of 256-bit symmetric AES encryption, 2048-bit RSA encryption, and Diffie–Hellman secure key exchange.
-
-    100% FREE & OPEN: Telegram has a fully documented and free API for developers, open source apps and verifiable builds to prove the app you download is built from the exact same source code that is published.
-
-    POWERFUL: You can create group chats with up to 200,000 members, share large videos, documents of any type (.DOCX, .MP3, .ZIP, etc.) up to 2 GB each, and even set up bots for specific tasks. Telegram is the perfect tool for hosting online communities and coordinating teamwork.
-
-    RELIABLE: Built to deliver your messages using as little data as possible, Telegram is the most reliable messaging system ever made. It works even on the weakest mobile connections.
-
-    FUN: Telegram has powerful photo and video editing tools, animated stickers and emoji, fully customizable themes to change the appearance of your app, and an open sticker/GIF platform to cater to all your expressive needs.
-
-    SIMPLE: While providing an unprecedented array of features, we take great care to keep the interface clean. Telegram is so simple you already know how to use it.
-
-    PRIVATE: We take your privacy seriously and will never give any third parties access to your data. You can delete any message you ever sent or received for both sides, at any time and without a trace. Telegram will never use your data to show you ads.
-
-    We keep expanding the boundaries of what you can do with a messaging app. Don’t wait years for older messengers to catch up with Telegram — join the revolution today.
 melonds:
-    categories:
-    - Game
-    - Emulator
-    description: |
-      Nintendo DS and DSi emulator
-
-      melonDS aims at providing fast and accurate Nintendo DS emulation. While it is still a work in progress, it has a pretty solid set of features.
-
-      - Nearly complete core (CPU, video, audio, ...)
-      - OpenGL renderer, 3D upscaling
-      - RTC, microphone, lid close/open
-      - Joystick support
-      - Savestates
-      - Various display position/sizing/rotations modes
-      - Work-in-progress Wi-Fi emulation for online connectivity and local multiplayer
-      - Experimental emulation of the Nintendo DSi
-      - ...and even more is planned!
-    homepage: http://melonds.kuribo64.net/
-    icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/net.kuribo64.melonDS.png
-    keywords:
-    - emulator
-    - Nintendo
-    - DS
-    - NDS
-    - Nintendo DS
-    license: GPL-3.0
-    name: melonDS
-    primary_src: flathub
-    src_pkg_name: app/net.kuribo64.melonDS/x86_64/stable
-    summary: Nintendo DS and DSi emulator
-xemu:
-  description: |
-    A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.
-
-    Note: Only "$HOME/.var/app/app.xemu.xemu/data/xemu/xemu" can be written by xemu. The Hard Disk image has to be placed there, for example, at "$HOME/.var/app/app.xemu.xemu/data/xemu/xemu/xbox_hdd.qcow2".
+  author: Arisotura
   categories:
   - Game
   - Emulator
-  homepage: https://xemu.app
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/app.xemu.xemu.png
-  license: GPL-2.0-only
-  name: xemu
+  description: 'melonDS aims at providing fast and accurate Nintendo DS emulation.
+    While it is still a work in progress, it has a pretty solid set of features.
+
+
+    - Nearly complete core (CPU, video, audio, ...)
+
+    - OpenGL renderer, 3D upscaling
+
+    - RTC, microphone, lid close/open
+
+    - Joystick support
+
+    - Savestates
+
+    - Various display position/sizing/rotations modes
+
+    - Work-in-progress Wi-Fi emulation for online connectivity and local multiplayer
+
+    - Experimental emulation of the Nintendo DSi
+
+    - ...and even more is planned!'
+  donate_url: https://www.patreon.com/Arisotura
+  homepage: https://melonds.kuribo64.net/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/melonds.png
+  keywords:
+  - emulator
+  - Nintendo
+  - DS
+  - NDS
+  - Nintendo DS
+  license: GPL-3.0
+  mimetypes:
+  - application/x-nintendo-ds-rom
+  mobile: 1
+  name: melonDS
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/melonds-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/melonds-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/melonds-2.png
+  src_pkg_name: app/net.kuribo64.melonDS/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
+  summary: Nintendo DS and DSi emulator
+xemu:
+  author: xemu project
+  categories:
+  - Game
+  - Emulator
+  description: "A free and open-source application that emulates the original Microsoft\
+    \ Xbox game console. Supports connecting up to 4 controllers for local play, networking\
+    \ for multiplayer, resolution scaling, and more.\n\nNote: Only \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu\"\
+    \ can be written by xemu.\n    The Hard Disk image has to be placed there, for\
+    \ example, at \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu/xbox_hdd.qcow2\"."
+  homepage: https://xemu.app
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/xemu.png
+  license: GPL-2.0-only
+  mobile: 1
+  name: xemu
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xemu-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xemu-1.png
   src_pkg_name: app/app.xemu.xemu/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
   summary: Original Xbox Emulator
 vscode:
+  author: Microsoft Corporation
   categories:
   - TextEditor
   - Development
   - IDE
-  description: |
-    Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle.
+  description: 'Visual Studio Code is a new choice of tool that combines the simplicity
+    of a code editor with what developers need for the core edit-build-debug cycle.
 
-    IMPORTANT: To use certain features in this flatpacked version (like the integrated terminal), please read the linked documentation.
 
-    This is the proprietary Microsoft build of Visual Studio Code, packaged into a Flatpak. This repackaging is not supported by Microsoft.
+    IMPORTANT: To use certain features in this flatpacked version (like the integrated
+    terminal), please read the linked documentation.
+
+
+    This is the proprietary Microsoft build of Visual Studio Code, packaged into a
+    Flatpak. This repackaging is not supported by Microsoft.'
   homepage: https://code.visualstudio.com
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.visualstudio.code.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vscode.png
   keywords:
   - vscode
   license: LicenseRef-proprietary=https://code.visualstudio.com/license
+  mimetypes:
+  - text/plain
+  - inode/directory
+  - application/x-code-workspace
+  mobile: 1
   name: Visual Studio Code
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vscode-0.png
   src_pkg_name: app/com.visualstudio.code/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Hard-coded non-system theme
+
+
+    Requires some setup for Flatpak
+
+    https://github.com/flathub/com.visualstudio.code/blob/master/README.md'
   summary: Code editing. Redefined.
 primehack:
+  author: Shiiion, SirMangler
   categories:
   - Game
   - Emulator
-  description: PrimeHack is a fork of Dolphin Emulator to bring modern Mouse and Keyboard controls, as well as Dual-Stick gamepad controls to the Metroid Prime Trilogy. PrimeHack also offers many other features such as increased FoV and various new cheats.
+  description: PrimeHack is a fork of Dolphin Emulator to bring modern Mouse and Keyboard
+    controls, as well as Dual-Stick gamepad controls to the Metroid Prime Trilogy.
+    PrimeHack also offers many other features such as increased FoV and various new
+    cheats.
   homepage: https://github.com/shiiion/dolphin
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/io.github.shiiion.primehack.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/primehack.png
   license: GPL-2.0+
+  mobile: 1
   name: PrimeHack
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/primehack-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/primehack-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/primehack-2.png
   src_pkg_name: app/io.github.shiiion.primehack/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
   summary: Dolphin Emu fork for various Metroid Prime mods
 scummvm:
+  author: The ScummVM Team
+  categories:
+  - Game
+  - AdventureGame
+  - Emulator
+  description: "ScummVM is a program which allows you to run a wide variety of classic\n\
+    \      graphical point-and-click adventure games and role-playing games,\n   \
+    \   provided you already have their data files. The clever part about this:\n\
+    \      ScummVM just replaces the executables shipped with the game,\n      allowing\
+    \ you to play them on systems for which they were never designed!\n\n      Currently,\
+    \ ScummVM supports a huge library of adventures with over 250 games in total.\n\
+    \      It supports many classics published by legendary studios like LucasArts,\
+    \ Sierra On-Line,\n      Revolution Software, Cyan, Inc. and Westwood Studios.\n\
+    \n      Next to ground-breaking titles like the Monkey Island series, Broken Sword,\n\
+    \      Myst, Blade Runner and countless other games you will find\n      some\
+    \ really obscure adventures and truly hidden gems to explore."
   homepage: https://www.scummvm.org
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.scummvm.ScummVM.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/scummvm.png
   license: GPL-3.0-or-later
+  mobile: 1
   name: ScummVM
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/scummvm-0.png
   src_pkg_name: app/org.scummvm.ScummVM/x86_64/stable
+  still_rating: 0
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
   summary: Interpreter for numerous adventure games and role-playing games
-  description: |
-    ScummVM is a program which allows you to run a wide variety of classic graphical point-and-click adventure games and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the game, allowing you to play them on systems for which they were never designed!
-
-    Currently, ScummVM supports a huge library of adventures with over 250 games in total. It supports many classics published by legendary studios like LucasArts, Sierra On-Line, Revolution Software, Cyan, Inc. and Westwood Studios.
-
-    Next to ground-breaking titles like the Monkey Island series, Broken Sword, Myst, Blade Runner and countless other games you will find some really obscure adventures and truly hidden gems to explore.
 flatseal:
+  author: Martin Abente Lahaye
   categories:
   - Utility
-  description: "Flatseal is a graphical utility to review and modify permissions from your Flatpak applications."
+  description: Flatseal is a graphical utility to review and modify permissions from
+    your Flatpak applications.
   homepage: https://github.com/tchx84/flatseal
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.tchx84.Flatseal.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/flatseal.png
   keywords:
   - seal
   - sandbox
   - override
   license: GPL-3.0-or-later
+  mobile: 1
   name: Flatseal
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flatseal-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flatseal-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flatseal-2.png
   src_pkg_name: app/com.github.tchx84.Flatseal/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
   summary: Manage Flatpak permissions
-brave:
-  categories:
-    - Network
-    - WebBrowser
-  description: |
-    Brave is on a mission to fix the web by giving users a safer, faster and better browsing experience while growing support for content creators through a new attention-based ecosystem of rewards.
-
-    Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
-  homepage: https://brave.com/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.brave.Browser.png
-  license: MPL-2.0
-  name: Brave Browser
-  primary_src: flathub
-  src_pkg_name: app/com.brave.Browser/x86_64/stable
-  summary: The web browser from Brave
-vlc:
-  name: VLC Media Player
-  summary: VLC media player, the open-source multimedia player
-  description:  VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
-  donate_url: https://www.videolan.org/contribute.html
-  homepage: https://www.videolan.org/vlc/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.videolan.VLC.png
-  keywords:
-  - Player
-  - Capture
-  - DVD
-  - Audio
-  - Video
-  - Server
-  - Broadcast
-  license: GPL-2.0+
-  primary_src: flathub
-  src_pkg_name: app/org.videolan.VLC/x86_64/stable
-firefox:
-  name: Firefox
-  primary_src: flathub
-  src_pkg_name: app/org.mozilla.firefox/x86_64/stable
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.mozilla.firefox.png
-  author: Mozilla
-  summary: Firefox web browser
-  description: |
-    Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
-    Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
-    In 2017, Firefox began incorporating new technology under the code name Quantum to promote parallelism and a more intuitive user interface.
-    An additional version, Firefox for iOS, was released on November 12, 2015.
-    Due to platform restrictions, it uses the WebKit layout engine instead of Gecko, as with all other iOS web browsers.
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-    - gecko
-    - mozilla
-    - quantum
-  mimetypes:
-    - text/html
-    - application/xhtml+xml
-    - application/vnd.mozilla.xul+xml
-    - application/vnd.mozilla.xul+xml-overlay
-    - image/svg+xml
-    - application/rss+xml
-    - application/rdf+xml
-    - application/atom+xml
-    - application/x-microsumm
-  license: MPL-2.0
-  homepage: https://www.mozilla.org/firefox/
-  donate: https://donate.mozilla.org/
-  ss_urls:
-    https://dl.flathub.org/repo/screenshots/org.mozilla.firefox-stable/1248x702/org.mozilla.firefox-af5d1ae7c121ea4864b3c5a1098f8f9c.png
-google-chrome:
-  name: Google Chrome
-  primary_src: flathub
-  src_pkg_name: app/com.google.Chrome/x86_64/stable
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.google.Chrome.png
-  author: Google
-  summary: Google Chrome web browser
-  description: |
-    Google Chrome is a web browser developed by Google.
-    It was first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android.
-    The browser is also the main component of Chrome OS, where it serves as the platform for web apps.
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-    - chromium
-    - google
-  mimetypes:
-    - text/html
-    - application/xhtml+xml
-    - application/vnd.mozilla.xul+xml
-    - application/vnd.mozilla.xul+xml-overlay
-    - image/svg+xml
-    - application/rss+xml
-    - application/rdf+xml
-    - application/atom+xml
-    - application/x-microsumm
-  license: Proprietary
-  homepage: https://www.google.com/chrome/
-  ss_urls:
-    https://dl.flathub.org/repo/screenshots/com.google.Chrome-stable/1248x702/com.google.Chrome-1b9e3b5e9e0b5b9d9b9b9b9b9b9b9b9b.png
-microsoft-edge:
-  name: Microsoft Edge
-  primary_src: flathub
-  src_pkg_name: app/com.microsoft.Edge/x86_64/stable
-  author: Microsoft
-  summary: It’s time to expect more. More privacy. More control. More productivity. More value.
-  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.Edge.png
-  description: |
-    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
-    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
-    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need. 
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-  mimetypes:
-    - application/pdf
-    - application/rdf+xml
-    - application/rss+xml
-    - application/xhtml+xml
-    - application/xhtml_xml
-    - application/xml
-    - image/gif
-    - image/jpeg
-    - image/png
-    - image/webp
-    - text/html
-    - text/xml
-    - x-scheme-handler/ftp
-    - x-scheme-handler/http
-    - x-scheme-handler/https
-  license: Proprietary
-  homepage: https://www.microsoft.com/en-us/edge
-microsoft-edge-dev:
-  name: Microsoft Edge Dev
-  primary_src: flathub
-  src_pkg_name: app/com.microsoft.EdgeDev/x86_64/stable
-  author: Microsoft
-  summary: It’s time to expect more. More privacy. More control. More productivity. More value.
-  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.microsoft.EdgeDev.png
-  description: |
-    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.
-    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.
-    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need. 
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-  mimetypes:
-    - application/pdf
-    - application/rdf+xml
-    - application/rss+xml
-    - application/xhtml+xml
-    - application/xhtml_xml
-    - application/xml
-    - image/gif
-    - image/jpeg
-    - image/png
-    - image/webp
-    - text/html
-    - text/xml
-    - x-scheme-handler/ftp
-    - x-scheme-handler/http
-    - x-scheme-handler/https
-  license: Proprietary
-  homepage: https://www.microsoft.com/en-us/edge
-opera:
-  name: Opera
-  primary_src: flathub
-  src_pkg_name: app/com.opera.Opera/x86_64/stable
-  author: Opera
-  summary: The web browser from Opera
-  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.opera.Opera.png
-  description: |
-    Fast, secure, easy-to-use web browser.
-
-    Opera is a fast, secure, and user-friendly web browser. It includes a built-in ad blocker, Video pop-out, and free VPN.
-
-    NOTE: This package is not verified by, affiliated with, or supported by Opera.
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-  mimetypes:
-    - application/pdf
-    - application/rdf+xml
-    - application/rss+xml
-    - application/xhtml+xml
-    - application/xhtml_xml
-    - application/xml
-    - image/gif
-    - image/jpeg
-    - image/png
-    - image/webp
-    - text/html
-    - text/xml
-    - x-scheme-handler/http
-    - x-scheme-handler/https
-    - x-scheme-handler/ipfs
-    - x-scheme-handler/ipns
-    - application/x-opera-download
-  license: Proprietary
-  homepage: https://www.opera.com/
-vivaldi:
-  name: Vivaldi
-  primary_src: flathub
-  src_pkg_name: app/com.vivaldi.Vivaldi/x86_64/stable
-  author: Vivaldi Technologies
-  summary: Featured-packed web browser
-  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.vivaldi.Vivaldi.png
-  description: |
-    The web browser for techies and people who need a browser that helps them get things done. The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.
-
-    • Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.
-    • Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)
-    • Jot down ideas and inspiration with the integrated Notes manager.
-    • End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.
-    • Efficient built-in Tracker and Ad Blocker.
-    • Compatible with most browser extensions from the Google Chrome Web Store.
-
-    NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.
-  categories:
-    - Network
-    - WebBrowser
-  keywords:
-    - web
-    - browser
-    - internet
-    - www
-  mimetypes:
-    - application/pdf
-    - application/rdf+xml
-    - application/rss+xml
-    - application/xhtml+xml
-    - application/xhtml_xml
-    - application/xml
-    - image/gif
-    - image/jpeg
-    - image/png
-    - image/webp
-    - text/html
-    - text/xml
-    - x-scheme-handler/ftp
-    - x-scheme-handler/http
-    - x-scheme-handler/https
-    - x-scheme-handler/mailto
-  license: Proprietary
-  homepage: https://vivaldi.com/
-spotify:
-  name: Spotify
-  primary_src: flathub
-  src_pkg_name: app/com.spotify.Client/x86_64/stable
-  author: Spotify
-  summary: Online music streaming service
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.spotify.Client.png
-  description: |
-    Access all of your favorite music, discover new songs, and share music online with your friends - all in one place. Create shared playlists or share individual songs with your Facebook friends with just a click of a button. Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists. Spotify is the best way to have access to millions of songs, and all the latest hits.
-  categories:
-    - Music
-    - Audio
-    - VideoAudio
-  keywords:
-    - essentials
-    - music
-    - player
-    - online
-    - streaming
-  license: Proprietary
-  homepage: https://open.spotify.com/
-onlyoffice:
-  name: ONLYOFFICE Desktop Editors
-  primary_src: flathub
-  src_pkg_name: app/org.onlyoffice.desktopeditors/x86_64/stable
-  author: ONLYOFFICE
-  summary: Office productivity suite
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.onlyoffice.desktopeditors.png
-  description: |
-    Create, view and edit text documents, spreadsheets and presentations of any size and complexity. Work on documents of most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.
-  categories:
-    - Office
-    - WordProcessor
-    - Spreadsheet
-    - Presentation
-  keywords:
-    - essentials
-  license: AGPLv3
-  homepage: https://www.onlyoffice.com
-discord:
-  name: Discord
-  primary_src: flathub
-  src_pkg_name: app/com.discordapp.Discord/x86_64/stable
-  author: Discord
-  summary: Messaging, voice and video client
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.discordapp.Discord.png
-  description: |
-    Discord is a free all in one messaging, voice, and video client thats available on your computer and phone.
-
-    Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.
-
-      - Talk to your friends with messaging, voice, and video in a "Direct Message" (1 other person), group chat (up to 10 people), or a multi-channel server (practically infinite maximum members).
-      - Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.
-      - Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
-      - Get a community of any size running with moderation tools and custom member access. Give members special powers, set up private channels, and more.
-      - Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
-      - Available on Linux, macOS, Windows, iOS, Android, and your web browser.
-
-    Discord is written in Javascript, React, Elixir, and Rust. The desktop application uses the electron framework.
-
-    The flatpak version runs in a sandbox to provide better safety and privacy for users. However, this sandboxing prevents the following features from working out of the box: Game Activity, Unrestricted File Access, Rich Presence. Check the README in the Github repo for details.
-  categories:
-    - Network
-    - InstantMessanging
-  keywords:
-    - essentials
-  license: Proprietary
-  homepage: https://discord.com/
-thunderbird:
-  name: Thunderbird
-  primary_src: flathub
-  src_pkg_name: app/org.mozilla.Thunderbird/x86_64/stable
-  author: MZLA Technologies, part of the Mozilla Foundation
-  summary: A free and open source email, newsfeed, chat, and calendaring client
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.mozilla.Thunderbird.png
-  description: |
-    Thunderbird is a free and open source email, newsfeed, chat, and calendaring client, that’s easy to set up and customize. One of the core principles of Thunderbird is the use and promotion of open standards - this focus is a rejection of our world of closed platforms and services that can’t communicate with each other. We want our users to have freedom and choice in how they communicate.
-
-    Thunderbird is an open source project, which means anyone can contribute ideas, designs, code, and time helping fellow users.
-  categories:
-    - Network
-    - Email
-  keywords:
-    - essentials
-  license: Proprietary
-  homepage: https://www.thunderbird.net/en-US/
-slack:
-  name: Slack
-  primary_src: flathub
-  src_pkg_name: app/com.slack.Slack/x86_64/stable
-  author: Slack Technologies Inc.
-  summary: Business communication
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.slack.Slack.png
-  description: |
-    Caution: Slack for Linux is in beta. We’re still busy adding features and ironing out potential issues.
-
-    Slack brings team communication and collaboration into one place so you can get more work done, whether you belong to a large enterprise or a small business. Check off your to-do list and move your projects forward by bringing the right people, conversations, tools, and information you need together. Slack is available on any device, so you can find and access your team and your work, whether you’re at your desk or on the go.
-
-    Scientifically proven (or at least rumored) to make your working life simpler, more pleasant, and more productive. We hope you’ll give Slack a try.
-  categories:
-    - Network
-    - InternetMessanging
-  keywords:
-    - essentials
-  license: Proprietary
-  homepage: https://slack.com/
-audacity:
-  name: Audacity
-  primary_src: flathub
-  src_pkg_name: app/org.audacityteam.Audacity/x86_64/stable
-  author: Muse Group
-  summary: Audacity is the world's most popular audio editing and recording app
-  icon_url: https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.audacityteam.Audacity.png
-  description: |
-    You can use Audacity to:
-
-    - Record live audio
-    - Convert tapes and records into digital recordings or CDs
-    - Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files
-    - Cut, copy, splice or mix sounds together
-    - Change the speed or pitch of a recording
-    - Apply a wide range of other effects to audio recordings
-    - and much more!
-  categories:
-    - Audio
-    - AudioVideo
-    - AudioVideoEditing
-  keywords:
-    - essentials
-  license: GPLv3
-  homepage: https://www.audacityteam.org/
 lutris:
+  author: Lutris Team
   categories:
   - Game
-  description: Lutris helps you install and play video games from all eras and from most gaming systems. By leveraging and combining existing emulators, engine re-implementations and compatibility layers, it gives you a central interface to launch all your games.
+  description: Lutris helps you install and play video games from all eras and from
+    most gaming systems. By leveraging and combining existing emulators, engine re-implementations
+    and compatibility layers, it gives you a central interface to launch all your
+    games.
   donate_url: https://lutris.net/donate
   homepage: https://lutris.net
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/net.lutris.Lutris.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/lutris.png
   keywords:
   - gaming
   - wine
   - emulator
   license: GPL-3.0-or-later
+  mimetypes:
+  - x-scheme-handler/lutris
+  mobile: 1
   name: Lutris
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/lutris-0.png
   src_pkg_name: app/net.lutris.Lutris/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
   summary: Video game preservation platform
 retroarch:
+  author: libretro
   categories:
   - Game
   - Emulator
-  description: |
-    RetroArch enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
-
-    It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all. RetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, and more!
+  description: "RetroArch enables you to run classic games on a wide range of computers\
+    \ and consoles through its slick graphical interface. Settings are also unified\
+    \ so configuration is done once and for all.\n\n      It enables you to run classic\
+    \ games on a wide range of computers and consoles through its slick graphical\
+    \ interface. Settings are also unified so configuration is done once and for all.\
+    \ RetroArch has advanced features like shaders, netplay, rewinding, next-frame\
+    \ response times, runahead, and more!"
   donate_url: https://retroarch.com/index.php?page=donate
   homepage: https://www.retroarch.com
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.libretro.RetroArch.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/retroarch.png
   keywords:
   - multi
   - engine
   - emulator
   - xmb
   license: GPL-3.0
+  mobile: 1
   name: RetroArch
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/retroarch-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/retroarch-1.png
   src_pkg_name: app/org.libretro.RetroArch/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators.\n\
+    \n\nRequires some setup after installation:\nhttps://docs.libretro.com/guides/download-cores/\n\
+    https://docs.libretro.com/guides/import-content/"
   summary: Frontend for emulators, game engines and media players
 protontricks:
+  author: Janne Pulkkinen
   categories:
   - Utility
-  description: |
-    This is a wrapper script that allows you to easily run Winetricks commands for Steam Play/Proton games among other common Wine features, such as launching external Windows executables. This is often useful when a game requires closed-source runtime libraries or applications that are not included with Proton.
-
-    Note: To access Steam libraries on another drives, you need to grant access to them:
-
-    flatpak override --user --filesystem=/path/to/other/Steam/Library com.github.Matoking.protontricks
+  description: "This is a wrapper script that allows you to easily run Winetricks\
+    \ commands for Steam Play/Proton games among other common Wine features,\n   \
+    \    such as launching external Windows executables. This is often useful when\
+    \ a game requires closed-source runtime libraries or applications\n       that\
+    \ are not included with Proton.\n\nNote: To access Steam libraries on another\
+    \ drives, you need to grant access to them:\n\nflatpak override --user --filesystem=/path/to/other/Steam/Library\
+    \ com.github.Matoking.protontricks"
   homepage: https://github.com/Matoking/protontricks
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.github.Matoking.protontricks.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/matoking.png
   keywords:
   - Steam
   - Proton
   - Wine
   - Winetricks
   license: GPL-3.0
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/ftp
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
   name: Protontricks
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/matoking-0.png
   src_pkg_name: app/com.github.Matoking.protontricks/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Workaround to access Steam on other drives:
+
+    flatpak override --user --filesystem=/path/to/other/Steam/Library com.github.Matoking.protontricks'
   summary: A simple wrapper that does winetricks things for Proton enabled games
 obsstudio:
+  author: OBS Project
   categories:
   - AudioVideo
   - Recorder
-  description: |
-    Free and open source software for video capturing, recording, and live streaming.
+  description: 'Free and open source software for video capturing, recording, and
+    live streaming.
 
     Features:
 
-    - High performance real time video/audio capturing and mixing. Create scenes made up of multiple sources including window captures, images, text, browser windows, webcams, capture cards and more.
-    - Set up an unlimited number of scenes you can switch between seamlessly via custom transitions.
-    - Intuitive audio mixer with per-source filters such as noise gate, noise suppression, and gain. Take full control with VST plugin support.
-    - Powerful and easy to use configuration options. Add new Sources, duplicate existing ones, and adjust their properties effortlessly.
-    - Streamlined Settings panel gives you access to a wide array of configuration options to tweak every aspect of your broadcast or recording.
-    - Modular 'Dock' UI allows you to rearrange the layout exactly as you like. You can even pop out each individual Dock to its own window.
+    - High performance real time video/audio capturing and mixing. Create scenes made
+    up of multiple sources including window captures, images, text, browser windows,
+    webcams, capture cards and more.
+
+    - Set up an unlimited number of scenes you can switch between seamlessly via custom
+    transitions.
+
+    - Intuitive audio mixer with per-source filters such as noise gate, noise suppression,
+    and gain. Take full control with VST plugin support.
+
+    - Powerful and easy to use configuration options. Add new Sources, duplicate existing
+    ones, and adjust their properties effortlessly.
+
+    - Streamlined Settings panel gives you access to a wide array of configuration
+    options to tweak every aspect of your broadcast or recording.
+
+    - Modular ''Dock'' UI allows you to rearrange the layout exactly as you like.
+    You can even pop out each individual Dock to its own window.
+
 
     Create Professional Productions:
 
-    - Choose from a number of different and customizable transitions for when you switch between your scenes or add your own stinger video files.
-    - Set hotkeys for nearly every sort of action, such as switching between scenes, starting/stopping streams or recordings, muting audio sources, push to talk, and more.
-    - Studio Mode lets you preview your scenes and sources before pushing them live. Adjust your scenes and sources or create new ones and ensure they're perfect before your viewers ever see them.
-    - Get a high level view of your production using the Multiview. Monitor 8 different scenes and easily cue or transition to any of them with merely a single or double click.
+    - Choose from a number of different and customizable transitions for when you
+    switch between your scenes or add your own stinger video files.
+
+    - Set hotkeys for nearly every sort of action, such as switching between scenes,
+    starting/stopping streams or recordings, muting audio sources, push to talk, and
+    more.
+
+    - Studio Mode lets you preview your scenes and sources before pushing them live.
+    Adjust your scenes and sources or create new ones and ensure they''re perfect
+    before your viewers ever see them.
+
+    - Get a high level view of your production using the Multiview. Monitor 8 different
+    scenes and easily cue or transition to any of them with merely a single or double
+    click.'
   donate_url: https://obsproject.com/contribute
   homepage: https://obsproject.com
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.obsproject.Studio.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/obsstudio.png
   license: GPL-2.0-or-later
+  mobile: 1
   name: OBS Studio
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/obsstudio-0.png
   src_pkg_name: app/com.obsproject.Studio/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non-system theme
   summary: Live stream and record videos
 pupgui2:
+  author: DavidoTek
   categories:
   - Game
   - Utility
-  description: "<p>\n      Install and manage Wine- and Proton-based compatibility\
-    \ tools for Steam and Lutris with this graphical user interface.\n    </p>\n<p>Supported\
-    \ launchers:</p>\n<ul><li>Steam</li><li>Lutris</li><li>Heroic Games Launcher</li><li>Bottles</li><li>Both\
-    \ normal, Snap and Flatpak installations are supported</li></ul>\n<p>Supported\
-    \ compatibility tools:</p>\n<ul><li>GE-Proton</li><li>SteamTinkerLaunch</li><li>Proton-Tkg</li><li>Luxtorpeda</li><li>Boxtron</li><li>Roberta</li><li>NorthstarProton</li><li>Scrumplex's\
-    \ Steam-Play-None</li><li>Wine-GE</li><li>Lutris-Wine</li><li>Kron4ek's Vanilla\
-    \ Wine-Builds</li><li>DXVK and DXVK async</li><li>D8VK</li><li>VKD3D</li></ul>\n\
-    <p>Double click compatibility tools to show more information and games using the\
-    \ tool.</p>\n<p>Advanced settings and the color theme can be managed in the About\
-    \ dialog.</p>"
+  description: 'Install and manage Wine- and Proton-based compatibility tools for
+    Steam and Lutris with this graphical user interface.
+
+
+    Supported launchers:
+
+    - Steam
+
+    - Lutris
+
+    - Heroic Games Launcher
+
+    - Bottles
+
+    - Both normal, Snap and Flatpak installations are supported
+
+
+    Supported compatibility tools:
+
+    - GE-Proton
+
+    - SteamTinkerLaunch
+
+    - Proton-Tkg
+
+    - Luxtorpeda
+
+    - Boxtron
+
+    - Roberta
+
+    - NorthstarProton
+
+    - Scrumplex''s Steam-Play-None
+
+    - Wine-GE
+
+    - Lutris-Wine
+
+    - Kron4ek''s Vanilla Wine-Builds
+
+    - DXVK and DXVK async
+
+    - D8VK
+
+    - VKD3D
+
+
+    Double click compatibility tools to show more information and games using the
+    tool.
+
+
+    Advanced settings and the color theme can be managed in the About dialog.'
   donate_url: https://ko-fi.com/davidotek
   homepage: https://davidotek.github.io/protonup-qt
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/net.davidotek.pupgui2.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pupgui2.png
   keywords:
   - Proton-GE
   - GE-Proton
   - Steam Tinker Launch
   license: GPL-3.0
+  mobile: 1
   name: ProtonUp-Qt
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pupgui2-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pupgui2-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pupgui2-2.png
   src_pkg_name: app/net.davidotek.pupgui2/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app, no theming issues found
   summary: Install Wine- and Proton-based compatibility tools
+msedge:
+  author: Microsoft Corporation
+  categories:
+  - Network
+  - WebBrowser
+  description: "NOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by Microsoft.\n\n    Browse the web anywhere with one seamless experience from\
+    \ your phone to your computer and other signed-in devices.\n\n    Organize the\
+    \ web in a way that cuts through the clutter, making it easier to find, view,\
+    \ and manage your content on the go.\n\n    With world class compatibility, performance,\
+    \ and new features, Microsoft Edge is the only web browser you\u2019ll ever need."
+  homepage: https://www.microsoft.com/en-us/edge/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/msedge.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/ftp
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
+  name: Microsoft Edge
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/msedge-0.png
+  src_pkg_name: app/com.microsoft.Edge/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Uses GNOME theme and doesn't have the slim header bar problem
+    web apps have in many other Chromium based browsers.
+  summary: "Introducing the new Microsoft Edge web browser. It\u2019s time to expect\
+    \ more. More privacy. More control. More productivity. More value."
 gimp:
+  author: The GIMP team
   categories:
   - Graphics
   - 2DGraphics
   - RasterGraphics
-  description: |
-    GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring.
+  description: 'GIMP is an acronym for GNU Image Manipulation Program. It is a freely
+    distributed program for such tasks as photo retouching, image composition and
+    image authoring.
 
-    It has many capabilities. It can be used as a simple paint program, an expert quality photo retouching program, an online batch processing system, a mass production image renderer, an image format converter, etc.
 
-    GIMP is expandable and extensible. It is designed to be augmented with plug-ins and extensions to do just about anything. The advanced scripting interface allows everything from the simplest task to the most complex image manipulation procedures to be easily scripted. GIMP is available for Linux, Microsoft Windows and OS X.
+    It has many capabilities. It can be used as a simple paint program, an expert
+    quality photo retouching program, an online batch processing system, a mass production
+    image renderer, an image format converter, etc.
+
+
+    GIMP is expandable and extensible. It is designed to be augmented with plug-ins
+    and extensions to do just about anything. The advanced scripting interface allows
+    everything from the simplest task to the most complex image manipulation procedures
+    to be easily scripted. GIMP is available for Linux, Microsoft Windows and OS X.'
   donate_url: https://www.gimp.org/donating/
   homepage: https://www.gimp.org/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.gimp.GIMP.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gimp.png
   keywords:
   - GIMP
   - Photoshop
   license: GPL-3.0+ AND LGPL-3.0+
+  mimetypes:
+  - image/bmp
+  - image/g3fax
+  - image/gif
+  - image/x-fits
+  - image/x-pcx
+  - image/x-portable-anymap
+  - image/x-portable-bitmap
+  - image/x-portable-graymap
+  - image/x-portable-pixmap
+  - image/x-psd
+  - image/x-sgi
+  - image/x-tga
+  - image/x-xbitmap
+  - image/x-xwindowdump
+  - image/x-xcf
+  - image/x-compressed-xcf
+  - image/x-gimp-gbr
+  - image/x-gimp-pat
+  - image/x-gimp-gih
+  - image/x-sun-raster
+  - image/tiff
+  - image/jpeg
+  - image/x-psp
+  - application/postscript
+  - image/png
+  - image/x-icon
+  - image/x-xpixmap
+  - image/x-exr
+  - image/webp
+  - image/x-webp
+  - image/heif
+  - image/heic
+  - image/avif
+  - image/jxl
+  - image/svg+xml
+  - application/pdf
+  - image/x-wmf
+  - image/jp2
+  - image/x-xcursor
+  - image/openraster
+  mobile: 1
   name: GNU Image Manipulation Program
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gimp-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gimp-1.png
   src_pkg_name: app/org.gimp.GIMP/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded gtk2 theme. Gtk2 is end of life.
   summary: Create images and edit photographs
-cartridges:
+heroiclauncher:
+  author: Heroic Games Launcher
   categories:
   - Game
-  description: Cartridges is a simple game launcher for all of your games. It has support for importing games from Steam, Lutris, Heroic and more with no login necessary. You can sort and hide games or download cover art from SteamGridDB.
-  homepage: https://github.com/kra-mo/cartridges
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/page.kramo.Cartridges.png
-  keywords:
-  - gaming
-  - launcher
-  - steam
-  - lutris
-  - heroic
-  - bottles
-  - itch
-  - flatpak
-  - legendary
-  - retroarch
-  license: GPL-3.0-or-later
-  name: Cartridges
-  primary_src: flathub
-  src_pkg_name: app/page.kramo.Cartridges/x86_64/stable
-  summary: Launch all your games
-heroic-games-launcher:
-  categories:
-  - Game
-  description: |
-    Heroic is an Open Source Games Launcher. Right now it supports launching games from the Epic Games Store using Legendary, GOG Games using our custom implementation with gogdl and Amazon Games using Nile.
-
-    Main Features:
-
-    - Have access to your Epic, GOG and Amazon Games in a intuitive User Interface.
-    - Add Games outside GOG, Amazon or Epic Games Store native or not. Even Browser apps are supported
-    - A Download queue to download multiple games at once.
-    - Install and launch your Windows Games using Wine or Proton. Or Launch your Native GOG Games.
-    - Cloud Saves support for GOG and Epic Games.
-    - Import Games installed through the Epic Store or GOG Galaxy.
-    - Verify and Repair corrupted installations or even move your installation to different folders.
-    - Access the Epic and GOG store and also Heroic Wiki directly from the App.
-    - Check HowLongtoBeat database to see how long it will take to finish a game. And also check the Metacritic, IGCB or OpenCritc score for the game.
-    - And many more features
-
-    Current Limitations on the Flatpak:
-
-    - Heroic will not find or use Wine and Proton Flatpak versions. At least for now.
-    - For now would be better to use the Built-in Wine Manager to download and install Wine and Proton Versions.
-    - It should find Proton from the Steam folder for both Steam Flatpak and non-Flatpak if they are on installed on the library inside your $HOME folder
-    - Heroic cannot access /usr/bin so it won't be able to find any wine or proton isntalled there for now.
+  description: "Heroic is an Open Source Games Launcher. Right now it supports launching\
+    \ games from the\n\t\t\tEpic Games Store using Legendary, GOG Games using our\
+    \ custom implementation with gogdl\n\t\t\tand Amazon Games using Nile.\n\nMain\
+    \ Features:\n- Have access to your Epic, GOG and Amazon Games in a intuitive User\
+    \ Interface.\n- Add Games outside GOG, Amazon or Epic Games Store native or not.\
+    \ Even Browser apps\n\t\t\t\tare supported\n- A Download queue to download multiple\
+    \ games at once.\n- Install and launch your Windows Games using Wine or Proton.\
+    \ Or Launch your Native\n\t\t\t\tGOG Games.\n- Cloud Saves support for GOG and\
+    \ Epic Games.\n- Import Games installed through the Epic Store or GOG Galaxy.\n\
+    - Verify and Repair corrupted installations or even move your installation to\n\
+    \t\t\t\tdifferent folders.\n- Access the Epic and GOG store and also Heroic Wiki\
+    \ directly from the App.\n- Check HowLongtoBeat database to see how long it will\
+    \ take to finish a game. And also\n\t\t\t\tcheck the Metacritic, IGCB or OpenCritc\
+    \ score for the game.\n- And many more features\n\nCurrent Limitations on the\
+    \ Flatpak:\n- Heroic will not find or use Wine and Proton Flatpak versions. At\
+    \ least for now.\n- For now would be better to use the Built-in Wine Manager to\
+    \ download and install\n\t\t\t\tWine and Proton Versions.\n- It should find Proton\
+    \ from the Steam folder for both Steam Flatpak and non-Flatpak\n\t\t\t\tif they\
+    \ are on installed on the library inside your $HOME folder\n- Heroic cannot access\
+    \ /usr/bin so it won't be able to find any wine or proton\n\t\t\t\tisntalled there\
+    \ for now."
   donate_url: https://ko-fi.com/heroicgames
   homepage: https://heroicgameslauncher.com
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.heroicgameslauncher.hgl.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/heroiclauncher.png
   license: GPL-3.0
+  mimetypes:
+  - x-scheme-handler/heroic
+  mobile: 1
   name: Heroic Games Launcher
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/heroiclauncher-6.png
   src_pkg_name: app/com.heroicgameslauncher.hgl/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Election app with hard coded theme
+
+
+    Flatpak users should use built-in Wine and Proton versions'
   summary: An Open Source Epic Games, GOG and Amazon Prime Games Launcher.
-extension-manager:
+extensionmanager:
+  author: Matthew Jakeman
   categories:
   - Utility
-  description: |
-    A utility for browsing and installing GNOME Shell Extensions.
+  description: 'A utility for browsing and installing GNOME Shell Extensions.
+
 
     Features:
 
     - Browse extensions.gnome.org right inside the app
-    - Manage the extensions you already have installed
+
+    - Manage the extensions you already have installed'
   donate_url: https://github.com/sponsors/mjakeman
   homepage: https://mattjakeman.com/apps/extension-manager
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.mattjakeman.ExtensionManager.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/extensionmanager.png
   keywords:
   - extension
   - manager
   - shell
   license: GPL-3.0-or-later
+  mimetypes:
+  - x-scheme-handler/gnome-extensions
+  mobile: 1
   name: Extension Manager
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/extensionmanager-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/extensionmanager-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/extensionmanager-2.png
   src_pkg_name: app/com.mattjakeman.ExtensionManager/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Extensions that aren't preinstalled are not supported by stillOS
+    and could lead to an unstable system.
   summary: Browse, install, and manage GNOME Shell Extensions
 qbittorrent:
+  author: The qBittorrent Project
   categories:
   - Network
   - FileTransfer
   - P2P
-  description: |
-    An open-source Bittorrent client
-
-    The qBittorrent project aims to provide an open-source software alternative to µTorrent. Additionally, qBittorrent runs and provides the same features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows). qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
-
-    - Polished µTorrent-like User Interface
-    - Well-integrated and extensible Search Engine
-    - RSS feed support with advanced download filters (incl. regex)
-    - Many Bittorrent extensions supported
-    - Remote control through Web user interface, written with AJAX
-    - Sequential downloading (Download in order)
-    - Advanced control over torrents, trackers and peers
-    - Bandwidth scheduler
-    - Torrent creation tool
-    - IP Filtering (eMule & PeerGuardian format compatible)
-    - IPv6 compliant
-    - UPnP / NAT-PMP port forwarding support
-    - Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
-    - Available in ~70 languages
+  description: "The qBittorrent project aims to provide an open-source software alternative\
+    \ to \xB5Torrent.\n      Additionally, qBittorrent runs and provides the same\
+    \ features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows).\n  \
+    \    qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.\n\
+    \n- Polished \xB5Torrent-like User Interface\n- Well-integrated and extensible\
+    \ Search Engine\n- RSS feed support with advanced download filters (incl. regex)\n\
+    - Many Bittorrent extensions supported\n- Remote control through Web user interface,\
+    \ written with AJAX\n- Sequential downloading (Download in order)\n- Advanced\
+    \ control over torrents, trackers and peers\n- Bandwidth scheduler\n- Torrent\
+    \ creation tool\n- IP Filtering (eMule & PeerGuardian format compatible)\n- IPv6\
+    \ compliant\n- UPnP / NAT-PMP port forwarding support\n- Available on all platforms:\
+    \ Windows, Linux, macOS, FreeBSD, OS/2\n- Available in ~70 languages"
   donate_url: https://www.qbittorrent.org/donate
   homepage: https://www.qbittorrent.org/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.qbittorrent.qBittorrent.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/qbittorrent.png
   keywords:
   - bittorrent
   - torrent
@@ -892,122 +1350,132 @@ qbittorrent:
   - download
   - p2p
   license: GPL-3.0-or-later and OpenSSL
+  mimetypes:
+  - application/x-bittorrent
+  - x-scheme-handler/magnet
+  mobile: 1
   name: qBittorrent
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/qbittorrent-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/qbittorrent-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/qbittorrent-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/qbittorrent-3.png
   src_pkg_name: app/org.qbittorrent.qBittorrent/x86_64/stable
+  still_rating: 1
+  still_rating_notes: 'Torrent clients allow peer-to-peer file sharing over decentralized
+    networks.
+
+    Use torrents responsibly and only to download or share content you have permission
+
+    for. Downloading or distributing copyrighted material without authorization is
+    illegal.
+
+    Users are responsible for complying with all applicable laws when using torrent
+
+    software.'
   summary: An open-source Bittorrent client
-libreoffice:
+supermodel:
+  author: The Supermodel Team
   categories:
-  - Office
-  description: |
-    LibreOffice is a powerful office suite. Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. LibreOffice includes several applications that make it the most powerful Free and Open Source office suite on the market: Writer (word processing), Calc (spreadsheets), Impress (presentations), Draw (vector graphics and flowcharts), Base (databases), and Math (formula editing).
-
-    LibreOffice supports opening and saving into a wide variety of formats, so you can easily share documents with users of other popular office suites without worrying about compatibility.
-  donate_url: https://donate.libreoffice.org/
-  homepage: http://www.libreoffice.org/discover/libreoffice/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/org.libreoffice.LibreOffice.desktop.png
-  license: MPL-2.0
-  name: LibreOffice
+  - Game
+  - ArcadeGame
+  - Emulator
+  description: "Supermodel emulates Sega's Model 3 arcade platform,\n      allowing\
+    \ you to play a number of ground-breaking arcade classics on your PC.\n      It\
+    \ uses OpenGL and the SDL library, and can run on Windows, Linux, and Mac OS X.\n\
+    \      The source code is freely available under the terms of the GNU General\
+    \ Public License."
+  homepage: https://www.supermodel3.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/supermodel.png
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Supermodel
+  pricing: 1
   primary_src: flathub
-  src_pkg_name: app/org.libreoffice.LibreOffice.desktop/x86_64/stable
-  summary: The LibreOffice productivity suite
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/supermodel-0.png
+  src_pkg_name: app/com.supermodel3.Supermodel/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
+  summary: A Sega Model 3 Arcade Emulator
 obsidian:
+  author: Obsidian
   categories:
   - Office
-  description: |
-    Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.
+  description: 'Obsidian is a powerful knowledge base that works on top of a local
+    folder of plain text Markdown files. In Obsidian, making and following connections
+    is frictionless, and with the connections in place, you can explore all of your
+    knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub
+    Flavored Markdown (GFM), along with other useful notetaking features such as tags,
+    LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and
+    embedding Obsidian notes or external files. Obsidian also has a plugin system
+    with 20+ supported plugins to expand its capabilities.
 
-    The documentation can be accessed by opening the demo vault that is shipped in Obsidian.
 
-    Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.
+    The documentation can be accessed by opening the demo vault that is shipped in
+    Obsidian.
 
-    This distribution is verified by the Obsidian team but isn't supported
 
-    Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom
+    Obsidian will always remain free for personal use, no account or license is required
+    for qualifying use cases described in the End User License Agreement. However,
+    commercial users should purchase a license on Obsidian''s website. Users also
+    have the option to purchase a Catalyst license to get early access to insider
+    builds and support the development. Additionally, Obsidian offers an optional
+    paid hosting service for your notes. Details about this optional hosting service
+    can be found on the Obsidian website.
 
-    GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal
 
-    Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK
+    This distribution is verified by the Obsidian team but isn''t supported
 
-    Note: Regular users should disable "Automatic Updates" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.
 
-    This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)
+    Wayland support can enabled with --socket=wayland in Flatseal which can enable
+    features like pinch zoom
+
+
+    GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1
+    in Flatseal
+
+
+    Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive
+    SDK
+
+
+    Note: Regular users should disable "Automatic Updates" within Obsidian as public
+    release updates are handled by Flatpak itself. Insiders should keep this enabled
+    to receive insider builds, as those will not be made available on Flathub.
+
+
+    This flatpak goes into great lengths to provide a nice experience for end users.
+    In order for the Git plugin to work it requires permission to the ssh-auth socket
+    (--socket=ssh-auth). It also exposes the home directory in the sandbox (required
+    for Drag and Drop operations). If you don''t use the Git plugin you can disable
+    the ssh-auth socket permission, e.g. using Flatseal. You can also remove access
+    to the home directory if you want and the flatpak will continue to work, albeit
+    with reduced functionality. In case you do remove access to the homedir, note
+    that in order for things to not break for the Git plugin, --persist=.ssh flag
+    has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created
+    by flatpak, allowing that location to be used for persistent data (but your home
+    directory''s .ssh remains unaccessible)'
   homepage: https://obsidian.md/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/md.obsidian.Obsidian.png
-  license: LicenseRef-proprietary=https://obsidian.md/eulamd.obsidian.Obsidian:
-  categories:
-  - Office
-  description: |
-    Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.
-
-    The documentation can be accessed by opening the demo vault that is shipped in Obsidian.
-
-    Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.
-
-    This distribution is verified by the Obsidian team but isn't supported
-
-    Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom
-
-    GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal
-
-    Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK
-
-    Note: Regular users should disable "Automatic Updates" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.
-
-    This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)
-  homepage: https://obsidian.md/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/md.obsidian.Obsidian.png
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/obsidian.png
   license: LicenseRef-proprietary=https://obsidian.md/eula
+  mimetypes:
+  - x-scheme-handler/obsidian
+  mobile: 1
   name: Obsidian
+  pricing: 1
   primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/obsidian-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/obsidian-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/obsidian-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/obsidian-3.png
   src_pkg_name: app/md.obsidian.Obsidian/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
   summary: Markdown-based knowledge base
-  name: Obsidian
-  primary_src: flathub
-  src_pkg_name: app/md.obsidian.Obsidian/x86_64/stable
-  summary: Markdown-based knowledge base
-zoom:
-  categories:
-  - Network
-  - InstantMessaging
-  - VideoConference
-  - Telephony
-  description: |
-    Award winning Zoom brings video conferencing, online meetings and group messaging into one easy-to-use application.
-
-    - One consistent enterprise experience for all use cases
-    - Engineered and optimized to work reliably
-    - Up to 500 video participants and 10,000 viewers
-    - Easy-to-use, buy and scale
-    - Most affordable, straightforward pricing
-
-    NOTE: This flatpak is not verified by, affiliated with, or supported by zoom.us.
-  homepage: https://zoom.us
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/us.zoom.Zoom.desktop.png
-  license: LicenseRef-proprietary
-  name: Zoom
-  primary_src: flathub
-  src_pkg_name: app/us.zoom.Zoom.desktop/x86_64/stable
-  summary: Video Conferencing, Web Conferencing, Webinars, Screen Sharing
-bitwarden:
-  categories:
-  - Utility
-  description: |
-    Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
-
-    Password theft is a serious problem. The websites and apps that you use are under attack every day. Security breaches occur and your passwords are stolen. When you reuse the same passwords across apps and websites hackers can easily access your email, bank, and other important accounts.
-
-    Security experts recommend that you use a different, randomly generated password for every account that you create. But how do you manage all those passwords? Bitwarden makes it easy for you to create, store, and access your passwords.
-
-    Bitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.
-
-    Bitwarden is 100% open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.
-
-    This wrapper is not verified by, affiliated with, or supported by Bitwarden Inc.
-  homepage: https://www.bitwarden.com/
-  icon_url: https://flathub.org/repo/appstream/x86_64/icons/128x128/com.bitwarden.desktop.png
-  license: GPL-3.0
-  name: Bitwarden
-  primary_src: flathub
-  src_pkg_name: app/com.bitwarden.desktop/x86_64/stable
-  summary: A secure and free password manager for all of your devices
