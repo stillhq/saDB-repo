@@ -1,13 +1,15 @@
 import os
 
-import copy
 import threading
-from xml.etree import ElementTree as etree
 from html.parser import HTMLParser
 import re
+from urllib.parse import urlparse
 
 import yaml
 import requests
+
+from PIL import Image
+from io import BytesIO
 
 import gi
 gi.require_version('Gtk', '4.0')
@@ -23,6 +25,24 @@ ARTIFACTS_DIR = os.path.join(os.path.dirname(__file__), "artifacts")
 
 pool = AppStream.Pool()
 pool.load()
+
+def get_image_resolution(url):
+    response = requests.get(url)
+    img = Image.open(BytesIO(response.content))
+    return img.size  # Returns a tuple (width, height)
+
+
+def get_highest_resolution_image(images):
+    max_resolution = (0, 0)
+    max_resolution_image = None
+    for img in images:
+        url = img.get_url()
+        resolution = get_image_resolution(url)
+        if resolution[0]*resolution[1] > max_resolution[0]*max_resolution[1]:  # Compare areas
+            max_resolution = resolution
+            max_resolution_image = url
+    return max_resolution_image
+
 
 class HTMLTextExtractor(HTMLParser):
     def __init__(self):
@@ -60,9 +80,15 @@ def html_to_plain_text(html):
 def download_image(url, dest_path):
     response = requests.get(url, stream=True)
     response.raise_for_status()  # Raise exception if invalid response
+    # Get the file extension from the URL
+    parsed_url = urlparse(url)
+    file_extension = os.path.splitext(parsed_url.path)[1]
+    # Append the file extension to the destination path
+    dest_path += file_extension
     with open(dest_path, 'wb') as file:
         for chunk in response.iter_content(chunk_size=8192):
             file.write(chunk)
+    return dest_path
 
 
 def find_appstream(flatpak_id):
@@ -140,14 +166,14 @@ class Application(Adw.Application):
             self.donate.set_text(component.get_url(AppStream.UrlKind.DONATION))
 
         self.description.get_buffer().set_text(html_to_plain_text(component.get_description()))
-        self.still_rating_notes.get_buffer().set_text("No notes have been left.")
+        self.still_rating_notes.get_buffer().set_text("No notes have been provided.")
 
         screenshots_all = component.get_screenshots_all()
         screenshots = []
         for screenshot in screenshots_all:
             images = screenshot.get_images()
-            screenshots.append(images[-1].get_url())
-        print(screenshots)
+            highest_quality_image = get_highest_resolution_image(images)
+            screenshots.append(highest_quality_image)
         self.screenshots.get_buffer().set_text("\n".join(screenshots))
 
         self.update_icon()
@@ -237,8 +263,8 @@ class Application(Adw.Application):
         # Remove empty strings
         app_yml = {k: v for k, v in app_yml.items() if v != ""}
         # remove ss_urls if length 1 and item is ""
-        if len(app_yml["ss_urls"]) == 1 and app_yml["ss_urls"][0] == "":
-            app_yml.pop("ss_urls")
+        if len(app_yml["screenshot_urls"]) == 1 and app_yml["screenshot_urls"][0] == "":
+            app_yml.pop("screenshot_urls")
 
         # Create artifact directories if they don't exist
         for dir in ["icons", "screenshots"]:
@@ -248,16 +274,20 @@ class Application(Adw.Application):
         GLib.idle_add(lambda: self.add_button.set_label("Downloading images"))
         # Download icons and screenshots
         if "icon_url" in app_yml:
-            icon_path = os.path.join(ARTIFACTS_DIR, "icons", sadb_id + ".png")
-            download_image(app_yml["icon_url"], icon_path)
-            app_yml["icon_url"] = f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/{sadb_id}.png"
-        if "ss_urls" in app_yml:
+            icon_path = os.path.join(ARTIFACTS_DIR, "icons", sadb_id)
+            icon_path = download_image(app_yml["icon_url"], icon_path)  # Update the path with the file extension
+            app_yml[
+                "icon_url"] = f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/{os.path.basename(icon_path)}"
+
+        if "screenshot_urls" in app_yml:
             ss_urls = []
-            for i, url in enumerate(app_yml["ss_urls"]):
-                screenshot_path = os.path.join(ARTIFACTS_DIR, "screenshots", f"{sadb_id}-{i}.png")
-                download_image(url, screenshot_path)
-                ss_urls.append(f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/{sadb_id}-{i}.png")
-            app_yml["ss_urls"] = ss_urls
+            for i, url in enumerate(app_yml["screenshot_urls"]):
+                print(url)
+                screenshot_path = os.path.join(ARTIFACTS_DIR, "screenshots", f"{sadb_id}-{i}")
+                screenshot_path = download_image(url, screenshot_path)  # Update the path with the file extension
+                ss_urls.append(
+                    f"https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/{os.path.basename(screenshot_path)}")
+            app_yml["screenshot_urls"] = ss_urls
 
         GLib.idle_add(lambda: self.add_button.set_label("Adding to yaml"))
         yaml_container = {sadb_id: app_yml}

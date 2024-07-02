@@ -1,7 +1,7 @@
 Here is the criteria for the stillRating system
 
 Warning:
-- Against Terms of Service for a service
+- Against Terms of Service for a third party client
 - Broken on Wayland
 - Abandoned
 - Security issues (but still required in work flows, otherwise would be rejected)
