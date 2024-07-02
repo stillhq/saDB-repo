@@ -1479,3 +1479,762 @@ obsidian:
   still_rating: 3
   still_rating_notes: Hard coded non-system theme
   summary: Markdown-based knowledge base
+libreoffice:
+  author: The Document Foundation
+  categories:
+  - Office
+  description: "LibreOffice is a powerful office suite.  Its clean interface and\n\
+    \  feature-rich tools help you unleash your creativity and enhance your\n  productivity.\
+    \  LibreOffice includes several applications that make it the most\n  powerful\
+    \ Free and Open Source office suite on the market: Writer (word\n  processing),\
+    \ Calc (spreadsheets), Impress (presentations), Draw (vector\n  graphics and flowcharts),\
+    \ Base (databases), and Math (formula editing).\n\nLibreOffice supports opening\
+    \ and saving into a wide variety of formats, so\n  you can easily share documents\
+    \ with users of other popular office suites\n  without worrying about compatibility."
+  donate_url: https://donate.libreoffice.org/
+  homepage: http://www.libreoffice.org/discover/libreoffice/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/libreoffice.png
+  license: MPL-2.0
+  mimetypes:
+  - application/vnd.openofficeorg.extension
+  - x-scheme-handler/vnd.libreoffice.cmis
+  - x-scheme-handler/vnd.sun.star.webdav
+  - x-scheme-handler/vnd.sun.star.webdavs
+  - x-scheme-handler/vnd.libreoffice.command
+  - x-scheme-handler/ms-word
+  - x-scheme-handler/ms-powerpoint
+  - x-scheme-handler/ms-excel
+  - x-scheme-handler/ms-visio
+  - x-scheme-handler/ms-access
+  mobile: 1
+  name: LibreOffice
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/libreoffice-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/libreoffice-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/libreoffice-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/libreoffice-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/libreoffice-4.png
+  src_pkg_name: app/org.libreoffice.LibreOffice/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Follows GTK 3 theming
+  summary: The LibreOffice productivity suite
+onlyoffice:
+  author: ONLYOFFICE
+  categories:
+  - Office
+  - WordProcessor
+  - Spreadsheet
+  - Presentation
+  description: 'Create, view and edit text documents, spreadsheets and presentations
+    of any size and complexity. Work on documents of most popular formats: DOCX, ODT,
+    XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same
+    window thanks to the tab-based user interface.'
+  homepage: https://onlyoffice.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/onlyoffice.png
+  keywords:
+  - Text
+  - Document
+  - OpenDocument Text
+  - Microsoft Word
+  - Microsoft Works
+  - odt
+  - doc
+  - docx
+  - rtf
+  license: AGPL-3.0-only
+  mimetypes:
+  - application/vnd.oasis.opendocument.text
+  - application/vnd.oasis.opendocument.text-template
+  - application/vnd.oasis.opendocument.text-web
+  - application/vnd.oasis.opendocument.text-master
+  - application/vnd.sun.xml.writer
+  - application/vnd.sun.xml.writer.template
+  - application/vnd.sun.xml.writer.global
+  - application/msword
+  - application/vnd.ms-word
+  - application/x-doc
+  - application/rtf
+  - text/rtf
+  - application/vnd.wordperfect
+  - application/wordperfect
+  - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+  - application/vnd.ms-word.document.macroenabled.12
+  - application/vnd.openxmlformats-officedocument.wordprocessingml.template
+  - application/vnd.ms-word.template.macroenabled.12
+  - application/vnd.oasis.opendocument.spreadsheet
+  - application/vnd.oasis.opendocument.spreadsheet-template
+  - application/vnd.sun.xml.calc
+  - application/vnd.sun.xml.calc.template
+  - application/msexcel
+  - application/vnd.ms-excel
+  - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+  - application/vnd.ms-excel.sheet.macroenabled.12
+  - application/vnd.openxmlformats-officedocument.spreadsheetml.template
+  - application/vnd.ms-excel.template.macroenabled.12
+  - application/vnd.ms-excel.sheet.binary.macroenabled.12
+  - text/csv
+  - text/spreadsheet
+  - application/csv
+  - application/excel
+  - application/x-excel
+  - application/x-msexcel
+  - application/x-ms-excel
+  - text/comma-separated-values
+  - text/tab-separated-values
+  - text/x-comma-separated-values
+  - text/x-csv
+  - application/vnd.oasis.opendocument.presentation
+  - application/vnd.oasis.opendocument.presentation-template
+  - application/vnd.sun.xml.impress
+  - application/vnd.sun.xml.impress.template
+  - application/mspowerpoint
+  - application/vnd.ms-powerpoint
+  - application/vnd.openxmlformats-officedocument.presentationml.presentation
+  - application/vnd.ms-powerpoint.presentation.macroenabled.12
+  - application/vnd.openxmlformats-officedocument.presentationml.template
+  - application/vnd.ms-powerpoint.template.macroenabled.12
+  - application/vnd.openxmlformats-officedocument.presentationml.slide
+  - application/vnd.openxmlformats-officedocument.presentationml.slideshow
+  - application/vnd.ms-powerpoint.slideshow.macroEnabled.12
+  - x-scheme-handler/oo-office
+  - text/docxf
+  - text/oform
+  mobile: 1
+  name: ONLYOFFICE Desktop Editors
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/onlyoffice-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/onlyoffice-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/onlyoffice-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/onlyoffice-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/onlyoffice-4.png
+  src_pkg_name: app/org.onlyoffice.desktopeditors/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Hard coded non-system theme
+
+
+    Does not follow light/dark mode settings'
+  summary: Office productivity suite
+zoom:
+  author: zoom.us
+  categories:
+  - Network
+  - InstantMessaging
+  - VideoConference
+  - Telephony
+  description: 'Award winning Zoom brings video conferencing, online meetings and
+    group messaging into one easy-to-use application.
+
+    - One consistent enterprise experience for all use cases
+
+    - Engineered and optimized to work reliably
+
+    - Up to 500 video participants and 10,000 viewers
+
+    - Easy-to-use, buy and scale
+
+    - Most affordable, straightforward pricing
+
+
+    NOTE: This wrapper is not verified by, affiliated with, or supported by zoom.us.'
+  homepage: https://zoom.us
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/zoom.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/zoommtg
+  - x-scheme-handler/zoomus
+  - x-scheme-handler/tel
+  - x-scheme-handler/callto
+  - x-scheme-handler/zoomphonecall
+  - application/x-zoom
+  mobile: 1
+  name: Zoom
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/zoom-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/zoom-1.png
+  src_pkg_name: app/us.zoom.Zoom/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme.
+  summary: Video Conferencing, Web Conferencing, Webinars, Screen Sharing
+bitwarden:
+  author: Bitwarden Inc.
+  categories:
+  - Utility
+  description: "Bitwarden is the easiest and safest way to store all of your logins\
+    \ and\n      passwords while conveniently keeping them synced between all of your\n\
+    \      devices.\n\n      Password theft is a serious problem. The websites and\
+    \ apps that you use\n      are under attack every day. Security breaches occur\
+    \ and your passwords\n      are stolen. When you reuse the same passwords across\
+    \ apps and websites\n      hackers can easily access your email, bank, and other\
+    \ important\n      accounts.\n\n      Security experts recommend that you use\
+    \ a different, randomly generated\n      password for every account that you create.\
+    \ But how do you manage all\n      those passwords? Bitwarden makes it easy for\
+    \ you to create, store, and\n      access your passwords.\n\n      Bitwarden stores\
+    \ all of your logins in an encrypted vault that syncs\n      across all of your\
+    \ devices. Since it's fully encrypted before it ever\n      leaves your device,\
+    \ only you have access to your data. Not even the\n      team at Bitwarden can\
+    \ read your data, even if we wanted to. Your data\n      is sealed with AES-256\
+    \ bit encryption, salted hashing, and PBKDF2\n      SHA-256.\n\n      Bitwarden\
+    \ is 100% open source software. The source code for Bitwarden\n      is hosted\
+    \ on GitHub and everyone is free to review, audit, and\n      contribute to the\
+    \ Bitwarden codebase.\n\n      This wrapper is not verified by, affiliated with,\
+    \ or supported by Bitwarden Inc."
+  homepage: https://www.bitwarden.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/bitwarden.png
+  license: GPL-3.0
+  mimetypes:
+  - x-scheme-handler/bitwarden
+  mobile: 1
+  name: Bitwarden
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bitwarden-0.png
+  src_pkg_name: app/com.bitwarden.desktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme.
+  summary: A secure and free password manager for all of your devices
+librewolf-community:
+  author: LibreWolf Community
+  categories:
+  - Network
+  - WebBrowser
+  description: "This project is an independent fork of Firefox, with the primary goals\
+    \ of privacy security and user freedom. It is the community run successor to LibreFox.\n\
+    \nLibreWolf uses more than 500 privacy/security/performance settings, patches,\
+    \ LibreWolf-Addons (optional) and is designed to minimize data collection and\
+    \ telemetry as much as possible (updater, crashreporter and Firefox\u2019s integrated\
+    \ addons that don\u2019t respect privacy are removed).\n\nLibreWolf is NOT associated\
+    \ with Mozilla or its products.\n\nFeatures:\n- Latest Version of Firefox: LibreWolf\
+    \ is compiled directly from the latest build of Firefox Stable. You will have\
+    \ the the latest features, and security updates.\n- Completely Independent Build:\
+    \ LibreWolf uses a completely independent build from Firefox and has its own settings,\
+    \ profile folder and installation path. As a result, it can be installed alongside\
+    \ Firefox or any other browser.\n- Settings protection: important settings are\
+    \ enforced/locked within librewolf.cfg and policies.json, those settings cannot\
+    \ be changed by addons/updates/LibreWolf itself or unwanted/accidental manipulation;\
+    \ To change those settings you can easily do it by editing librewolf.cfg and policies.json.\n\
+    - LibreWolf-addons: set of optional LibreWolf extensions\n- Statistics disabled:\
+    \ telemetry and similar functions are disabled\n- Tested settings: settings are\
+    \ performance aware\n- Recommended and code reviewed addons list\n- Community-Driven\n\
+    - And much more\u2026"
+  homepage: https://librewolf.net/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/librewolf-community.png
+  keywords:
+  - librewolf
+  - internet
+  - web
+  license: MPL-2.0
+  mimetypes:
+  - text/html
+  - text/xml
+  - application/xhtml+xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  - application/x-xpinstall
+  - application/pdf
+  - application/json
+  mobile: 1
+  name: LibreWolf
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/librewolf-community-0.png
+  src_pkg_name: app/io.gitlab.librewolf-community/x86_64/stable
+  still_rating: 4
+  summary: LibreWolf Web Browser
+chromium:
+  author: The Chromium Authors
+  categories:
+  - Network
+  - WebBrowser
+  description: "Chromium is an open-source browser project that aims to build a safer,\
+    \ faster,\n    and more stable way to experience the web.\n\n    We invite you\
+    \ to join our effort to build a powerful platform for developing a\n    new generation\
+    \ of web applications."
+  homepage: https://www.chromium.org/Home
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/chromium.png
+  keywords:
+  - chrome
+  - internet
+  - google
+  license: BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+
+    and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
+  name: Chromium Web Browser
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/chromium-0.png
+  src_pkg_name: app/org.chromium.Chromium/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Web apps have ultra thin title bar.
+  summary: The web browser from Chromium project
+prismlauncher:
+  author: Prism Launcher Contributors
+  categories:
+  - Game
+  - ActionGame
+  - AdventureGame
+  - Simulation
+  description: 'Prism Launcher is a custom launcher for Minecraft that focuses on
+    predictability, long term stability and simplicity.
+
+
+    Features:
+
+    - Easily install game modifications, such as Fabric, Forge and Quilt
+
+    - Easily install and update modpacks from the Launcher
+
+    - Control your Java settings, and enable Mangohud or Gamemode with a toggle
+
+    - Manage worlds and resource packs from the launcher
+
+    - See logs and other details easily through a dashboard
+
+    - Kill Minecraft in case of a crash/freeze
+
+    - Isolate Minecraft instances to keep everything clean
+
+    - Install and update mods directly from the launcher
+
+    - Customize the launcher with themes, and more
+
+    - And cat :3'
+  homepage: https://prismlauncher.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/prismlauncher.png
+  keywords:
+  - game
+  - minecraft
+  - mc
+  license: GPL-3.0-only
+  mimetypes:
+  - application/zip
+  - application/x-modrinth-modpack+zip
+  - x-scheme-handler/curseforge
+  mobile: 1
+  name: Prism Launcher
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/prismlauncher-7.png
+  src_pkg_name: app/org.prismlauncher.PrismLauncher/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app, light/dark switches after reboot.
+  summary: A custom launcher for Minecraft that allows you to easily manage multiple
+    installations of Minecraft at once
+krita:
+  author: Krita Foundation
+  categories:
+  - Graphics
+  - 2DGraphics
+  - RasterGraphics
+  description: "Krita is the full-featured digital art studio.\n\nIt is perfect for\
+    \ sketching and painting, and presents an end\u2013to\u2013end solution for creating\
+    \ digital painting files from scratch by masters.\n\n      Krita is a great choice\
+    \ for creating concept art, comics, textures for rendering and matte paintings.\
+    \ Krita supports many colorspaces like RGB and CMYK\n      at 8 and 16 bits integer\
+    \ channels, as well as 16 and 32 bits floating point channels.\n\nHave fun painting\
+    \ with the advanced brush engines, amazing filters and many handy features that\
+    \ make Krita enormously productive."
+  donate_url: https://krita.org/support-us/donations/
+  homepage: https://www.krita.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/krita.png
+  license: GPL-3.0-only
+  mimetypes:
+  - application/x-krita
+  - image/openraster
+  - application/x-krita-paintoppreset
+  mobile: 1
+  name: Krita
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-7.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/krita-8.png
+  src_pkg_name: app/org.kde.krita/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded Qt theme.
+  summary: Digital Painting, Creative Freedom
+protonvpn:
+  author: Proton AG
+  categories:
+  - Network
+  description: "NOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by Proton\n            AG.\n\n            Proton VPN is the world's only free\
+    \ VPN app that is safe to use and respects\n            your privacy. Proton VPN\
+    \ is created by the CERN scientists behind Proton Mail\n            - the world's\
+    \ largest encrypted email service. Our fast VPN offers secure,\n            private\
+    \ and encrypted internet access with advanced security features. Proton\n    \
+    \        VPN also unblocks access to popular websites and streaming platforms.\n\
+    \n            Used by millions worldwide, Proton\u2019s secure no-logs VPN offers\
+    \ 24/7 safe and\n            private internet access, and does not record your\
+    \ browsing history, display\n            ads, sell your data to third parties,\
+    \ or limit downloads.\n\nFree VPN features available to all users\n- Unlimited\
+    \ data with no bandwidth or speed restrictions\n- Strict no logs policy\n- Bypass\
+    \ geo restrictions: smart protocol selection automatically overcomes VPN bans\
+    \ and unblocks censored sites and content\n- Full disk encrypted servers protect\
+    \ your data\n- Perfect forward secrecy: encrypted traffic cannot be captured and\
+    \ decrypted later\n- DNS leak protection: we encrypt DNS queries to ensure that\
+    \ your browsing activity cannot be exposed through DNS leaks\n- Always-on VPN/\
+    \ kill switch offers protection against leaks caused by accidental disconnections\n\
+    \nPremium VPN features\n- Access 2900+ high speed servers across 65+ countries\
+    \ worldwide\n- Fast VPN: high speed servers with connections up to 10 Gbps\n-\
+    \ VPN Accelerator: unique technology increases Proton VPN's speeds by up to 400%\
+    \ to give a faster browsing experience\n\n- Unblock access to blocked or censored\
+    \ content\n- Connect up to 10 devices to the VPN at the same time\n-  Ad blocker\
+    \ (NetShield): a DNS filtering feature that protects you from malware, blocks\
+    \ ads, and prevents website trackers from following you the web\n- Stream films,\
+    \ sports events, and videos on any streaming service (Netflix, Hulu, Amazon Prime\
+    \ Video, Disney+, BBC iplayer etc)\n- File-sharing and P2P support\n- Secure Core\
+    \ servers protect against network-based attacks with multi-hop VPN\n- Tor over\
+    \ VPN provides automatic integration with the Tor anonymity network\n- Split tunneling\
+    \ support allows you to select which apps go through the VPN tunnel\n\nWhy choose\
+    \ Proton VPN?\n- No-logs VPN: We do not keep any logs that can identify what you\
+    \ do online\n- DNS and IPv6 leak protection: Our Linux app will never accidentally\
+    \ expose your real IP address\n- Easy-to-use interface: The new Proton VPN Linux\
+    \ app has an intuitive graphical user interface that lets you quickly activate\
+    \ features and connect to servers\n-  P2P support: Share and download files using\
+    \ BitTorrent and other P2P protocols\n- VPN Accelerator: Free and available to\
+    \ everyone who uses Proton VPN, our unique VPN Accelerator technology can improve\
+    \ speeds by over 400%\n- Strong encryption: Our Linux app uses the OpenVPN protocol\
+    \ at its strongest encryption settings\n- Based in Switzerland: Switzerland has\
+    \ some of the world's strongest data privacy laws\n- Secure streaming: Unblock\
+    \ popular streaming services and watch your favorite shows\n\nJoin the privacy\
+    \ revolution\n\n            Your support is important as it allows us to continue\
+    \ our mission to bring\n            online freedom to people around the globe.\
+    \ Get our private VPN free today and\n            enjoy fast VPN connections and\
+    \ a secure internet, from anywhere.\n\nRequired dependencies\n- NetworkManager-openvpn\n\
+    - KWallet or GNOME Keyring\n- systemd"
+  homepage: https://protonvpn.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/protonvpn.png
+  license: GPL-3.0
+  mobile: 1
+  name: Proton VPN
+  pricing: 4
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/protonvpn-0.png
+  src_pkg_name: app/com.protonvpn.www/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Trusted and easy-to-use VPN app for Linux
+thunderbird:
+  author: Mozilla
+  categories:
+  - Calendar
+  - Chat
+  - ContactManagement
+  - Email
+  - Feed
+  - IRCClient
+  - InstantMessaging
+  - Network
+  - News
+  - Office
+  description: "Thunderbird is a free and open source email, newsfeed, chat, and calendaring\
+    \ client, that\u2019s easy to set up and customize. One of the core principles\
+    \ of Thunderbird is the use and promotion of open standards - this focus is a\
+    \ rejection of our world of closed platforms and services that can\u2019t communicate\
+    \ with each other. We want our users to have freedom and choice in how they communicate.\n\
+    \nThunderbird is an open source project, which means anyone can contribute ideas,\
+    \ designs, code, and time helping fellow users."
+  donate_url: https://give.thunderbird.net/
+  homepage: https://www.thunderbird.net/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/thunderbird.png
+  keywords:
+  - calendar
+  - email
+  - mail
+  - mozilla
+  license: MPL-2.0
+  mimetypes:
+  - message/rfc822
+  - text/calendar
+  - text/vcard
+  - text/x-vcard
+  - x-scheme-handler/mailto
+  - x-scheme-handler/mid
+  - x-scheme-handler/webcal
+  - x-scheme-handler/webcals
+  mobile: 1
+  name: Thunderbird
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/thunderbird-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/thunderbird-1.png
+  src_pkg_name: app/org.mozilla.Thunderbird/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Uses some colors from gtk3 theme
+  summary: Thunderbird is a free and open source email, newsfeed, chat, and calendaring
+    client
+mediawriter:
+  author: Jan Grulich
+  categories:
+  - System
+  description: 'A tool to create a bootable live USB drive with an edition of Fedora.
+    Not only can Fedora Media Writer write an image to your flash drive, it can also
+    download it for you. It offers official editions (Server, Workstation), Fedora
+    spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and Fedora Labs
+    (Design Suite, Security Lab,...). It provides basic information about each of
+    them to help you make the right choice.
+
+
+    Fedora Media Writer can also write other bootable ISOs loaded from your local
+    disk, but keep in mind that it''s only tested with Fedora images.'
+  homepage: https://github.com/FedoraQt/MediaWriter
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/mediawriter.png
+  keywords:
+  - iso
+  - fedora
+  - usb
+  - writer
+  - live
+  - spin
+  - creator
+  - media
+  license: GPL-2.0+
+  mobile: 1
+  name: Fedora Media Writer
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mediawriter-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mediawriter-1.png
+  src_pkg_name: app/org.fedoraproject.MediaWriter/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt, Follows theme after reboot.
+  summary: A tool to create a live USB drive with an edition of Fedora
+signal:
+  author: Signal Foundation
+  categories:
+  - Network
+  - InstantMessaging
+  - Chat
+  description: "To use the Signal desktop app, Signal must first be installed on your\
+    \ phone.\n\n      Millions of people use Signal every day for free and instantaneous\
+    \ communication \n      anywhere in the world. Send and receive high-fidelity\
+    \ messages, participate in \n      HD voice/video calls, and explore a growing\
+    \ set of new features that help you \n      stay connected. Signal\u2019s advanced\
+    \ privacy-preserving technology is always enabled, \n      so you can focus on\
+    \ sharing the moments that matter with the people who matter to you. \n\n    \
+    \  Signal is an independent 501c3 nonprofit. The complete source code for \n \
+    \     the Signal clients and the Signal server is available on GitHub.\n\n   \
+    \   This flatpak is maintained by the Flathub community, and is not necessarily\
+    \ \n      endorsed or officially maintained by the upstream developers."
+  donate_url: https://signal.org/donate/
+  homepage: https://signal.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/signal.png
+  license: AGPL-3.0-only
+  mimetypes:
+  - x-scheme-handler/sgnl
+  - x-scheme-handler/signalcaptcha
+  mobile: 1
+  name: Signal Desktop
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/signal-0.png
+  src_pkg_name: app/org.signal.Signal/x86_64/stable
+  still_rating: 0
+  still_rating_notes: No notes have been provided.
+  summary: Private messenger
+missioncenter:
+  author: Mission Center Developers
+  categories:
+  - System
+  - Monitor
+  description: "Monitor your CPU, Memory, Disk, Network and GPU usage\n\nFeatures:\n\
+    - Monitor overall or per-thread CPU usage\n- See system process, thread, and handle\
+    \ count, uptime, clock speed (base and current), cache sizes\n- Monitor RAM and\
+    \ Swap usage\n- See a breakdown how the memory is being used by the system\n-\
+    \ Monitor Disk utilization and transfer rates\n- Monitor network utilization and\
+    \ transfer speeds\n- See network interface information such as network card name,\
+    \ connection type (Wi-Fi or Ethernet),\n                wireless speeds and frequency,\
+    \ hardware address, IP address\n\n- Monitor overall GPU usage, video encoder and\
+    \ decoder usage, memory usage and power consumption, powered\n               \
+    \ by the popular NVTOP project\n\n- See a breakdown of resource usage by app and\
+    \ process\n- Supports a minified summary view for simple monitoring\n- Use hardware\
+    \ accelerated rendering for all the graphs in an effort to reduce CPU and overall\
+    \ resource usage\n- Uses GTK4 and Libadwaita\n- Written in Rust\n\nLimitations\
+    \ (there is ongoing work to overcome all of these):\n- No per-process network\
+    \ usage\n- GPU support is experimental\n- Intel GPU monitoring is only supported\
+    \ for Broadwell and later GPUs; and does not support VRAM, power, or temperature\
+    \ monitoring\n- When using Linux Mint/Cinnamon, launched applications may not\
+    \ show up in the \"Applications\" section (Upstream issue: https://github.com/linuxmint/cinnamon/issues/12015)\n\
+    \nComments, suggestions, bug reports and contributions welcome"
+  homepage: https://missioncenter.io
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/missioncenter.png
+  keywords:
+  - Task manager
+  - Resource monitor
+  - System monitor
+  - Processor
+  - Processes
+  - Performance monitor
+  - CPU
+  - GPU
+  - Disc
+  - Disk
+  - Memory
+  - Network
+  - Utilisation
+  - Utilization
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Mission Center
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-7.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-8.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-9.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-10.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-11.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-12.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-13.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-14.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-15.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-16.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-17.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/missioncenter-18.png
+  src_pkg_name: app/io.missioncenter.MissionCenter/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Monitor system resource usage
+videodownloader:
+  author: Unrud
+  categories:
+  - Network
+  description: "Download videos from websites with an easy-to-use interface.\n   \
+    \   Provides the following features:\n\n- Convert videos to MP3\n- Supports password-protected\
+    \ and private videos\n- Download single videos or whole playlists\n- Automatically\
+    \ selects a video format based on your quality demands\n\n      Based on yt-dlp."
+  homepage: https://github.com/Unrud/video-downloader
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/videodownloader.png
+  keywords:
+  - YouTube
+  - Download
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Video Downloader
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/videodownloader-0.webp
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/videodownloader-1.webp
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/videodownloader-2.webp
+  src_pkg_name: app/com.github.unrud.VideoDownloader/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Download web videos
+opera:
+  author: Opera
+  categories:
+  - Network
+  - WebBrowser
+  - InstantMessaging
+  - Chat
+  - Feed
+  description: "Faster, safer and smarter than default browsers. Opera Browser is\
+    \ fully-featured for privacy, security, and everything you do online.\n\n    \
+    \  Opera's free VPN, Ad blocker, and Flow file sharing. Just a few of the must-have\
+    \ features built into Opera for faster, smoother and distraction-free browsing\
+    \ designed to improve your online experience.\n\n      Experience faster, distraction-free\
+    \ browsing with Ad blocking, and browse privately. Smoothly sync your data and\
+    \ send files between Opera on Mac, Windows, Linux, iOS, Android, and Chromebook.\n\
+    \n      NOTE: This package is not verified by, affiliated with, or supported by\
+    \ Opera."
+  homepage: https://www.opera.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/opera.png
+  keywords:
+  - web browser
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  - x-scheme-handler/ipfs
+  - x-scheme-handler/ipns
+  - application/x-opera-download
+  mobile: 1
+  name: Opera
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/opera-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/opera-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/opera-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/opera-3.png
+  src_pkg_name: app/com.opera.Opera/x86_64/stable
+  still_rating: 1
+  still_rating_notes: 'Opera Software has done some very shady things.
+
+
+    Opera Software has been accused of operating several predatory loan apps with
+    ultra-high interest rates. These apps were targetted at developing countries.
+
+
+    Opera''s Free VPN is actually a proxy service which is mismarketed as VPN.
+
+
+    Learn More:
+
+    https://www.spacebar.news/stop-using-opera-browser
+
+    '
+  summary: Your personal browser

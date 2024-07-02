@@ -293,7 +293,7 @@ class Application(Adw.Application):
 
         GLib.idle_add(lambda: self.add_button.set_label("Adding to yaml"))
         yaml_container = {sadb_id: app_yml}
-        with open(os.path.join(ARTIFACTS_DIR, "apps.yaml"), "a") as f:
+        with open(os.path.join(ARTIFACTS_DIR, "repo.yaml"), "a") as f:
             yaml.dump(yaml_container, f)
         GLib.idle_add(lambda: self.clear())
 
