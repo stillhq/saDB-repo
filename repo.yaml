@@ -2238,3 +2238,984 @@ opera:
 
     '
   summary: Your personal browser
+kdenlive:
+  author: KDE
+  categories:
+  - AudioVideo
+  - AudioVideoEditing
+  description: 'Kdenlive is a video editing application with support for many audio
+    and video formats. It offers advanced editing features, a variety of effects and
+    transitions, color correction, audio post-production and subtitling tools. Additionally,
+    it provides the flexibility to render into practically any format of your choice.
+
+
+    Features:
+
+    - Nested Sequences
+
+    - Configurable interface and shortcuts
+
+    - Scopes: Histogram, Vectorscope, RGB Parade, Waveform and Audio Meter
+
+    - Proxy editing
+
+    - Free online assets and templates
+
+    - Motion tracking
+
+    - AI powered tools'
+  donate_url: https://www.kde.org/community/donations/?app=kdenlive&source=stillos
+  homepage: https://kdenlive.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/kdenlive.png
+  keywords:
+  - editing
+  - video
+  - audio
+  - mlt
+  - kde
+  license: GPL-3.0-only
+  mimetypes:
+  - application/x-kdenlive
+  mobile: 1
+  name: Kdenlive
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kdenlive-5.png
+  src_pkg_name: app/org.kde.kdenlive/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded qt-theme
+  summary: Video editor
+torbrowser-launcher:
+  author: Tor Project
+  categories:
+  - Network
+  - WebBrowser
+  description: 'Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB)
+    easier to maintain and use for GNU/Linux users. It downloads the same TBB from
+    torproject.org that everyone else uses, and it doesn''t alter it in any way. But
+    it does make it much more usable, and it makes the task of keeping it up-to-date
+    more secure.
+
+
+    You install torbrowser-launcher from your distribution''s package manager and
+    it handles everything else, including:
+
+    - Downloading the most recent version of TBB for you, in your language and for
+    your architecture
+
+    - Automatically updating (while preserving your bookmarks and preferences)
+
+    - Verifying the TBB''s GnuPG signature
+
+    - Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some
+    distros)
+
+    - Adding a Tor Browser application launcher to your desktop environment''s menu
+
+    - Lets you set Tor Browser as your default browser
+
+    - Optionally playing a modem sound when you open Tor Browser (because Tor is so
+    slow)'
+  homepage: https://gitlab.torproject.org/tpo/applications/torbrowser-launcher
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/torbrowser-launcher.png
+  license: MIT
+  mobile: 1
+  name: Tor Browser Launcher
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/torbrowser-launcher-0.png
+  src_pkg_name: app/org.torproject.torbrowser-launcher/x86_64/stable
+  still_rating: 3
+  still_rating_notes: No notes have been provided.
+  summary: A program to help you download, keep updated, and run the Tor Browser Bundle
+blender:
+  author: Blender Foundation
+  categories:
+  - Graphics
+  - 3DGraphics
+  description: "Blender is the free and open source 3D creation suite. It supports\n\
+    \            the entirety of the 3D pipeline \u2014 modeling, rigging, animation,\n\
+    \            simulation, rendering, compositing, motion tracking, and video\n\
+    \            editing.\n\n            Blender is a public project, made by hundreds\
+    \ of people from around the\n            world; by studios and individual artists,\
+    \ professionals and hobbyists,\n            scientists, students, VFX experts,\
+    \ animators, game artists, modders, and\n            the list goes on."
+  donate_url: https://www.blender.org/foundation/donation-payment/
+  homepage: https://www.blender.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/blender.png
+  keywords:
+  - 3d
+  - cg
+  - modeling
+  - animation
+  - painting
+  - sculpting
+  - texturing
+  - video editing
+  - video tracking
+  - rendering
+  - render engine
+  - cycles
+  - game engine
+  - python
+  license: GPL-3.0
+  mimetypes:
+  - application/x-blender
+  mobile: 1
+  name: Blender
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/blender-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/blender-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/blender-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/blender-3.png
+  src_pkg_name: app/org.blender.Blender/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded theme
+  summary: Free and open source 3D creation suite
+anydesk:
+  author: AnyDesk Software GmbH
+  categories:
+  - Network
+  description: 'AnyDesk ensures secure and reliable remote desktop connections for
+    IT professionals and on-the-go individuals alike.
+
+
+    NOTE: This wrapper is not verified by, affiliated with, or supported by AnyDesk.'
+  homepage: https://www.anydesk.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/anydesk.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/anydesk
+  mobile: 1
+  name: AnyDesk
+  pricing: 4
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/anydesk-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/anydesk-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/anydesk-2.png
+  src_pkg_name: app/com.anydesk.Anydesk/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non-system theme
+  summary: Connect to a computer remotely
+pcsx2:
+  author: PCSX2
+  categories:
+  - Game
+  - Emulator
+  description: 'PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its
+    purpose is to emulate the PS2''s hardware, using a combination of MIPS CPU Interpreters,
+    Recompilers and a Virtual Machine which manages hardware states and PS2 system
+    memory. This allows you to play PS2 games on your PC, with many additional features
+    and benefits.
+
+
+    PlayStation 2 and PS2 are registered trademarks of Sony Interactive Entertainment.
+    This application is not affiliated in any way with Sony Interactive Entertainment.'
+  donate_url: https://github.com/sponsors/PCSX2
+  homepage: https://pcsx2.net/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pcsx2.png
+  keywords:
+  - game
+  - emulator
+  license: GPL-3.0
+  mobile: 1
+  name: PCSX2
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pcsx2-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pcsx2-1.png
+  src_pkg_name: app/net.pcsx2.PCSX2/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \    Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \    or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n    for complying with all applicable laws when using emulators."
+  summary: PlayStation 2 Emulator
+ryujinx:
+  author: Ryujinx team
+  categories:
+  - Emulator
+  - Game
+  description: 'Ryujinx is an open-source Nintendo Switch emulator written in C#
+
+    This emulator aims at providing excellent accuracy and performance, a user-friendly
+    interface, and consistent builds.'
+  donate_url: https://www.patreon.com/ryujinx
+  homepage: https://ryujinx.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/ryujinx.png
+  keywords:
+  - Switch
+  - Nintendo
+  - Emulator
+  license: MIT
+  mimetypes:
+  - application/x-nx-nca
+  - application/x-nx-nro
+  - application/x-nx-nso
+  - application/x-nx-nsp
+  - application/x-nx-xci
+  mobile: 1
+  name: Ryujinx
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ryujinx-0.png
+  src_pkg_name: app/org.ryujinx.Ryujinx/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Emulators allow running software designed for other systems.
+    Use emulators responsibly and only to play games you legally own. Downloading
+    or distributing copyrighted ROMs without permission is illegal. Users are responsible
+    for complying with all applicable laws when using emulators.
+  summary: A Nintendo Switch Emulator
+vesktop:
+  author: Vencord Contributors
+  categories:
+  - InstantMessaging
+  description: 'Vesktop is a cross platform desktop app aiming to give you a snappier
+    Discord experience with Vencord pre-installed.
+
+
+    Vesktop comes bundled with Venmic, a purpose-built library to provide functioning
+    audio screenshare.'
+  donate_url: https://github.com/sponsors/Vendicated
+  homepage: https://vencord.dev/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vesktop.png
+  keywords:
+  - Discord
+  - Vencord
+  - Vesktop
+  - Privacy
+  - Mod
+  license: GPL-3.0
+  mobile: 1
+  name: Vesktop
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vesktop-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vesktop-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vesktop-2.png
+  src_pkg_name: app/dev.vencord.Vesktop/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Using third party clients is against Discord's terms of service.
+    Use at your own risk.
+  summary: Snappier Discord app with Vencord
+freetube:
+  author: Preston
+  categories:
+  - AudioVideo
+  - Video
+  description: "FreeTube is an open source desktop YouTube player built with privacy\
+    \ in\n    mind. Use YouTube without advertisements and prevent Google from tracking\n\
+    \    you with their cookies and JavaScript. Available for Windows, Mac &\n   \
+    \ Linux thanks to Electron.\n\nPlease note that FreeTube is currently in Beta.\
+    \ While it should work well\n    for most users, there are still bugs and missing\
+    \ features that need to be\n    addressed."
+  donate_url: https://liberapay.com/FreeTube
+  homepage: https://freetubeapp.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/freetube.png
+  license: AGPL-3.0+
+  mimetypes:
+  - x-scheme-handler/freetube
+  mobile: 1
+  name: FreeTube
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freetube-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freetube-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freetube-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freetube-3.png
+  src_pkg_name: app/io.freetubeapp.FreeTube/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: An Open Source YouTube app for privacy
+peazip:
+  author: peazip_software
+  categories:
+  - Utility
+  - Archiving
+  - Compression
+  description: "PeaZip is free file archiver utility, based on Open Source technologies\
+    \ of \n      7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects.\n\
+    \n      Cross-platform, full-featured but user-friendly alternative to WinRar,\
+    \ WinZip \n      and similar general purpose archive manager applications, open\
+    \ and extract \n      200+ archive formats: 001, 7Z, ACE, ARC, ARJ, BR, BZ2, CAB,\
+    \ DMG, GZ, ISO, LHA, \n      PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP, ZIPX, ZST\
+    \ - view full list of supported \n      archive file formats for archiving and\
+    \ for extraction."
+  donate_url: https://peazip.github.io/donations.html
+  homepage: https://peazip.github.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/peazip.png
+  keywords:
+  - zip
+  - rar
+  - tar
+  - compress
+  - extract
+  - unpack
+  license: LGPL-3.0-only
+  mimetypes:
+  - application/bzip2
+  - application/gzip
+  - application/vnd.android.package-archive
+  - application/vnd.ms-cab-compressed
+  - application/vnd.debian.binary-package
+  - application/x-7z-compressed
+  - application/x-7z-compressed-tar
+  - application/x-ace
+  - application/x-alz
+  - application/x-ar
+  - application/x-archive
+  - application/x-arj
+  - application/x-brotli
+  - application/x-bzip-brotli-tar
+  - application/x-bzip
+  - application/x-bzip-compressed-tar
+  - application/x-bzip1
+  - application/x-bzip1-compressed-tar
+  - application/x-cabinet
+  - application/x-cd-image
+  - application/x-compress
+  - application/x-compressed-tar
+  - application/x-cpio
+  - application/x-chrome-extension
+  - application/x-deb
+  - application/x-ear
+  - application/x-ms-dos-executable
+  - application/x-gtar
+  - application/x-gzip
+  - application/x-gzpostscript
+  - application/x-java-archive
+  - application/x-lha
+  - application/x-lhz
+  - application/x-lrzip
+  - application/x-lrzip-compressed-tar
+  - application/x-lz4
+  - application/x-lzip
+  - application/x-lzip-compressed-tar
+  - application/x-lzma
+  - application/x-lzma-compressed-tar
+  - application/x-lzop
+  - application/x-lz4-compressed-tar
+  - application/x-ms-wim
+  - application/x-rar
+  - application/x-rar-compressed
+  - application/x-rpm
+  - application/x-source-rpm
+  - application/x-rzip
+  - application/x-rzip-compressed-tar
+  - application/x-tar
+  - application/x-tarz
+  - application/x-tzo
+  - application/x-stuffit
+  - application/x-war
+  - application/x-xar
+  - application/x-xz
+  - application/x-xz-compressed-tar
+  - application/x-zip
+  - application/x-zip-compressed
+  - application/x-zstd-compressed-tar
+  - application/x-zoo
+  - application/zip
+  - application/zstd
+  mobile: 1
+  name: PeaZip
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/peazip-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/peazip-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/peazip-2.png
+  src_pkg_name: app/io.github.peazip.PeaZip/x86_64/stable
+  still_rating: 3
+  still_rating_notes: hard coded theme, follows light and dark modes.
+  summary: Free file archiver utility, open, extract RAR TAR ZIP archives
+ungoogledchromium:
+  author: Ungoogled Software
+  categories:
+  - Network
+  - WebBrowser
+  - WebDevelopment
+  - Viewer
+  description: "Ungoogled Chromium is Google Chromium, sans dependency on Google web\
+    \ services. It also\n      features some tweaks to enhance privacy, control, and\
+    \ transparency (almost all of which\n      require manual activation or enabling).\n\
+    \nUngoogled Chromium retains the default Chromium experience as closely as possible.\
+    \ Unlike\n      other Chromium forks that have their own visions of a web browser,\
+    \ Ungoogled Chromium is\n      essentially a drop-in replacement for Chromium.\n\
+    \nWithout signing in to a Google Account, Chromium does pretty well in terms of\
+    \ security and\n      privacy. However, Chromium still has some dependency on\
+    \ Google web services and binaries. In\n      addition, Google designed Chromium\
+    \ to be easy and intuitive for users, which means they\n      compromise on transparency\
+    \ and control of inner operations.\n\nUngoogled Chromium addresses these issues\
+    \ in the following ways:\n- Remove all remaining background requests to any web\
+    \ services while building and running\n        the browser\n- Remove all code\
+    \ specific to Google web services\n- Remove all uses of pre-made binaries from\
+    \ the source code, and replace them with\n        user-provided alternatives when\
+    \ possible\n- Disable features that inhibit control and transparency, and add\
+    \ or modify features that\n        promote them (these changes will almost always\
+    \ require manual activation or enabling)\n\nThese features are implemented as\
+    \ configuration flags, patches, and custom scripts."
+  homepage: https://github.com/ungoogled-software/ungoogled-chromium
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/ungoogledchromium.png
+  keywords:
+  - web browser
+  - chromium
+  - ungoogled
+  - privacy
+  - security
+  - transparency
+  - control
+  license: BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+
+    and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  mobile: 1
+  name: Ungoogled Chromium
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ungoogledchromium-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ungoogledchromium-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ungoogledchromium-2.png
+  src_pkg_name: app/io.github.ungoogled_software.ungoogled_chromium/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Ultra-slim title bars for web apps
+  summary: Chromium without Google
+inkscape:
+  author: The Inkscape Community
+  categories:
+  - Graphics
+  description: "A Free and open source vector graphics editor. It offers a rich set\
+    \ of features and is widely used for both artistic and technical illustrations\
+    \ such as cartoons, clip art, logos, typography, diagramming and flowcharting.\n\
+    \n      It uses vector graphics to allow for sharp printouts and renderings at\
+    \ unlimited resolution and is not bound to a fixed number of pixels like raster\
+    \ graphics. Inkscape uses the standardized SVG file format as its main format,\
+    \ which is supported by many other applications including web browsers.\n\n  \
+    \    Inkscape supports many advanced SVG features (markers, clones, alpha blending,\n\
+    \      etc.) and great care is taken in designing a streamlined interface.\n \
+    \     It is very easy to edit nodes, perform complex path operations, trace\n\
+    \      bitmaps and much more.\n      We also aim to maintain a thriving user and\
+    \ developer community by using\n      open, community-oriented development."
+  donate_url: https://inkscape.org/support-us/donate
+  homepage: https://inkscape.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/inkscape.png
+  keywords:
+  - image
+  - editor
+  - vector
+  - drawing
+  license: GPL-2.0-or-later
+  mimetypes:
+  - image/svg+xml
+  - image/svg+xml-compressed
+  - application/vnd.corel-draw
+  - application/pdf
+  - application/postscript
+  - image/x-eps
+  - application/illustrator
+  - image/x-wmf
+  - image/x-emf
+  - application/x-xccx
+  - application/x-xcdt
+  - application/x-xcmx
+  - image/x-xcdr
+  - application/visio
+  - application/x-visio
+  - application/vnd.visio
+  - application/vnd.ms-visio.viewer
+  - application/visio.drawing
+  - application/vsd
+  - application/x-vsd
+  - image/x-vsd
+  mobile: 1
+  name: Inkscape
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/inkscape-0.png
+  src_pkg_name: app/org.inkscape.Inkscape/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Gtk3, integrates well.
+  summary: Vector Graphics Editor
+ismaelmartinez:
+  author: Ismael Martinez
+  categories:
+  - Chat
+  - Network
+  - Office
+  description: 'Unofficial Microsoft Teams client for Linux using Electron.
+
+
+    It uses the Web App and wraps it as a standalone application using Electron.'
+  homepage: https://github.com/IsmaelMartinez/teams-for-linux
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/ismaelmartinez.png
+  license: GPL-3.0
+  mimetypes:
+  - x-scheme-handler/msteams
+  mobile: 1
+  name: Portal for Teams
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ismaelmartinez-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ismaelmartinez-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ismaelmartinez-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ismaelmartinez-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/ismaelmartinez-4.png
+  src_pkg_name: app/com.github.IsmaelMartinez.teams_for_linux/x86_64/stable
+  still_rating: 1
+  still_rating_notes: This is an unofficial client not supported by Microsoft
+  summary: Unofficial Microsoft Teams client for Linux
+moonlight:
+  author: Moonlight Game Streaming Team
+  categories:
+  - Game
+  - Qt
+  description: 'Moonlight can stream games and other applications from another PC
+    with Sunshine or GeForce Experience software installed.
+
+
+    Features include:
+
+    - Hardware accelerated video decoding with VAAPI, VDPAU, and NVDEC support
+
+    - H.264, HEVC, and AV1 codec support
+
+    - 7.1 surround sound audio support
+
+    - 10-point multitouch support
+
+    - Gamepad support with force feedback for up to 16 players
+
+    - Support for both pointer capture (for games) and direct mouse control (for remote
+    desktop)
+
+    - Support for passing system-wide keyboard shortcuts like Alt+Tab to the host'
+  homepage: https://moonlight-stream.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/moonlight.png
+  keywords:
+  - nvidia
+  - gamestream
+  - stream
+  - sunshine
+  - remote play
+  license: GPL-3.0+
+  mobile: 1
+  name: Moonlight
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/moonlight-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/moonlight-1.png
+  src_pkg_name: app/com.moonlight_stream.Moonlight/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non-system theme
+  summary: Stream games and other applications from another PC running Sunshine or
+    GeForce Experience
+keepassxc:
+  author: KeePassXC Team
+  categories:
+  - Utility
+  - Security
+  description: "KeePassXC is an application for people with extremely high demands\
+    \ on secure\n            personal data management. It has a light interface, is\
+    \ cross-platform and\n            published under the terms of the GNU General\
+    \ Public License."
+  homepage: https://keepassxc.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/keepassxc.png
+  keywords:
+  - security
+  - privacy
+  - password-manager
+  - yubikey
+  - password
+  - keepass
+  license: GPL-3.0+
+  mimetypes:
+  - application/x-keepass2
+  mobile: 1
+  name: KeePassXC
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/keepassxc-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/keepassxc-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/keepassxc-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/keepassxc-3.png
+  src_pkg_name: app/org.keepassxc.KeePassXC/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme, switches between light/dark in a buggy way
+    without restarting the app.
+  summary: "Community-driven port of the Windows application \u201CKeePass Password\
+    \ Safe\u201D"
+stremio:
+  author: Stremio
+  categories:
+  - AudioVideo
+  - Video
+  - Player
+  - TV
+  description: Stremio offers a secure, modern and seamless entertainment experience.
+    With its easy-to-use interface and diverse content library, including 4K HDR support,
+    users can enjoy their favorite movies and TV shows across all their devices. And
+    with its commitment to security, Stremio is the ultimate choice for a worry-free,
+    high-quality streaming experience.
+  homepage: https://www.stremio.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/stremio.png
+  license: GPL-3.0+
+  mimetypes:
+  - application/x-bittorrent
+  - x-scheme-handler/magnet
+  - x-scheme-handler/stremio
+  - video/avi
+  - video/msvideo
+  - video/x-msvideo
+  - video/mp4
+  - video/x-matroska
+  mobile: 1
+  name: Stremio
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/stremio-0.png
+  src_pkg_name: app/com.stremio.Stremio/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded theme
+  summary: Freedom to Stream
+vivaldi:
+  author: Vivaldi Technologies
+  categories:
+  - Network
+  - WebBrowser
+  - Email
+  - Feed
+  - Office
+  - Calendar
+  - ContactManagement
+  - Viewer
+  description: "The web browser for techies and people who need a browser that helps\
+    \ them get things done.\n      The user interface is fully customizable, including\
+    \ keyboard shortcuts, mouse gestures, and programmable macros.\n\n- Seize back\
+    \ control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n\
+    - Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar,\
+    \ Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n\
+    - Jot down ideas and inspiration with the integrated Notes manager.\n- End-to-end\
+    \ encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi\
+    \ for desktop, iOS, and Android.\n- Efficient built-in Tracker and Ad Blocker.\n\
+    - Compatible with most browser extensions from the Google Chrome Web Store.\n\n\
+    \      NOTE: This package is maintained by but not yet officially endorsed or\
+    \ supported by Vivaldi Technologies."
+  homepage: https://vivaldi.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vivaldi.png
+  keywords:
+  - web browser
+  - mail client
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/pdf
+  - application/rdf+xml
+  - application/rss+xml
+  - application/xhtml+xml
+  - application/xhtml_xml
+  - application/xml
+  - image/gif
+  - image/jpeg
+  - image/png
+  - image/webp
+  - text/html
+  - text/xml
+  - x-scheme-handler/ftp
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  - x-scheme-handler/mailto
+  mobile: 1
+  name: Vivaldi
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-7.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-8.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/vivaldi-9.png
+  src_pkg_name: app/com.vivaldi.Vivaldi/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded non-system theme
+  summary: Feature-packed web browser
+minecraft:
+  author: Mojang AB
+  categories:
+  - Game
+  description: 'Join people all over the world playing Minecraft, one of the most
+    popular videogames around! Your own imagination is the limit in this fun game
+    where you get to build the world around you. Play with friends, or alone, as you
+    adventure, gather, build, and battle in an incredible land of your very own. For
+    the best experience, we recommend you create an account and purchase online at
+    minecraft.net/en-us/store before installing this app. ** Requires internet.
+
+
+    NOTE: This wrapper is not verified by, affiliated with, or supported by Mojang
+    or Microsoft.'
+  homepage: https://minecraft.net
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/minecraft.png
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: Minecraft
+  pricing: 5
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/minecraft-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/minecraft-1.png
+  src_pkg_name: app/com.mojang.Minecraft/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: Create your own world in one of the most popular video games
+audacity:
+  author: Muse Group
+  categories:
+  - AudioVideo
+  - Audio
+  description: 'Audacity is the world''s most popular audio editing and recording
+    app.
+
+
+    You can use Audacity to:
+
+    - Record live audio
+
+    - Convert tapes and records into digital recordings or CDs
+
+    - Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files
+
+    - Cut, copy, splice or mix sounds together
+
+    - Change the speed or pitch of a recording
+
+    - Apply a wide range of other effects to audio recordings
+
+    - and much more!'
+  homepage: https://www.audacityteam.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/audacity.png
+  keywords:
+  - sound
+  - music editing
+  - voice channel
+  - frequency
+  - modulation
+  - audio trim
+  - clipping
+  - noise reduction
+  - multi track audio editor
+  - edit
+  - mixing
+  - WAV
+  - AIFF
+  - FLAC
+  - MP2
+  - MP3
+  license: GPL-3.0-only
+  mimetypes:
+  - application/x-audacity-project
+  - application/x-audacity-project+sqlite3
+  - audio/basic
+  - audio/x-aiff
+  - audio/x-wav
+  - audio/aac
+  - audio/ac3
+  - audio/mp4
+  - audio/x-ms-wma
+  - video/mpeg
+  - audio/flac
+  - audio/x-flac
+  - audio/mpeg
+  - application/ogg
+  - audio/x-vorbis+ogg
+  mobile: 1
+  name: Audacity
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/audacity-0.png
+  src_pkg_name: app/org.audacityteam.Audacity/x86_64/stable
+  still_rating: 2
+  still_rating_notes: WXwidgets, dark themes can be buggy on Audacity.
+  summary: Audacity is the world's most popular audio editing and recording app
+handbrake:
+  author: HandBrake Team
+  categories:
+  - AudioVideo
+  - Video
+  description: 'HandBrake is a tool for converting video from nearly any format to
+    a selection of modern, widely supported codecs.
+
+
+    Reasons you''ll love Handbrake:
+
+    - Convert video from nearly any format
+
+    - Free and Open Source
+
+    - Multi-Platform (Windows, Mac and Linux)'
+  homepage: https://handbrake.fr/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/handbrake.png
+  keywords:
+  - Format Converter
+  - Video Encoder
+  license: GPL-2.0
+  mimetypes:
+  - application/ogg
+  - application/x-extension-mp4
+  - application/x-flac
+  - application/x-matroska
+  - application/x-ogg
+  - audio/ac3
+  - audio/mp4
+  - audio/mpeg
+  - audio/ogg
+  - audio/x-flac
+  - audio/x-matroska
+  - audio/x-mp2
+  - audio/x-mp3
+  - audio/x-mpeg
+  - audio/x-vorbis
+  - video/mp4
+  - video/mp4v-es
+  - video/mpeg
+  - video/msvideo
+  - video/quicktime
+  - video/vnd.divx
+  - video/x-avi
+  - video/x-m4v
+  - video/x-matroska
+  - video/x-mpeg
+  - video/x-ms-wmv
+  - video/ogg
+  - video/x-ogm+ogg
+  - video/x-theora+ogg
+  - x-content/video-dvd
+  - x-content/video-vcd
+  - x-content/video-svcd
+  mobile: 1
+  name: HandBrake
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/handbrake-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/handbrake-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/handbrake-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/handbrake-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/handbrake-4.png
+  src_pkg_name: app/fr.handbrake.ghb/x86_64/stable
+  still_rating: 4
+  still_rating_notes: Gtk3, follows light and dark themes
+  summary: Video Transcoder
+mcpelauncher:
+  author: minecraft-linux
+  categories:
+  - Game
+  description: "To use this launcher you have to own Minecraft: Bedrock Edition on\
+    \ google play store, you may be unable to play the latest update of the Game.\
+    \ Otherwise you will get an license error while launching the google play apk.\n\
+    \n            This is an unofficial Linux launcher for the Minecraft Bedrock codebase.\
+    \ This project is not affiliated with Minecraft, Mojang or Microsoft.\n\nNot available\
+    \ Features you may miss\n- Xbox live friend joining - Technically Working on Linux\
+    \ - usually times out or crashs the game in both directions - consider using the\
+    \ offical server software www.minecraft.net/en-us/download/server/bedrock - connect\
+    \ all by ip as external server\n- Xbox live login - a lot of devices seem to get\
+    \ error code \"drowned\" without beeing asked for login - error code \"drowned\"\
+    \ has more meanings like you closed the webview window without sign in - try to\
+    \ change your timezone to a different one"
+  homepage: https://mcpelauncher.readthedocs.io
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/mcpelauncher.png
+  license: GPL-3.0
+  mimetypes:
+  - application/zip
+  mobile: 1
+  name: Minecraft Bedrock Launcher
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mcpelauncher-5.png
+  src_pkg_name: app/io.mrarm.mcpelauncher/x86_64/stable
+  still_rating: 1
+  still_rating_notes: This is unofficial and requires you to own Minecraft on the
+    Google Play Store
+  summary: Download and play Minecraft Bedrock Edition on GNU/Linux
+portproton:
+  author: Mikhail Tergoev
+  categories:
+  - Game
+  description: PortProton is a project designed to make it easy and convenient to
+    run Windows games on Linux for both beginners and advanced users. The project
+    strives to make running games (and other software) as easy as possible, but at
+    the same time provides flexible settings for advanced users.
+  donate_url: https://linux-gaming.ru/t/podderzhat-proekt/123/
+  homepage: https://linux-gaming.ru
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/portproton.png
+  keywords:
+  - wine
+  - proton
+  - steam
+  - windows
+  - games
+  license: MIT
+  mimetypes:
+  - application/x-ms-dos-executable
+  - application/x-msi
+  - application/x-ms-shortcut
+  - application/x-wine-extension-msp
+  mobile: 1
+  name: PortProton
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-7.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/portproton-8.png
+  src_pkg_name: app/ru.linux_gaming.PortProton/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app
+  summary: Software for running Windows games.
