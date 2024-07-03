@@ -2906,8 +2906,8 @@ stremio:
   screenshot_urls:
   - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/stremio-0.png
   src_pkg_name: app/com.stremio.Stremio/x86_64/stable
-  still_rating: 3
-  still_rating_notes: Hardcoded theme
+  still_rating: 4
+  still_rating_notes: No notes were provided.
   summary: Freedom to Stream
 vivaldi:
   author: Vivaldi Technologies
@@ -3219,3 +3219,586 @@ portproton:
   still_rating: 3
   still_rating_notes: Qt app
   summary: Software for running Windows games.
+gearlever:
+  author: Lorenzo Paderi
+  categories:
+  - Utility
+  description: An utility to manage AppImages with ease! Gear lever will organize
+    and manage AppImage files for you, generate desktop entries and app metadata,
+    update apps in-place or keep multiple versions side-by-side.
+  donate_url: https://ko-fi.com/mijorus
+  homepage: https://mijorus.it/projects/gearlever
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gearlever.png
+  keywords:
+  - AppImage
+  license: GPL-3.0-or-later
+  mimetypes:
+  - application/vnd.appimage
+  mobile: 1
+  name: Gear Lever
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gearlever-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gearlever-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gearlever-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gearlever-3.png
+  src_pkg_name: app/it.mijorus.gearlever/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Manage AppImages
+boxes:
+  author: The GNOME Project
+  categories:
+  - System
+  - Development
+  - Emulator
+  description: "Select an operating system and let Boxes download and install it for\
+    \ you\n      in a virtual machine.\n\nFeatures:\n- Download freely available operating\
+    \ systems\n- Automatically install CentOS Stream, Debian, Fedora, Microsoft Windows,\
+    \ OpenSUSE, Red\n      Hat Enterprise Linux, and Ubuntu\n- Create virtual machines\
+    \ from operating system images with a couple of clicks\n- Limit the resources\
+    \ (memory and storage) your virtual machines consume from your system\n- Take\
+    \ snapshots of virtual machines to restore to previous states\n- Redirect USB\
+    \ devices from your physical machine into virtual machines\n- 3D acceleration\
+    \ for some of the supported operating systems\n- Automatically resize virtual\
+    \ machines displays to the window size\n- Share clipboard between your system\
+    \ and virtual machines\n- Share files to virtual machines by dropping them from\
+    \ your file manager into the Boxes window\n- Setup Shared Folders between your\
+    \ system and virtual machines"
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://gnomeboxes.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/boxes.png
+  keywords:
+  - virtual machine
+  - vm
+  license: LGPL-2.1+
+  mimetypes:
+  - application/x-cd-image
+  mobile: 1
+  name: Boxes
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxes-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxes-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxes-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxes-3.png
+  src_pkg_name: app/org.gnome.Boxes/x86_64/stable
+  still_rating: 0
+  still_rating_notes: No notes have been provided.
+  summary: Virtualization made simple
+chiaki4deck:
+  author: Street Pea
+  categories:
+  - Game
+  description: Chiaki4deck is a fork of Chiaki, adding new features and ongoing support
+    as the original project (Chiaki) is in maintenance mode. It is a free and Open
+    Source Client for PlayStation 4 and PlayStation 5 Remote Play. It can be used
+    to play in real time on a PlayStation as long as there is a network connection.
+  donate_url: https://buymeacoffee.com/streetpea
+  homepage: https://streetpea.github.io/chiaki4deck
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/chiaki4deck.png
+  license: AGPL-3.0-only
+  mobile: 1
+  name: Chiaki4deck
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/chiaki4deck-0.png
+  src_pkg_name: app/io.github.streetpea.Chiaki4deck/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme
+  summary: Free and Open Source Client for PlayStation Remote Play modified for Steam
+    Deck
+kodi:
+  author: Team Kodi
+  categories:
+  - AudioVideo
+  - Video
+  - Player
+  - TV
+  description: "Kodi allows users to play and view videos, music, podcasts,\n    \
+    \    and other digital media files from local storage, network storage\n     \
+    \   and the internet. It's optimized for a 10-foot user interface to be\n    \
+    \    used with televisions and remote controls.\n\nKodi spawned from the love\
+    \ of media. It is an entertainment hub\n        that brings all your digital media\
+    \ together into a beautiful\n        and user friendly package. It is 100% free\
+    \ and open source,\n        very customisable and runs on a wide variety of devices.\
+    \ It is\n        supported by a dedicated team of volunteers and a huge community."
+  donate_url: https://kodi.tv/contribute/donate
+  homepage: https://kodi.tv/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/kodi.png
+  keywords:
+  - Kodi
+  - xbmc
+  - audio
+  - video
+  - media
+  - media center
+  - music
+  - tv
+  - television
+  - remote control
+  license: GPL-2.0-only GPL-2.0-or-later LGPL-2.1-or-later MIT BSD-3-Clause BSD-4-Clause
+  mobile: 1
+  name: Kodi
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-7.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/kodi-8.png
+  src_pkg_name: app/tv.kodi.Kodi/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Ultimate entertainment center
+baobab:
+  author: The GNOME Project
+  categories:
+  - System
+  - Filesystem
+  description: "A simple application to keep your disk usage and available space under\
+    \ control.\n\n      Disk Usage Analyzer can scan specific folders, storage devices\
+    \ and online accounts.\n      It provides both a tree and a graphical representation\
+    \ showing the size of each folder,\n      making it easy to identify where disk\
+    \ space is wasted."
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Baobab/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/baobab.png
+  keywords:
+  - storage
+  - space
+  - cleanup
+  license: GPL-2.0+
+  mimetypes:
+  - inode/directory
+  mobile: 1
+  name: Disk Usage Analyzer
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/baobab-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/baobab-1.png
+  src_pkg_name: app/org.gnome.baobab/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Check folder sizes and available disk space
+loupe:
+  author: The GNOME Project
+  categories:
+  - Graphics
+  - Viewer
+  - GTK
+  - GNOME
+  description: 'Browse through your images and inspect their metadata with:
+
+    - Fast GPU accelerated image rendering
+
+    - Tiled rendering for vector graphics
+
+    - Extendable and sandboxed image decoding
+
+    - Accessible presentation of the most important metadata.'
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Loupe/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/loupe.png
+  keywords:
+  - Picture
+  - Graphics
+  - Loupe
+  license: GPL-3.0-or-later
+  mimetypes:
+  - image/jpeg
+  - image/png
+  - image/gif
+  - image/webp
+  - image/tiff
+  - image/x-tga
+  - image/vnd-ms.dds
+  - image/x-dds
+  - image/bmp
+  - image/vnd.microsoft.icon
+  - image/vnd.radiance
+  - image/x-exr
+  - image/x-portable-bitmap
+  - image/x-portable-graymap
+  - image/x-portable-pixmap
+  - image/x-portable-anymap
+  - image/x-qoi
+  - image/svg+xml
+  - image/svg+xml-compressed
+  - image/avif
+  - image/heic
+  - image/jxl
+  mobile: 1
+  name: Image Viewer
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/loupe-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/loupe-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/loupe-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/loupe-3.png
+  src_pkg_name: app/org.gnome.Loupe/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes provided.
+  summary: View imagesokular:
+  author: KDE
+  categories:
+  - Graphics
+  - Office
+  - Viewer
+  description: 'Okular is a universal document viewer developed by KDE. Okular works
+    on multiple platforms, including but not limited to Linux, Windows, Mac OS X,
+    *BSD, etc.
+
+
+    Features:
+
+    - Supported Formats: PDF, PS, Tiff, CHM, DjVu, Images, DVI, XPS, Fiction Book,
+    Comic Book, Plucker, EPub, Fax
+
+    - Sidebar with contents, thumbnails, reviews and bookmarks
+
+    - Annotations support'
+  donate_url: https://www.kde.org/community/donations/?app=okular&source=appdata
+  homepage: https://okular.kde.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/okular.png
+  license: GPL-2.0+ and GFDL-1.3
+  mimetypes:
+  - application/epub+zip
+  - application/oxps
+  - application/pdf
+  - application/postscript
+  - application/prs.plucker
+  - application/vnd.kde.okular-archive
+  - application/vnd.ms-xpsdocument
+  - application/x-bzdvi
+  - application/x-bzpdf
+  - application/x-bzpostscript
+  - application/x-cbr
+  - application/x-cbt
+  - application/x-cbz
+  - application/x-dvi
+  - application/x-fictionbook+xml
+  - application/x-gzdvi
+  - application/x-gzpdf
+  - application/x-gzpostscript
+  - application/x-chm
+  - application/x-mobipocket-ebook
+  - application/x-wwf
+  - image/bmp
+  - image/fax-g3
+  - image/gif
+  - image/g3fax
+  - image/jpeg
+  - image/jp2
+  - image/png
+  - image/tiff
+  - image/vnd.djvu
+  - image/x-bzeps
+  - image/x-dds
+  - image/x-eps
+  - image/x-exr
+  - image/x-gzeps
+  - image/x-hdr
+  - image/x-ico
+  - image/x-pcx
+  - image/x-portable-bitmap
+  - image/x-portable-graymap
+  - image/x-portable-pixmap
+  - image/x-psd
+  - image/x-rgb
+  - image/x-tga
+  - image/x-xbitmap
+  - image/x-xcf
+  - image/x-xpixmap
+  - text/markdown
+  - text/plain
+  - video/x-mng
+  mobile: 1
+  name: Okular
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/okular-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/okular-1.png
+  src_pkg_name: app/org.kde.okular/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt, no theming issues, but light/dark mode doesnt follow system
+    and must be set manually
+  summary: View and annotate documents
+impression:
+  author: Khaleel Al-Adhami
+  categories:
+  - Utility
+  description: Write disk images to your drives with ease. Select an image, insert
+    your drive, and you're good to go! Impression is a useful tool for both avid distro-hoppers
+    and casual computer users.
+  donate_url: https://opencollective.com/impression
+  homepage: https://apps.gnome.org/Impression/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/impression.png
+  keywords:
+  - usb
+  - flash
+  - writer
+  - bootable
+  - drive
+  - iso
+  - img
+  - disk
+  - image
+  license: GPL-3.0
+  mimetypes:
+  - application/x-iso9660-image
+  - application/x-raw-disk-image
+  - application/x-cd-image
+  - application/x-xz
+  mobile: 1
+  name: Impression
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/impression-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/impression-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/impression-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/impression-3.png
+  src_pkg_name: app/io.gitlab.adhami3310.Impression/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes provided
+  summary: Create bootable drives
+remmina:
+  author: Hiroyuki_Tanaka
+  categories:
+  - Network
+  description: "Remmina is a remote-desktop client written in GTK, to\n      use other\
+    \ desktops remotely, from a tiny screen or large monitors.\n\n      Remmina supports\
+    \ multiple network protocols in an integrated and\n      consistent user interface.\
+    \ The protocols currently supported are:\n        X2Go, RDP (Remote Desktop Protocol),\
+    \ VNC (Virtual Network Computing),\n        and SSH (Secure Shell / Open SSH).\n\
+    \n      External plugins are also supported to add new protocols and features."
+  homepage: https://www.remmina.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/remmina.png
+  keywords:
+  - remote desktop
+  - rdp
+  - vnc
+  - ssh
+  - spice
+  license: GPL-2.0+
+  mimetypes:
+  - application/x-remmina
+  mobile: 1
+  name: Remmina
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/remmina-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/remmina-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/remmina-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/remmina-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/remmina-4.png
+  src_pkg_name: app/org.remmina.Remmina/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Remote Desktop Client
+postman:
+  author: Postman Inc.
+  categories:
+  - Development
+  - WebDevelopment
+  description: "Postman is the complete toolchain for API developers, used by 5 million\n\
+    \      developers and more than 100,000 companies worldwide to access 130 million\n\
+    \      APIs every month. Postman makes working with APIs faster and easier by\n\
+    \      supporting developers at every stage of their workflow, and is available\n\
+    \      for macOS, Windows, Linux and Chrome users.\n\n      This wrapper is not\
+    \ verified by, affiliated with, or supported by Postman\n      Inc."
+  homepage: https://www.postman.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/postman.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/postman
+  mobile: 1
+  name: Postman
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/postman-0.png
+  src_pkg_name: app/com.getpostman.Postman/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Election app.
+  summary: Platform for building and using APIs
+flycast:
+  author: Flyinghead
+  categories:
+  - Game
+  - Emulator
+  description: Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator
+    derived from reicast.
+  homepage: https://github.com/flyinghead/flycast#readme
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/flycast.png
+  license: GPL-2.0
+  mobile: 1
+  name: Flycast
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flycast-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flycast-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flycast-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/flycast-3.png
+  src_pkg_name: app/org.flycast.Flycast/x86_64/stable
+  still_rating: 1
+  still_rating_notes: 'Emulators allow running software designed for other systems.
+Use emulators responsibly and only to play games you legally own. Downloading
+or distributing copyrighted ROMs without permission is illegal. Users are responsible
+for complying with all applicable laws when using emulators.'
+  summary: Sega Dreamcast, Naomi and Atomiswave emulator
+slack:
+  author: Slack Technologies Inc.
+  categories:
+  - Network
+  - InstantMessaging
+  description: "Caution: Slack for Linux is in beta. We\u2019re still busy adding\
+    \ features and\n      ironing out potential issues.\n\n      Slack brings team\
+    \ communication and collaboration into one place so you\n      can get more work\
+    \ done, whether you belong to a large enterprise or a\n      small business. Check\
+    \ off your to-do list and move your projects forward\n      by bringing the right\
+    \ people, conversations, tools, and information you\n      need together. Slack\
+    \ is available on any device, so you can find and\n      access your team and\
+    \ your work, whether you\u2019re at your desk or on the go.\n\n      Scientifically\
+    \ proven (or at least rumored) to make your working life\n      simpler, more\
+    \ pleasant, and more productive. We hope you\u2019ll give Slack a\n      try.\n\
+    \n      NOTE: This wrapper is not verified by, affiliated with, or supported by\n\
+    \      Slack Technologies, Inc."
+  homepage: https://slack.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/slack.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/slack
+  mobile: 1
+  name: Slack
+  pricing: 4
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/slack-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/slack-1.png
+  src_pkg_name: app/com.slack.Slack/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Election app
+  summary: Business communication
+codium:
+  author: Peter Squicciarini
+  categories:
+  - TextEditor
+  - Development
+  - IDE
+  - Utility
+  description: 'VSCodium combines the simplicity of a code editor with what developers
+    need for the core edit-build-debug cycle.
+
+
+    This is the telemetry-less version of Visual Studio Code, packaged into a Flatpak.
+
+
+    This repackaging is not supported by Microsoft.
+
+
+    Note: To use certain features in this flatpak version, please see Readme file.'
+  homepage: https://vscodium.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/codium.png
+  keywords:
+  - vscodium
+  - codium
+  - vscode
+  license: MIT
+  mimetypes:
+  - text/plain
+  - inode/directory
+  - application/x-codium-workspace
+  mobile: 1
+  name: VSCodium
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/codium-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/codium-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/codium-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/codium-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/codium-4.png
+  src_pkg_name: app/com.vscodium.codium/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Election app, contains some flatpak containment issues.
+
+
+    Read more:
+
+    https://github.com/flathub/com.vscodium.codium/blob/master/README.md'
+  summary: Telemetry-less code editing
+rmg:
+  author: Rosalie
+  categories:
+  - Game
+  - Emulator
+  - Qt
+  description: Rosalie's Mupen GUI is an easy to use yet customizable mupen64plus
+    front-end, allowing you to easily play Nintendo 64 games.
+  homepage: https://github.com/Rosalie241/RMG
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/rmg.png
+  keywords:
+  - mupen64plus
+  - RMG
+  license: GPL-3.0-only
+  mimetypes:
+  - application/x-n64-rom
+  mobile: 1
+  name: Rosalie's Mupen GUI
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/rmg-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/rmg-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/rmg-2.png
+  src_pkg_name: app/com.github.Rosalie241.RMG/x86_64/stable
+  still_rating: 1
+  still_rating_notes: 'Emulators allow running software designed for other systems.
+
+    Use emulators responsibly and only to play games you legally own. Downloading
+
+    or distributing copyrighted ROMs without permission is illegal. Users are responsible
+
+    for complying with all applicable laws when using emulators.'
+  summary: Play Nintendo 64 games easily
+warpinator:
+  author: Linux Mint
+  categories:
+  - Network
+  - Utility
+  description: Warpinator allows you to easily connect multiple computers on a local
+    area network and share files quickly and securely.
+  donate_url: https://www.linuxmint.com/donors.php
+  homepage: https://github.com/linuxmint/warpinator
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/warpinator.png
+  keywords:
+  - exchange
+  - transfer
+  license: GPL-3.0+
+  mobile: 1
+  name: Warpinator
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/warpinator-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/warpinator-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/warpinator-2.png
+  src_pkg_name: app/org.x.Warpinator/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Send and Receive Files across the Network
