@@ -3802,3 +3802,1760 @@ warpinator:
   still_rating: 4
   still_rating_notes: No notes have been provided.
   summary: Send and Receive Files across the Network
+pycharm-community:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: 'WARNING: Development in a flatpak environment may be more difficult
+    due to the sandboxing.
+
+    We recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/
+
+
+    PyCharm is designed by programmers, for programmers, to provide all the tools
+    you need for productive Python development.
+
+
+    PyCharm provides smart code completion, code inspections, on-the-fly error highlighting
+    and quick-fixes, along with automated code refactorings and rich navigation capabilities.
+
+
+    PyCharm offers great framework-specific support for modern web development frameworks
+    such as Django, Flask, Google App Engine, Pyramid, and web2py.
+
+
+    PyCharm integrates with IPython Notebook, has an interacStive Python console,
+    and supports Anaconda as well as multiple scientific packages including matplotlib
+    and NumPy.
+
+
+    In addition to Python, PyCharm supports JavaScript, CoffeeScript, TypeScript,
+    Cython, SQL, HTML/CSS, template languages, AngularJS, Node.js, and more.
+
+
+    A huge collection of tools out of the box: an integrated debugger and test runner;
+    Python profiler; a built-in terminal; and integration with major VCS and built-in
+    Database Tools.'
+  homepage: http://www.jetbrains.com/pycharm/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pycharm-community.png
+  license: Apache-2.0
+  mobile: 1
+  name: PyCharm-Community
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pycharm-community-0.png
+  src_pkg_name: app/com.jetbrains.PyCharm-Community/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hardcoded theme.\n\nWARNING: Development in a flatpak environment\
+    \ may be more difficult due to the sandboxing.\nso we recommend installation through\
+    \ Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: The most intelligent Python IDE
+intellij-idea-community:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nIntelliJ IDEA Community is a free and open-source edition of IntelliJ IDEA,\
+    \ the commercial Java IDE by JetBrains.\n      IntelliJ IDEA Community provides\
+    \ all the tools you need for Java, Groovy, Kotlin, Scala, and Android. It offers\n\
+    \      instant and clever code completion, on-the-fly code analysis, and reliable\
+    \ refactoring tools.\n\n      Mission-critical tools such as integrated version\
+    \ controls systems and a wide variety of supported languages and\n      frameworks\
+    \ are at hand \u2014 no plugin hustle included.\n\n      IntelliJ IDEA Community\
+    \ can be downloaded at no cost and is open for contributions by community members.\
+    \ The\n      product is built on top of the IntelliJ Platform, which is fully\
+    \ open source.\n\nNOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by JetBrains s.r.o."
+  homepage: https://www.jetbrains.com/idea/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/intellij-idea-community.png
+  keywords:
+  - development
+  - idea
+  - ide
+  - intellij
+  - java
+  license: Apache-2.0
+  mobile: 1
+  name: IntelliJ IDEA Community
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/intellij-idea-community-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/intellij-idea-community-1.png
+  src_pkg_name: app/com.jetbrains.IntelliJ-IDEA-Community/x86_64/stable
+  still_rating: 3
+  still_rating_notes: 'Hard coded theme
+
+
+    WARNING: Development in a flatpak environment may be more difficult due to the
+    sandboxing.
+
+    We recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/
+
+    '
+  summary: Capable and Ergonomic Java IDE
+intellij-idea-ultimate:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nIntelliJ IDEA Ultimate is a fully-fledged commercial IDE for the JVM platform.\
+    \ IntelliJ IDEA provides all the\n      tools you need for productive enterprise,\
+    \ Web, and mobile development. IntelliJ IDEA supports Java, Groovy,\n      Kotlin,\
+    \ Scala, Android, JavaScript, SQL and lots of other languages and frameworks.\
+    \ It offers instant and clever\n      code completion, on-the-fly code analysis\
+    \ and reliable refactoring tools. Mission-critical tools such as\n      integrated\
+    \ version controls systems and a wide variety of supported languages and frameworks\
+    \ are at hand \u2014 no\n      plugin hustle included.\n\n      IntelliJ IDEA\
+    \ Ultimate is available for a free 30-day evaluation. Monthly and yearly subscription\
+    \ options are\n      available for companies and individual users.\n\nNOTE: This\
+    \ wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o."
+  homepage: https://www.jetbrains.com/idea/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/intellij-idea-ultimate.png
+  keywords:
+  - development
+  - idea
+  - ide
+  - intellij
+  - java
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: IntelliJ IDEA Ultimate
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/intellij-idea-ultimate-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/intellij-idea-ultimate-1.png
+  src_pkg_name: app/com.jetbrains.IntelliJ-IDEA-Ultimate/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hardcoded theme\n\nWARNING: Development in a flatpak environment\
+    \ may be more difficult due to the sandboxing.\nso we recommend installation through\
+    \ Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: Capable and Ergonomic Java IDE for Enterprise, Web and Mobile Development
+pycharm-professional:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: 'WARNING: Development in a flatpak environment may be more difficult
+    due to the sandboxing.
+
+    We recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/
+
+
+    PyCharm is designed by programmers, for programmers, to provide all the tools
+    you need for productive Python development.
+
+
+    PyCharm provides smart code completion, code inspections, on-the-fly error highlighting
+    and quick-fixes, along with automated code refactorings and rich navigation capabilities.
+
+
+    PyCharm offers great framework-specific support for modern web development frameworks
+    such as Django, Flask, Google App Engine, Pyramid, and web2py.
+
+
+    PyCharm integrates with IPython Notebook, has an interactive Python console, and
+    supports Anaconda as well as multiple scientific packages including matplotlib
+    and NumPy.
+
+
+    In addition to Python, PyCharm supports JavaScript, CoffeeScript, TypeScript,
+    Cython, SQL, HTML/CSS, template languages, AngularJS, Node.js, and more.
+
+
+    A huge collection of tools out of the box: an integrated debugger and test runner;
+    Python profiler; a built-in terminal; and integration with major VCS and built-in
+    Database Tools.
+
+
+    NOTE: This package is not verified by, affiliated with, or supported by JetBrains
+    s.r.o.'
+  homepage: http://www.jetbrains.com/pycharm/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pycharm-professional.png
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: PyCharm-Professional
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pycharm-professional-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pycharm-professional-1.png
+  src_pkg_name: app/com.jetbrains.PyCharm-Professional/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme
+  summary: The most intelligent Python IDE
+clion:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "Trust CLion to take care of the routine while you focus on the important\
+    \ things. Knowing your code through\n      and through, it can boost your productivity\
+    \ with smart and relevant code completion, instant navigation and\n      reliable\
+    \ refactorings.\n\nCLion is more than just an editor as it offers a powerful debugger\
+    \ and dynamic analysis tools to investigate\n      and solve problems with ease,\
+    \ built-in Google Test, Boost.Test and Catch for unit testing, many popular VCS\n\
+    \      supported out of the box and more.\n\nCLion is designed for native cross-platform\
+    \ development in C and C++, as well as Kotlin/Native, Rust and Swift.\n      It\
+    \ also provides essential support for CMake language, Python, popular web technologies\n\
+    \     (like JavaScript, XML, HTML, Markdown and others), and this also includes\
+    \ support for all the other languages\n     that are available through bundled\
+    \ and repository plugins.\n\nCLion is available for a free 30-day evaluation.\
+    \ Monthly and yearly subscription options are available for\n      companies and\
+    \ individual users.\n\nNOTE: This wrapper is not verified by, affiliated with,\
+    \ or supported by JetBrains s.r.o."
+  homepage: http://www.jetbrains.com/clion/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/clion.png
+  keywords:
+  - clion
+  - development
+  - ide
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: CLion
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/clion-0.png
+  src_pkg_name: app/com.jetbrains.CLion/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hard coded theme\n\nWARNING: Development in a flatpak environment\
+    \ may be more difficult due to the sandboxing.\nso we recommend installation through\
+    \ Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: A cross-platform IDE for C and C++
+webstorm:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nUse the full power of the modern JavaScript ecosystem \u2013 WebStorm's got\
+    \ you covered! Enjoy the intelligent code\n      completion, on-the-fly error\
+    \ detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet\n\
+    \      languages, and all the most popular frameworks.\n\nDebug your client-side\
+    \ and Node.js apps with ease in the IDE \u2013 put breakpoints right in the source\
+    \ code, explore\n      the call stack and variables, set watches, and use the\
+    \ interactive console.\n\nTake advantage of the linters, build tools, test runners,\
+    \ REST client, and other tools, all deeply integrated\n      with the IDE. But\
+    \ any time you need Terminal, it's also available as an IDE tool window.\n\nRun\
+    \ and debug tests with Karma, Mocha, Protractor, and Jest in WebStorm. Immediately\
+    \ see test statuses right in\n      the editor, or in a handy treeview from which\
+    \ you can quickly jump to the test.\n\nUse a simple unified UI to work with Git,\
+    \ GitHub, Mercurial, and other VCS. Commit files, review changes, and\n      resolve\
+    \ conflicts with a visual diff/merge tool right in the IDE.\n\nWebStorm is available\
+    \ for a free 30-day evaluation. Monthly and yearly subscription options are available\
+    \ for\n      companies and individual users.\n\nNOTE: This wrapper is not verified\
+    \ by, affiliated with, or supported by JetBrains s.r.o."
+  homepage: http://www.jetbrains.com/webstorm/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/webstorm.png
+  keywords:
+  - development
+  - javascript
+  - webstorm
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: WebStorm
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/webstorm-0.png
+  src_pkg_name: app/com.jetbrains.WebStorm/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hard-coded theme\n\nWARNING: Development in a flatpak environment\
+    \ may be more difficult due to the sandboxing.\nso we recommend installation through\
+    \ Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: The smartest JavaScript IDE
+phpstorm:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nNOTE: This wrapper is not verified by, affiliated with, or\n            supported\
+    \ by JetBrains s.r.o.\n\n            PhpStorm is a PHP IDE that actually \u2018\
+    gets\u2019 your code.\n            It supports PHP 5.3-8.2, provides on-the-fly\
+    \ error prevention,\n            the best autocompletion and code refactoring,\
+    \ zero-configuration debugging,\n            and an extended HTML, CSS, and JavaScript\
+    \ editor.\n\n            PhpStorm is available for a free 30-day evaluation.\n\
+    \n            Monthly and yearly subscription options are available for companies\
+    \ and individual users.\n            Find out more on https://www.jetbrains.com/phpstorm/buy/"
+  homepage: https://www.jetbrains.com/phpstorm/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/phpstorm.png
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: PhpStorm
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/phpstorm-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/phpstorm-1.png
+  src_pkg_name: app/com.jetbrains.PhpStorm/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hard coded theme\n\nWARNING: Development in a flatpak environment\
+    \ may be more difficult due to the sandboxing.\nso we recommend installation through\
+    \ Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: PHP IDE for Professional Development
+rider:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nRider supports .NET Framework, the new cross-platform .NET Core, and Mono based\
+    \ projects. This lets you develop a wide range of applications including .NET\
+    \ desktop applications, services and libraries, Unity games, Xamarin apps, ASP.NET,\
+    \ and ASP.NET Core web applications.\n\n    Rider provides 2200+ live code inspections,\
+    \ hundreds of context actions and refactorings brought by ReSharper, and combines\
+    \ them with the IntelliJ platform's solid IDE features. Despite a heavy feature\
+    \ set, Rider is designed to be fast and responsive.\n\n    As well as running\
+    \ and debugging multiple runtimes, Rider itself runs on multiple platforms: Windows,\
+    \ macOS, and Linux.\n\nNOTE: This wrapper is not verified by, affiliated with,\
+    \ or supported by JetBrains s.r.o."
+  homepage: http://www.jetbrains.com/rider/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/rider.png
+  keywords:
+  - development
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/x-dotnet-solution
+  - application/x-dotnet-fsharp-project
+  - application/x-dotnet-csharp-project
+  - application/x-dotnet-vb-project
+  - text/x-csharp
+  - text/x-fsharp
+  - text/x-visualbasic
+  mobile: 1
+  name: Rider
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/rider-0.png
+  src_pkg_name: app/com.jetbrains.Rider/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \ "
+  summary: Fast & powerful, cross platform .NET IDE
+datagrip:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nDataGrip is the multi-engine database environment. We support MySQL, PostgreSQL,\
+    \ Microsoft SQL Server, Microsoft\n      Azure, Oracle, Amazon Redshift, Sybase,\
+    \ DB2, SQLite, HyperSQL, Apache Derby and H2. If a DBMS has a JDBC driver\n  \
+    \    you can connect to it via DataGrip. For any of supported engines it provides\
+    \ database introspection and various\n      instruments for creating and modifying\
+    \ objects.\n\n      DataGrip is available for a free 30-day evaluation. Monthly\
+    \ and yearly subscription options are available for\n      companies and individual\
+    \ users.\n\nNOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by JetBrains s.r.o."
+  homepage: https://www.jetbrains.com/datagrip/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/datagrip.png
+  keywords:
+  - database
+  - ide
+  - sql
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: DataGrip
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/datagrip-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/datagrip-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/datagrip-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/datagrip-3.png
+  src_pkg_name: app/com.jetbrains.DataGrip/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hard coded non-system theme\n\nWARNING: Development in a flatpak\
+    \ environment may be more difficult due to the sandboxing.\nWe recommend installation\
+    \ through Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: IntelliJ-based IDE for databases and SQL
+goland:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nGoLand is a cross-platform IDE built specially for Go developers\n\n      \t\
+    \tGoLand is available for a free 30-day evaluation. Monthly and yearly subscription\
+    \ options are\n      \t\tavailable for companies and individual users.\n\n\t\t\
+    \tIf you want to use the Go installation of your system, flatpak mounts your root\
+    \ directory into /var/run/host .\n\t\t\tYou can set your GOROOT accordingly (e.g.\
+    \ /var/run/host/usr/lib/go).\n\nNOTE: This wrapper is not verified by, affiliated\
+    \ with, or supported by JetBrains s.r.o."
+  homepage: http://www.jetbrains.com/go/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/goland.png
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: GoLand
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/goland-5.png
+  src_pkg_name: app/com.jetbrains.GoLand/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "Hardcoded non-system theme\nWARNING: Development in a flatpak\
+    \ environment may be more difficult due to the sandboxing.\nWe recommend installation\
+    \ through Toolbox: https://www.jetbrains.com/toolbox-app/\n "
+  summary: Capable and Ergonomic Go IDE
+rubymine:
+  author: JetBrains s.r.o.
+  categories:
+  - Development
+  - IDE
+  description: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \nRubyMine is an integrated development environment that helps you be more productive\
+    \ in every aspect of Ruby/Rails projects development \u2013 from writing and debugging\
+    \ code to testing and deploying a completed application. This section will give\
+    \ you a brief overview of some of the most essential features available in RubyMine.\n\
+    \nNOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains\
+    \ s.r.o."
+  homepage: http://www.jetbrains.com/ruby/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/rubymine.png
+  keywords:
+  - development
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: RubyMine
+  pricing: 6
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/rubymine-0.png
+  src_pkg_name: app/com.jetbrains.RubyMine/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \ "
+  summary: Enjoy first-class support for Ruby 2.x and Rails 6.x, Sinatra, React, Angular,
+    Puppet, Docker, and more
+androidstudio:
+  author: Android Open Source Project
+  categories:
+  - Development
+  - IDE
+  description: 'WARNING: Development in a flatpak environment may be more difficult
+    due to the sandboxing.
+
+    We recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/
+
+
+    Android Studio is the official Integrated Development Environment (IDE) for Android
+    app development. Based on the powerful code editor and developer tools from IntelliJ
+    IDEA, Android Studio offers even more features that enhance your productivity
+    when building Android apps, such as:
+
+    - A flexible Gradle-based build system
+
+    - A fast and feature-rich emulator
+
+    - A unified environment where you can develop for all Android devices
+
+    - Live Edit to update composables in emulators and physical devices in real time
+
+    - Code templates and GitHub integration to help you build common app features
+    and import sample code
+
+    - Extensive testing tools and frameworks
+
+    - Lint tools to catch performance, usability, version compatibility, and other
+    problems
+
+    - C++ and NDK support
+
+    - Built-in support for Google Cloud Platform, making it easy to integrate Google
+    Cloud Messaging and App Engine'
+  homepage: https://developer.android.com/studio/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/androidstudio.png
+  keywords:
+  - android
+  - kotlin
+  - java
+  - compose
+  - apk
+  - development
+  - ide
+  license: LicenseRef-proprietary
+  mobile: 1
+  name: Android Studio
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/androidstudio-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/androidstudio-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/androidstudio-2.png
+  src_pkg_name: app/com.google.AndroidStudio/x86_64/stable
+  still_rating: 3
+  still_rating_notes: "WARNING: Development in a flatpak environment may be more difficult\
+    \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
+    \ "
+  summary: IDE for Android app development
+client:
+  author: Microsoft Corporation
+  categories:
+  - Network
+  description: "Skype makes staying in touch incredibly easy and fun!\n    If you\
+    \ have a webcam and a microphone, you can easily make video calls and voice calls\
+    \ to anyone in the world who also has Skype.\n    This app\u2019s features are\
+    \ simple to use and you can stay in touch with people anywhere in world!"
+  homepage: https://www.skype.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/client.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/skype
+  - x-scheme-handler/tel
+  - x-scheme-handler/callto
+  mobile: 1
+  name: Skype
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/client-0.png
+  src_pkg_name: app/com.skype.Client/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme
+  summary: Call and message skype users, with video chat support
+filezilla:
+  author: FileZilla Project
+  categories:
+  - FileTransfer
+  - Network
+  description: 'FileZilla is a graphical FTP, FTPS and SFTP client. It is platform
+    independent and supports all major desktop operating systems.
+
+    - Easy to use
+
+    - Supports FTP, FTP over SSL/TLS (FTPS) and SSH File Transfer Protocol (SFTP)
+
+    - Cross-platform. Runs on Windows, Linux, *BSD, OSX and more
+
+    - IPv6 support
+
+    - Available in many languages
+
+    - Supports resume and transfer of large files >4GB
+
+    - Powerful Site Manager and transfer queue
+
+    - Bookmark
+
+    - Drag and drop support
+
+    - Configurable Speed limits
+
+    - Filename filters
+
+    - Directory Comparison
+
+    - Network configuration wizard
+
+    - The ability to use Notepad or any other program to edit a file online
+
+    - HTTP/1.1, SOCKS5 and FTP Proxy support
+
+    - Logging to file
+
+    - Synchronized directory browsing
+
+    - Remote file search'
+  homepage: https://filezilla-project.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/filezilla.png
+  license: GPL-2.0-or-later
+  mimetypes:
+  - x-scheme-handler/ftp
+  - x-scheme-handler/ftps
+  - x-scheme-handler/sftp
+  mobile: 1
+  name: FileZilla
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/filezilla-0.png
+  src_pkg_name: app/org.filezillaproject.Filezilla/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Uses wxwidgets which has some theming issues, especially on
+    dark themes
+  summary: Fast and reliable FTP client
+isoimagewriter:
+  author: KDE
+  categories:
+  - System
+  description: Write an ISO Image to a USB Disk
+  donate_url: https://www.kde.org/community/donations
+  homepage: https://www.kde.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/isoimagewriter.png
+  license: GPL-3.0
+  mobile: 1
+  name: ISO Image Writer
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/isoimagewriter-0.png
+  src_pkg_name: app/org.kde.isoimagewriter/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app, requires restart on light/dark switch
+  summary: Write an ISO Image to a USB Disk
+wpsoffice:
+  author: Kingsoft Office Corporation
+  categories:
+  - Office
+  description: "WPS Office including Writer, Presentation\n    and Spreadsheets, is\
+    \ a powerful office suite, which is able to process\n    word file, produce wonderful\
+    \ slides, and analyze data as well. It is\n    deeply compatible with all of the\
+    \ latest Microsoft Office file formats.\n    It can easily open and read the documents\
+    \ created with Microsoft Office.\n\nNOTE: This wrapper is not verified by, affiliated\
+    \ with, or\n    supported by Kingsoft Office Corporation"
+  donate_url: http://wps-community.org/donate
+  homepage: https://www.wps.com/linux
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/wpsoffice.png
+  license: LicenseRef-proprietary=http://wps-community.org/license.md
+  mobile: 1
+  name: WPS Office
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/wpsoffice-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/wpsoffice-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/wpsoffice-2.png
+  src_pkg_name: app/com.wps.Office/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: WPS Office Suite
+shotcut:
+  author: Meltytech, LLC
+  categories:
+  - AudioVideo
+  - Video
+  - AudioVideoEditing
+  description: "Shotcut is a free and open-source cross-platform video editing application\
+    \ for\n      Windows, macOS, and Linux.\n\n      Shotcut supports many video,\
+    \ audio, and image formats via FFmpeg and screen,\n      webcam, and audio capture.\
+    \ It uses a time-line for non-linear video editing of\n      multiple tracks that\
+    \ may be composed of various file formats. Scrubbing and\n      transport control\
+    \ are assisted by OpenGL GPU-based processing and a number of\n      video and\
+    \ audio filters are available."
+  homepage: https://www.shotcut.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/shotcut.png
+  keywords:
+  - video
+  - audio
+  - editing
+  - suite
+  - mlt
+  - 4k
+  - video4linux
+  - blackmagic
+  - decklink
+  license: GPL-3.0-only
+  mimetypes:
+  - application/vnd.mlt+xml
+  - application/ogg
+  - application/x-ogg
+  - audio/ogg
+  - audio/x-vorbis
+  - audio/x-vorbis+ogg
+  - video/ogg
+  - video/x-ogm+ogg
+  - video/x-theora+ogg
+  - video/x-theora
+  - audio/x-speex
+  - audio/opus
+  - application/x-flac
+  - audio/flac
+  - audio/x-flac
+  - audio/x-ms-asf
+  - audio/x-ms-asx
+  - audio/x-ms-wax
+  - audio/x-ms-wma
+  - video/x-ms-asf
+  - video/x-ms-asf-plugin
+  - video/x-ms-asx
+  - video/x-ms-wm
+  - video/x-ms-wmv
+  - video/x-ms-wmx
+  - video/x-ms-wvx
+  - video/x-msvideo
+  - audio/x-pn-windows-acm
+  - video/divx
+  - video/msvideo
+  - video/vnd.divx
+  - video/x-avi
+  - application/vnd.rn-realmedia
+  - application/vnd.rn-realmedia-vbr
+  - audio/vnd.rn-realaudio
+  - audio/x-pn-realaudio
+  - audio/x-pn-realaudio-plugin
+  - audio/x-real-audio
+  - audio/x-realaudio
+  - video/vnd.rn-realvideo
+  - audio/mpeg
+  - audio/mpg
+  - audio/mp1
+  - audio/mp2
+  - audio/mp3
+  - audio/x-mp1
+  - audio/x-mp2
+  - audio/x-mp3
+  - audio/x-mpeg
+  - audio/x-mpg
+  - video/mp2t
+  - video/mpeg
+  - video/mpeg-system
+  - video/x-mpeg
+  - video/x-mpeg2
+  - video/x-mpeg-system
+  - application/mpeg4-iod
+  - application/mpeg4-muxcodetable
+  - application/x-extension-m4a
+  - application/x-extension-mp4
+  - audio/aac
+  - audio/m4a
+  - audio/mp4
+  - audio/x-m4a
+  - audio/x-aac
+  - video/mp4
+  - video/mp4v-es
+  - video/x-m4v
+  - application/x-quicktime-media-link
+  - application/x-quicktimeplayer
+  - video/quicktime
+  - application/x-matroska
+  - audio/x-matroska
+  - video/x-matroska
+  - video/webm
+  - audio/webm
+  - audio/3gpp
+  - audio/3gpp2
+  - audio/AMR
+  - audio/AMR-WB
+  - audio/amr
+  - audio/amr-wb
+  - video/3gp
+  - video/3gpp
+  - video/3gpp2
+  - x-scheme-handler/mms
+  - x-scheme-handler/mmsh
+  - x-scheme-handler/rtsp
+  - x-scheme-handler/rtp
+  - x-scheme-handler/rtmp
+  - x-scheme-handler/icy
+  - x-scheme-handler/icyx
+  - x-content/video-vcd
+  - x-content/video-svcd
+  - x-content/video-dvd
+  - x-content/audio-cdda
+  - x-content/audio-player
+  - application/x-cd-image
+  - application/ram
+  - application/xspf+xml
+  - audio/mpegurl
+  - audio/x-mpegurl
+  - audio/scpls
+  - audio/x-scpls
+  - text/google-video-pointer
+  - text/x-google-video-pointer
+  - video/vnd.mpegurl
+  - application/vnd.apple.mpegurl
+  - application/vnd.ms-asf
+  - application/vnd.ms-wpl
+  - application/sdp
+  - audio/dv
+  - video/dv
+  - audio/x-aiff
+  - audio/x-pn-aiff
+  - video/x-anim
+  - video/x-nsv
+  - video/fli
+  - video/flv
+  - video/x-flc
+  - video/x-fli
+  - video/x-flv
+  - audio/wav
+  - audio/x-pn-au
+  - audio/x-pn-wav
+  - audio/x-wav
+  - audio/ac3
+  - audio/eac3
+  - audio/vnd.dts
+  - audio/vnd.dts.hd
+  - audio/vnd.dolby.heaac.1
+  - audio/vnd.dolby.heaac.2
+  - audio/vnd.dolby.mlp
+  - audio/basic
+  - audio/midi
+  - audio/x-ape
+  - audio/x-gsm
+  - audio/x-musepack
+  - audio/x-tta
+  - audio/x-wavpack
+  - audio/x-shorten
+  - application/x-shockwave-flash
+  - application/x-flash-video
+  - misc/ultravox
+  - image/vnd.rn-realpix
+  - audio/x-it
+  - audio/x-mod
+  - audio/x-s3m
+  - audio/x-xm
+  - application/mxf
+  mobile: 1
+  name: Shotcut
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shotcut-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shotcut-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shotcut-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shotcut-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shotcut-4.png
+  src_pkg_name: app/org.shotcut.Shotcut/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt, Hard coded theme
+  summary: Video editor
+xivlauncher:
+  author: XIVLauncher Contributors
+  categories:
+  - Game
+  description: "XIVLauncher is a custom launcher for FINAL FANTASY XIV that offers\
+    \ painless patching, a customized WINE version for perfect compatibility with\
+    \ FFXIV, a multitude of useful plugins and seamless Steam Deck integration. Install,\
+    \ log in, patch, and get started!\n\n      Please note that on Steam Deck, you\
+    \ will have to adjust the command in your Non-Steam app shortcut to make the game\
+    \ work correctly in gaming mode. See our Steam Deck FAQ, linked below under help,\
+    \ for more information.\n\n      FINAL FANTASY is a registered trademark of Square\
+    \ Enix Holdings Co., Ltd. FINAL FANTASY XIV \xA9 2010-2022 SQUARE ENIX CO., LTD.\
+    \ All Rights Reserved. We are not affiliated with SQUARE ENIX CO., LTD. in any\
+    \ way."
+  homepage: https://goatcorp.github.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/xivlauncher.png
+  license: GPL-3.0
+  mobile: 1
+  name: XIVLauncher
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xivlauncher-0.png
+  src_pkg_name: app/dev.goats.xivlauncher/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme
+  summary: Launcher & seamless Linux integration for Final Fantasy XIV Online
+whatsie:
+  author: Keshav Bhatt
+  categories:
+  - Chat
+  - Network
+  - InstantMessaging
+  description: 'Feature rich WhatsApp web client based on Qt WebEngine.
+
+
+    Key features of Whatsie:
+
+    - Light and Dark Themes with automatic switching
+
+    - Customized Notifications & Native Notifications
+
+    - Global App shortcuts
+
+    - BuiltIn download manager
+
+    - Mute Audio, Disable Notifications
+
+    - App Lock feature
+
+    - Built in Spell Checker (with support for 31 Major languages)
+
+
+    Other settings that let you control every aspect of WebApp like:
+
+    - Do not disturb mode
+
+    - Full view mode, lets you expand the main view to the full width of the window
+
+    - Ability to switch between Native & Custom notification
+
+    - Configurable notification popup timeout
+
+    - Mute all audio from Whatapp
+
+    - Minimize to tray on application start
+
+    - Enable disable app lock on application start
+
+    - Auto-locking after a certain interval of time'
+  donate_url: https://www.paypal.me/keshavnrj
+  homepage: https://github.com/keshavbhatt/whatsie
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/whatsie.png
+  keywords:
+  - WhatsApp
+  - social
+  - social-media
+  - messaging
+  license: MIT
+  mimetypes:
+  - x-scheme-handler/whatsapp
+  mobile: 1
+  name: Whatsie
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsie-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsie-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsie-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsie-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsie-4.png
+  src_pkg_name: app/com.ktechpit.whatsie/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt/Web app
+  summary: Qt Whatsapp Web Client for Linux Desktop
+whatsappforlinux:
+  author: Enes Hecan
+  categories:
+  - Network
+  description: WhatsApp for Linux is an unofficial WhatsApp desktop application written
+    in C++.
+  homepage: https://github.com/eneshecan/whatsapp-for-linux
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/whatsappforlinux.png
+  keywords:
+  - chat
+  - im
+  - messaging
+  - messenger
+  - sms
+  - whatsapp
+  - whatsapp-desktop
+  license: GPL-3.0
+  mimetypes:
+  - x-scheme-handler/whatsapp
+  mobile: 1
+  name: WhatsApp for Linux (Unofficial)
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/whatsappforlinux-0.png
+  src_pkg_name: app/com.github.eneshecan.WhatsAppForLinux/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Gtk + Webview
+  summary: Unofficial WhatsApp application
+easyeffects:
+  author: Wellington Wallace
+  categories:
+  - AudioVideo
+  - Audio
+  description: 'Easy Effects is an advanced audio manipulation tool. It includes an
+    equalizer, limiter, compressor and a reverberation tool, just to mention a few.
+    To complement this there is also a built in spectrum analyzer.
+
+
+    Easy Effects is the successor to PulseEffects. Easy Effects only supports PipeWire''s
+    audio server. PulseAudio users should instead use PulseEffects.
+
+
+    Because Easy Effects uses the default PipeWire sound server it will work with
+    most, if not all, applications you use. All supported applications are presented
+    in the main window, where each can be enabled individually.
+
+
+    Besides manipulating sound output, Easy Effects is able to apply effects to an
+    input device, such as a microphone. This is, for example, useful in audio recording,
+    but it also works well during voice conversations.
+
+
+    When Easy Effects is launched it will conveniently remember the configuration
+    used in the last session. It is also possible to save all the current settings
+    as profiles.'
+  donate_url: https://github.com/wwmm/easyeffects#donate
+  homepage: https://github.com/wwmm/easyeffects
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/easyeffects.png
+  keywords:
+  - limiter
+  - compressor
+  - reverberation
+  - equalizer
+  - autovolume
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Easy Effects
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/easyeffects-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/easyeffects-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/easyeffects-2.png
+  src_pkg_name: app/com.github.wwmm.easyeffects/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Audio Effects for PipeWire Applications
+freecad:
+  author: The FreeCAD Team
+  categories:
+  - Education
+  - Engineering
+  - Graphics
+  - Science
+  description: 'FreeCAD is an open-source parametric 3D modeler made primarily to
+    design real-life objects of any size. Parametric modeling allows you to easily
+    modify your design by going back into your model history and changing its parameters.
+    It is designed to fit a wide range of uses including product design, mechanical
+    engineering, architecture and 3D printing.
+
+
+    FreeCAD allows you to sketch geometry constrained 2D shapes and use them as a
+    base to build other objects. It contains many components to adjust dimensions
+    or extract design details from 3D models to create high quality production-ready
+    drawings. it is a multiplatfom (Windows, Mac and Linux), highly customizable using
+    the Python language. It reads and writes to many open file formats such as STEP,
+    IGES, STL, SVG, DXF, OBJ, IFC, DAE and many others, making it possible to seamlessly
+    integrate it into your workflow.
+
+
+    FreeCAD includes a modern Finite Element Analysis (FEA) tools, experimental CFD,
+    BIM, Geodata workbenches, a Path (CNC) workbench, a robot simulation module that
+    allows you to study robot movements and many more, and a rich collection of plugins
+    and macros installable directly from within the application.'
+  donate_url: https://www.freecad.org/wiki/Donate
+  homepage: https://www.freecad.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/freecad.png
+  license: LGPL-2.1
+  mimetypes:
+  - application/iges
+  - application/vnd.shp
+  - application/x-extension-fcstd
+  - image/vnd.dwg
+  - image/vnd.dxf
+  - model/iges
+  - model/obj
+  - model/step
+  - model/step+zip
+  - model/stl
+  - model/vnd.collada+xml
+  - model/vrml
+  mobile: 1
+  name: FreeCAD
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freecad-0.jpg
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freecad-1.jpg
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freecad-2.jpg
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/freecad-3.jpg
+  src_pkg_name: app/org.freecadweb.FreeCAD/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded qt theme, honors light/dark mode switch
+  summary: An open source parametric 3D CAD modeler
+localsend_app:
+  author: Tien Do Nam
+  categories:
+  - Utility
+  description: "This app allows you to send files and messages over the local LAN\
+    \ network.\n\nIn contrast to most alternatives, no external servers are needed.\n\
+    \      Everything happens locally in the wifi network."
+  homepage: https://localsend.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/localsend_app.png
+  license: MIT
+  mobile: 1
+  name: LocalSend
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/localsend_app-0.png
+  src_pkg_name: app/org.localsend.localsend_app/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: Share files to nearby devices
+dbeavercommunity:
+  author: DBeaver Corporation
+  categories:
+  - IDE
+  - Development
+  description: 'Free multi-platform database tool for developers, SQL programmers,
+    database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL,
+    MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird,
+    Derby, etc.
+
+
+    This is the official build of DBeaver, packaged into a Flatpak. This repackaging
+    is not supported by DBeaver Community Edition.'
+  homepage: https://dbeaver.io
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/dbeavercommunity.png
+  keywords:
+  - Database
+  - SQL
+  - IDE
+  - JDBC
+  - ODBC
+  - MySQL
+  - PostgreSQL
+  license: Apache-2.0
+  mimetypes:
+  - application/sql
+  mobile: 1
+  name: DBeaver Community
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dbeavercommunity-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dbeavercommunity-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dbeavercommunity-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dbeavercommunity-3.png
+  src_pkg_name: app/io.dbeaver.DBeaverCommunity/x86_64/stable
+  still_rating: 2
+  still_rating_notes: OS dark themes on DBeaver are really buggy.
+  summary: Universal Database Manager
+foliate:
+  author: John Factotum
+  categories:
+  - Office
+  - Viewer
+  description: 'Discover a new chapter in reading with Foliate, the modern e-book
+    reader tailored for GNOME. Immerse yourself in a distraction-free interface, with
+    customization features designed to match your unique preferences.
+
+
+    Features include:
+
+    - Open EPUB, Mobipocket, Kindle, FB2, CBZ, and PDF files
+
+    - Paginated mode and scrolled mode
+
+    - Customize font and line-spacing
+
+    - Light, sepia, dark, and invert mode
+
+    - Reading progress slider with chapter marks
+
+    - Bookmarks and annotations
+
+    - Find in book
+
+    - Quick dictionary lookup'
+  donate_url: https://www.buymeacoffee.com/johnfactotum
+  homepage: https://johnfactotum.github.io/foliate/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/foliate.png
+  keywords:
+  - Ebook
+  - Book
+  - EPUB
+  - Viewer
+  - Reader
+  license: GPL-3.0-or-later
+  mimetypes:
+  - application/epub+zip
+  - application/x-mobipocket-ebook
+  - application/vnd.amazon.mobi8-ebook
+  - application/x-fictionbook+xml
+  - application/x-zip-compressed-fb2
+  - application/vnd.comicbook+zip
+  - x-scheme-handler/opds
+  mobile: 1
+  name: Foliate
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/foliate-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/foliate-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/foliate-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/foliate-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/foliate-4.png
+  src_pkg_name: app/com.github.johnfactotum.Foliate/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Read e-books in style
+pikabackup:
+  author: Small Mammal Collective
+  categories:
+  - Utility
+  - Archiving
+  description: "Doing backups the easy way. Plugin your USB drive and let the Pika\
+    \ do the rest for you.\n\n- Create backups locally and remotely\n- Set a schedule\
+    \ for regular backups\n- Save time and disk space because Pika Backup does not\
+    \ need to copy known data again\n- Encrypt your backups\n- List created archives\
+    \ and browse through their contents\n- Recover files or folders via your file\
+    \ browser\n\n      Pika Backup is designed to save your personal data and does\
+    \ not support complete system recovery. Pika Backup is powered by the well-tested\
+    \ BorgBackup software."
+  donate_url: https://opencollective.com/pika-backup
+  homepage: https://apps.gnome.org/PikaBackup/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pikabackup.png
+  keywords:
+  - archive
+  - back-up
+  - borg
+  license: GPL-3.0
+  mobile: 1
+  name: Pika Backup
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pikabackup-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pikabackup-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pikabackup-2.png
+  src_pkg_name: app/org.gnome.World.PikaBackup/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Keep your data safe
+shortwave:
+  author: "Felix H\xE4cker"
+  categories:
+  - Audio
+  - AudioVideo
+  description: 'Shortwave is an internet radio player that provides access to a station
+    database with over 30,000 stations.
+
+
+    Features:
+
+    - Create your own library where you can add your favorite stations
+
+    - Easily search and discover new radio stations
+
+    - Automatic recognition of songs, with the possibility to save them individually
+
+    - Responsive application layout, compatible for small and large screens
+
+    - Play audio on supported network devices (e.g. Google Chromecasts)
+
+    - Seamless integration into the GNOME desktop environment'
+  donate_url: https://liberapay.com/haecker-felix
+  homepage: https://gitlab.gnome.org/World/Shortwave
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/shortwave.png
+  keywords:
+  - Gradio
+  - Radio
+  - Stream
+  - Wave
+  - "\u0420\u0430\u0434\u044B\u0451"
+  - "\u0425\u0432\u0430\u043B\u044F"
+  - Emissora
+  - Emissores
+  - "Retransmissi\xF3"
+  - "R\xE0dio"
+  - "R\xE0dios"
+  - directe
+  - retransmissions
+  - "R\xE1dio"
+  - "B\xF8lge"
+  - "Str\xF8m"
+  - Welle
+  - Flujo
+  - onda
+  - Irratia
+  - Korrontea
+  - nettiradio
+  - suoratoisto
+  - diffusion
+  - flux
+  - radio
+  - stream
+  - wave
+  - Fluxo
+  - Onda
+  - "Retransmisi\xF3n"
+  - "\u05D2\u05DC"
+  - "\u05D4\u05D6\u05E8\u05DE\u05D4"
+  - "\u05D7\u05D3\u05E9\u05D5\u05EA"
+  - "\u05DE\u05D5\u05D6\u05D9\u05E7\u05D4"
+  - "\u05E8\u05D3\u05D9\u05D5"
+  - "\u05EA\u05D3\u05E8"
+  - "\u05EA\u05D7\u05E0\u05D4"
+  - "\u05EA\u05D7\u05E0\u05D5\u05EA"
+  - Strujanje
+  - adatfolyam
+  - "hull\xE1m"
+  - "k\xF6zvet\xEDt\xE9s"
+  - "m\u0171sorsz\xF3r\xE1s"
+  - "r\xE1di\xF3"
+  - Aliran
+  - Gelombang
+  - Flusso
+  - Trasmissione
+  - Golf
+  - Stroom
+  - flux
+  - onda
+  - "r\xE0dio"
+  - Fala radiowa
+  - Strumieniowanie
+  - Strumieniowe
+  - "Strumie\u0144"
+  - "Emiss\xE3o"
+  - "R\xE1dio"
+  - "Transmiss\xE3o"
+  - Onda
+  - Reproduzir
+  - "Reprodu\xE7\xE3o"
+  - "R\xE1dio"
+  - Sintonia
+  - "\u0412\u043E\u043B\u043D\u0430"
+  - "\u0420\u0430\u0434\u0438\u043E"
+  - "\u0422\u0440\u0430\u043D\u0441\u043B\u044F\u0446\u0438\u044F"
+  - Frekvencie
+  - "Pr\xFAd"
+  - "R\xE1dio"
+  - Streamovanie
+  - Pretok
+  - glasba
+  - G-radio
+  - kratak
+  - strim
+  - talas
+  - tok
+  - val
+  - vejv
+  - "\u0432\u0430\u043B"
+  - "\u0432\u0435\u0458\u0432"
+  - "\u0433-\u0440\u0430\u0434\u0438\u043E"
+  - "\u0433\u0440\u0430\u0434\u0438\u043E"
+  - "\u043A\u0440\u0430\u0442\u0430\u043A"
+  - "\u0440\u0430\u0434\u0438\u043E"
+  - "\u0441\u0442\u0440\u0438\u043C"
+  - "\u0442\u0430\u043B\u0430\u0441"
+  - "\u0442\u043E\u043A"
+  - "Str\xF6m"
+  - "Ak\u0131\u015F"
+  - Dalga
+  - "K\u0131sa Dalga"
+  - Radyo
+  - Shortwave
+  - "Yay\u0131n"
+  - "\u0130stasyon"
+  - "\u0433\u0440\u0430\u0434\u0456\u043E"
+  - "\u0436\u0440\u0430\u0434\u0456\u043E"
+  - "\u043F\u043E\u0442\u0456\u043A"
+  - "\u0440\u0430\u0434\u0456\u043E"
+  - "\u0442\u0440\u0430\u043D\u0441\u043B\u044F\u0446\u0456\u044F"
+  - "\u0445\u0432\u0438\u043B\u044F"
+  - dai
+  - song ngan
+  - "s\xF3ng ng\u1EAFn"
+  - "\u0111\xE0i"
+  - "\u6536\u97F3\u673A"
+  - "\u6CE2"
+  - "\u6D41"
+  - "\u5EE3\u64AD"
+  - "\u6536\u97F3\u6A5F"
+  - "\u96FB\u81FA"
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Shortwave
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shortwave-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shortwave-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/shortwave-2.png
+  src_pkg_name: app/de.haeckerfelix.Shortwave/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Listen to internet radio
+spacecadetpinball:
+  author: Andrey Muzychenko
+  categories:
+  - Game
+  - ArcadeGame
+  description: Reverse engineering of '3D Pinball for Windows - Space Cadet', a game
+    bundled with Windows.
+  homepage: https://github.com/k4zmu2a/SpaceCadetPinball
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/spacecadetpinball.png
+  keywords:
+  - pinball
+  - space
+  - cadet
+  license: MIT
+  mobile: 1
+  name: Space Cadet Pinball
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spacecadetpinball-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/spacecadetpinball-1.png
+  src_pkg_name: app/com.github.k4zmu2a.spacecadetpinball/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Non system-themed menus
+  summary: Game engine for Space Cadet Pinball
+clamtk:
+  categories:
+  - System
+  - Utility
+  description: ClamTk is intended to be an easy to use, light-weight, on-demand scanner
+    for Linux systems.
+  homepage: https://github.com/dave-theunsub/clamtk/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/clamtk.png
+  keywords:
+  - antivirus
+  - malware
+  - scan
+  - scanner
+  - virus
+  license: GPL-2.0+
+  mobile: 1
+  name: ClamTk
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/clamtk-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/clamtk-1.png
+  src_pkg_name: app/com.gitlab.davem.ClamTk/x86_64/stable
+  still_rating: 2
+  still_rating_notes: 'Buggy theming in certain areas
+
+    Freezes entire window for certain tasks'
+  summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
+resources:
+  author: nokyan
+  categories:
+  - System
+  description: "Resources allows you to check the utilization of your system resources\
+    \ and control your running processes and apps. It\u2019s designed to be user-friendly\
+    \ and feel right at home on a modern desktop by using GNOME\u2019s libadwaita.\n\
+    \n      Resources supports monitoring the following components:\n\n- CPU\n- Memory\n\
+    - GPU\n- Network Interfaces\n- Storage Devices"
+  homepage: https://github.com/nokyan/resources
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/resources.png
+  keywords:
+  - System
+  - Resources
+  - Monitor
+  - Processes
+  - Usage
+  - Task
+  - Manager
+  - CPU
+  - RAM
+  - Memory
+  - GPU
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Resources
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-4.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-5.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-6.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/resources-7.png
+  src_pkg_name: app/net.nokyan.Resources/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Keep an eye on system resources
+transmission:
+  author: The Transmission Project
+  categories:
+  - Network
+  - FileTransfer
+  - P2P
+  description: "BitTorrent is a peer-to-peer file-sharing protocol that is commonly\
+    \ used to\n      distribute large amounts of data between multiple users.\n\n\
+    \      Transmission is a BitTorrent client with an easy-to-use interface on top\
+    \ of a\n      cross-platform backend.\n      Native interfaces are available for\
+    \ macOS, Linux, and Windows, as well as command line binaries and\n      a web\
+    \ GUI.\n\n      Notable features of Transmission include support for Local Peer\
+    \ Discovery, encryption,\n      DHT, \xB5TP, PEX and Magnet links."
+  donate_url: https://transmissionbt.com/donate
+  homepage: https://transmissionbt.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/transmission.png
+  keywords:
+  - torrents
+  - downloading
+  - uploading
+  - share
+  - sharing
+  license: GPL-2.0 OR GPL-3.0
+  mimetypes:
+  - application/x-bittorrent
+  - x-scheme-handler/magnet
+  mobile: 1
+  name: Transmission
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/transmission-0.png
+  src_pkg_name: app/com.transmissionbt.Transmission/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Torrent clients allow peer-to-peer file sharing over decentralized\n\
+    \      networks. Use torrents responsibly and only to download or share content\
+    \ you have permission for.\n      Downloading or distributing copyrighted material\
+    \ without authorization is illegal.\n      Users are responsible for complying\
+    \ with all applicable laws when using torrent software.\n"
+  summary: Download and share files over BitTorrent
+playonlinux4:
+  author: The PlayOnLinux Authors
+  categories:
+  - Utility
+  description: "PlayOnLinux will allow you to run your favorite Windows games and\n\
+    \    applications on Linux through Wine easily.\n\n    New users can often find\
+    \ Wine to be intimidating and difficult to use.\n    PlayOnLinux simplifies much\
+    \ of this and makes installing and using\n    Windows programs easier.\n\n   \
+    \ PlayOnLinux has the database of Windows applications from which the user\n \
+    \   can install desired application with a few clicks. It will automatically\n\
+    \    setup your Wine prefix and download any required Windows libraries."
+  donate_url: https://www.playonlinux.com/en/donate.html
+  homepage: https://www.playonlinux.com/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/playonlinux4.png
+  keywords:
+  - wine
+  - games
+  - software
+  - windows
+  license: GPL-3.0
+  mobile: 1
+  name: PlayOnLinux 4
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/playonlinux4-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/playonlinux4-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/playonlinux4-2.png
+  src_pkg_name: app/com.playonlinux.PlayOnLinux4/x86_64/stable
+  still_rating: 2
+  still_rating_notes: Hasn't been updated in a while, has several graphic issues,
+    especially on dark themes
+  summary: Graphical front-end for Wine
+pdfarranger:
+  author: The PDF Arranger team
+  categories:
+  - Office
+  description: "PDF Arranger is a small application, which helps the user to merge\
+    \ or split pdf\n      documents and rotate, crop and rearrange their pages using\
+    \ an interactive and\n      intuitive graphical interface.\n\n      It is a frontend\
+    \ for pikepdf."
+  homepage: https://github.com/pdfarranger/pdfarranger
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pdfarranger.png
+  keywords:
+  - pdfarranger
+  - pdfshuffler
+  - PDF Shuffler
+  license: GPL-3.0-or-later
+  mimetypes:
+  - application/pdf
+  - application/postscript
+  - application/x-ext-pdf
+  - image/x-bmp
+  - image/bmp
+  - image/gif
+  - image/tiff
+  - image/jp2
+  - image/jpeg
+  - image/jpg
+  - image/png
+  - image/x-icon
+  - image/x-portable-pixmap
+  - image/x-gray
+  - image/x-ico
+  - image/x-png
+  - image/vnd.zbrush.pcx
+  - image/x-pcx
+  mobile: 1
+  name: PDF Arranger
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pdfarranger-0.png
+  src_pkg_name: app/com.github.jeromerobert.pdfarranger/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Merge, shuffle, and crop PDFs
+mullvadbrowser:
+  author: Mullvad VPN AB
+  categories:
+  - Network
+  - WebBrowser
+  - Security
+  description: "NOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by Mullvad VPN AB.\n\n            The Mullvad Browser is a privacy-focused web\
+    \ browser developed in a collaboration\n            between Mullvad VPN and the\
+    \ Tor Project. It\u2019s designed to minimize tracking and\n            fingerprinting.\
+    \ You could say it\u2019s a Tor Browser to use without the Tor Network.\n    \
+    \        Instead, you can use it with a trustworthy VPN. The idea is to provide\
+    \ one more\n            alternative \u2013 beside the Tor Network \u2013 to browse\
+    \ the internet with more privacy. To get\n            as many people as possible\
+    \ to fight the big data gathering of today. To free the\n            internet\
+    \ from mass surveillance."
+  homepage: https://mullvad.net/en/browser
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/mullvadbrowser.png
+  keywords:
+  - Internet
+  - WWW
+  - Browser
+  - Web
+  - Explorer
+  license: MPL-2.0
+  mimetypes:
+  - text/html
+  - text/xml
+  - application/xhtml+xml
+  - x-scheme-handler/http
+  - x-scheme-handler/https
+  - application/x-xpinstall
+  - application/pdf
+  - application/json
+  mobile: 1
+  name: Mullvad Browser
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mullvadbrowser-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mullvadbrowser-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mullvadbrowser-2.png
+  src_pkg_name: app/net.mullvad.MullvadBrowser/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Free the internet from mass surveillance
+plexdesktop:
+  author: Plex
+  categories:
+  - AudioVideo
+  - Player
+  description: "Plex for Linux is your client for playback on the Linux desktop. It\
+    \ features the point and\n    click interface you see in your browser but uses\
+    \ a more powerful playback engine as well as\n    some other advanced features."
+  homepage: https://plex.tv
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/plexdesktop.png
+  license: LicenseRef-proprietary=https://www.plex.tv/en-gb/about/privacy-legal/plex-terms-of-service/
+  mobile: 1
+  name: Plex
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/plexdesktop-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/plexdesktop-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/plexdesktop-2.png
+  src_pkg_name: app/tv.plex.PlexDesktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non system theme
+  summary: Plex client for desktop computers
+masterpdfeditor:
+  author: Code Industry
+  categories:
+  - Graphics
+  - Office
+  description: 'Master PDF Editor is straightforward, easy to use application for
+    working with PDF documents equipped with powerful multi-purpose functionality.
+    With Master PDF Editor you can easily view, create and modify PDF documents. The
+    application enables you to merge several files into one, split a source document
+    into multiple documents, and also to comment, sign and encrypt PDF files.
+
+
+    NOTE: This wrapper is not verified by, affiliated with, or supported by Code Industry.'
+  homepage: https://code-industry.net/masterpdfeditor/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/masterpdfeditor.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/pdf
+  - application/x-bzpdf
+  - application/x-gzpdf
+  mobile: 1
+  name: Master PDF Editor
+  pricing: 5
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/masterpdfeditor-0.png
+  src_pkg_name: app/net.codeindustry.MasterPDFEditor/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded Qt theme
+  summary: View, create, modify, sign, scan, OCR and print PDF documents
+joplin_desktop:
+  author: laurent22
+  categories:
+  - Office
+  description: "Joplin is a free, open source note taking and to-do application, which\
+    \ can handle a large number of notes organised into notebooks. The notes are searchable,\
+    \ can be copied, tagged and modified either from the applications directly or\
+    \ from your own text editor. The notes are in Markdown format.\n\n      Notes\
+    \ exported from Evernote via .enex files can be imported into Joplin, including\
+    \ the formatted content (which is converted to Markdown), resources (images, attachments,\
+    \ etc.) and complete metadata (geolocation, updated time, created time, etc.).\
+    \ Plain Markdown files can also be imported.\n\n      The notes can be synchronised\
+    \ with various cloud services including Nextcloud, Dropbox, OneDrive, WebDAV or\
+    \ the file system (for example with a network directory). When synchronising the\
+    \ notes, notebooks, tags and other metadata are saved to plain text files which\
+    \ can be easily inspected, backed up and moved around.\n\n      The application\
+    \ is available for Windows, Linux, macOS, Android and iOS (the terminal app also\
+    \ works on FreeBSD). A Web Clipper, to save web pages and screenshots from your\
+    \ browser, is also available for Firefox and Chrome."
+  donate_url: https://joplinapp.org/donate/
+  homepage: https://joplinapp.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/joplin_desktop.png
+  license: MIT
+  mimetypes:
+  - x-scheme-handler/joplin
+  mobile: 1
+  name: Joplin
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/joplin_desktop-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/joplin_desktop-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/joplin_desktop-2.png
+  src_pkg_name: app/net.cozic.joplin_desktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: open source note taking and to-do application
+openarena:
+  author: OA Team, xplshn and contributors
+  categories:
+  - Game
+  - ActionGame
+  description: "OpenArena is a free and open source first-person shooter game based\n\
+    \      heavily on the Quake III Arena-style deathmatch.\n      Score frags to\
+    \ win the game using a balanced set of weapons each designed\n      for different\
+    \ situations.\n      Guns include a chaingun, rocket launcher, shotgun, and railgun.\n\
+    \n      OpenArena's style of play is very fast and requires skill to be played\n\
+    \      successfully online.\n      Gameplay modes include Deathmatch, Team Deathmatch,\
+    \ Tournament, Capture\n      the Flag, Elimination, CTF Elimination, Last Man\
+    \ Standing and Double\n      Domination.\n\n      This version of OpenArena is\
+    \ based on the Quake3e engine,\n      we do not take credit for the work done\
+    \ by the OpenArena team nor \"Eugene\", who develops the Quake3e engine.\n   \
+    \   This Flatpak was made to be a replacement of the original one released in\
+    \ 2012,\n      as it contains bugs and annoyances not present in this engine.\n\
+    \n      A configuration file is also available, which lets you modify CVARS however\
+    \ you want.\n      The OAX patch has been applied, which adds support for more\
+    \ screen resolutions and makes the game playable\n      in many modern systems,\
+    \ it also includes bugfixes and improvements. (to disable this patch modify the\
+    \ config file).\n      Beware that trying to connect to an OAX-patched server\
+    \ may not work with unpatched clients. Connections to unpatched servers\n    \
+    \  do work and present no issues."
+  homepage: http://www.openarena.ws/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/openarena.png
+  keywords:
+  - arena
+  - quake
+  - q3a
+  license: GPL-2.0+
+  mobile: 1
+  name: OpenArena
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openarena-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openarena-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openarena-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openarena-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openarena-4.png
+  src_pkg_name: app/io.github.ec_.Quake3e.OpenArena/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Free and open source first-person shooter

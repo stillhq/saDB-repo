@@ -78,6 +78,7 @@ def html_to_plain_text(html):
 
 
 def download_image(url, dest_path):
+    print("downloading: " + url)
     response = requests.get(url, stream=True)
     response.raise_for_status()  # Raise exception if invalid response
     # Get the file extension from the URL
@@ -140,12 +141,17 @@ class Application(Adw.Application):
     def flatpak_id_apply(self, _entry):
         flatpak_id = self.flatpak_package.get_text()
         component = find_appstream(flatpak_id)
+        if component is None:
+            component = find_appstream(flatpak_id + ".desktop")
         try:
-            self.sadb_id.set_text(flatpak_id.split(".")[2].lower())
+            self.sadb_id.set_text(flatpak_id.split(".")[-1].lower())
         except IndexError:
             self.sadb_id.set_text(flatpak_id.replace(".", "-").lower())
         self.name.set_text(component.get_name())
-        self.author.set_text(component.get_developer().get_name())
+        try:
+            self.author.set_text(component.get_developer().get_name())
+        except (IndexError, TypeError):
+            pass
         self.summary.set_text(component.get_summary())
         self.primary_src.set_text("flathub")
         self.src_pkg_name.set_text(f"app/{flatpak_id}/x86_64/stable")
