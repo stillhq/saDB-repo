@@ -5559,3 +5559,1392 @@ openarena:
   still_rating: 4
   still_rating_notes: No notes have been provided.
   summary: Free and open source first-person shooter
+bleachbit:
+  author: BleachBit Developers
+  categories:
+  - System
+  - FileTools
+  description: "BleachBit quickly frees disk space and tirelessly guards your privacy.\
+    \ Free cache, delete cookies, clear Internet history, shred temporary files, delete\
+    \ logs, and discard junk you didn't know was there. It wipes clean a thousand\
+    \ applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.\n\
+    \n      Beyond simply deleting files, BleachBit includes advanced features such\
+    \ as shredding files to prevent recovery, wiping free disk space to hide traces\
+    \ of files deleted by other applications, and vacuuming Firefox to make it faster."
+  donate_url: https://www.bleachbit.org/contribute
+  homepage: https://www.bleachbit.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/bleachbit.png
+  keywords:
+  - cache
+  - clean
+  - free
+  - performance
+  - privacy
+  license: GPL-3.0
+  mobile: 1
+  name: BleachBit
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/bleachbit-0.png
+  src_pkg_name: app/org.bleachbit.BleachBit/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Cleans files to free disk space and to maintain privacy
+jellyfin-media-player:
+  author: Izzie Walton
+  categories:
+  - AudioVideo
+  - Video
+  - Player
+  - TV
+  description: Jellyfin Desktop Client based on Plex Media Player. Play your Jellyfin
+    media in the jellyfin-web application with significantly improved media support.
+    The client also supports SyncPlay.
+  homepage: https://github.com/iwalton3/jellyfin-media-player
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/jellyfin-media-player.png
+  license: GPL-2.0
+  mobile: 1
+  name: Jellyfin Media Player
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/jellyfin-media-player-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/jellyfin-media-player-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/jellyfin-media-player-2.png
+  src_pkg_name: app/com.github.iwalton3.jellyfin-media-player/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non-system theme
+  summary: Desktop client for Jellyfin media server
+gnome-calculator:
+  author: The GNOME Project
+  categories:
+  - Utility
+  - Calculator
+  description: "Calculator is an application that solves mathematical equations.\n\
+    \      Though it at first appears to be a simple calculator with only basic\n\
+    \      arithmetic operations, you can switch into Advanced, Financial, or\n  \
+    \    Programming mode to find a surprising set of capabilities.\n\n      The Advanced\
+    \ calculator supports many operations, including:\n      logarithms, factorials,\
+    \ trigonometric and hyperbolic functions,\n      modulus division, complex numbers,\
+    \ random number generation, prime\n      factorization and unit conversions.\n\
+    \n      Financial mode supports several computations, including periodic interest\n\
+    \      rate, present and future value, double declining and straight line\n  \
+    \    depreciation, and many others.\n\n      Programming mode supports conversion\
+    \ between common bases (binary, octal,\n      decimal, and hexadecimal), boolean\
+    \ algebra, one\u2019s and two\u2019s complementation,\n      character to character\
+    \ code conversion, and more."
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Calculator
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gnome-calculator.png
+  keywords:
+  - calculation
+  - arithmetic
+  - scientific
+  - financial
+  license: GPL-3.0-or-later
+  mobile: 3
+  name: Calculator
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calculator-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calculator-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calculator-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calculator-3.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calculator-4.png
+  src_pkg_name: app/org.gnome.Calculator/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Perform arithmetic, scientific or financial calculations
+dejadup:
+  author: Michael Terry
+  categories:
+  - Utility
+  - Archiving
+  description: "D\xE9j\xE0 Dup is a simple backup tool. It hides the complexity of\
+    \ backing up the Right Way (encrypted, off-site, and regular) and uses duplicity\
+    \ as the backend.\n- Support for local, remote, or cloud backup locations such\
+    \ as Google Drive\n- Securely encrypts and compresses your data\n- Incrementally\
+    \ backs up, letting you restore from any particular backup\n- Schedules regular\
+    \ backups\n- Integrates well into your GNOME desktop\n\nD\xE9j\xE0 Dup focuses\
+    \ on ease of use and recovering from personal, accidental data loss. If you need\
+    \ a full system backup or an archival program, you may prefer other backup apps."
+  donate_url: https://liberapay.com/DejaDup
+  homepage: https://apps.gnome.org/DejaDup/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/dejadup.png
+  keywords:
+  - "d\xE9j\xE0"
+  - deja
+  - dup
+  - archive
+  - archiving
+  - backup
+  - backups
+  - back up
+  license: GPL-3.0-or-later
+  mimetypes:
+  - x-scheme-handler/com.googleusercontent.apps.916137916439-evn6skqan91m96fmsskk8102e3iepv22
+  - x-scheme-handler/msal5291592c-3c09-44fb-a275-5027aa238645
+  mobile: 1
+  name: "D\xE9j\xE0 Dup Backups"
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dejadup-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dejadup-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dejadup-2.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/dejadup-3.png
+  src_pkg_name: app/org.gnome.DejaDup/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Protect yourself from data loss
+steamlink:
+  author: Valve Corporation
+  categories:
+  - Game
+  description: The Steam Link app allows you to stream games from your other computers.
+    Just plug in a controller, connect to a computer running Steam on the same local
+    network, and start playing your existing Steam games.
+  homepage: https://store.steampowered.com/steamlink/about/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/steamlink.png
+  keywords:
+  - Games
+  license: LicenseRef-proprietary
+  mimetypes:
+  - x-scheme-handler/steamlink
+  mobile: 1
+  name: Steam Link
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/steamlink-0.png
+  src_pkg_name: app/com.valvesoftware.SteamLink/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard-coded non system theme
+  summary: Stream games from another computer with Steam
+desktop:
+  author: shiftkey
+  categories:
+  - Development
+  description: "Focus on what matters instead of fighting with Git. Whether you're\
+    \ new to Git or a seasoned\n      user, GitHub Desktop simplifies your development\
+    \ workflow.\n\n      Attribute commits with collaborators easily. Quickly add\
+    \ co-authors to your commit. Great for\n      pairing and excellent for sending\
+    \ a little love/credit to that special someone who helped fix\n      that gnarly\
+    \ bug of yours. See the attribution on the history page, undo an accidental\n\
+    \      attribution, and see the co-authors on github.com\n\n      Checkout branches\
+    \ with pull requests and view CI statuses. See all open pull requests for your\n\
+    \      repositories and check them out as if they were a local branch, even if\
+    \ they're from upstream\n      branches or forks. See which pull requests pass\
+    \ commit status checks, too!]\n\n      Syntax highlighted diffs. The new GitHub\
+    \ Desktop supports syntax highlighting when viewing\n      diffs for a variety\
+    \ of different languages.\n\n      Expanded image diff support. Easily compare\
+    \ changed images. See the before and after, swipe or\n      fade between the two,\
+    \ or look at just the changed parts.\n\n      Extensive editor & shell integrations.\
+    \ Open your favorite editor or shell from the app, or\n      jump back to GitHub\
+    \ Desktop from your shell. GitHub Desktop is your springboard for work.\n\n  \
+    \    Community supported. GitHub Desktop is open source now! Check out our roadmap,\
+    \ contribute, and\n      help us make collaboration even easier.\n\n      This\
+    \ version of GitHub Desktop is a fork that adds support for Linux."
+  homepage: https://github.com/shiftkey/desktop#readme
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/desktop.png
+  license: MIT
+  mimetypes:
+  - x-scheme-handler/x-github-client
+  - x-scheme-handler/x-github-desktop-auth
+  - x-scheme-handler/x-github-desktop-dev-auth
+  mobile: 1
+  name: GitHub Desktop
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/desktop-0.png
+  src_pkg_name: app/io.github.shiftey.Desktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Non-system hard-coded theme
+  summary: Simple collaboration from your desktop
+boxbuddyrs:
+  author: Dvlv
+  categories:
+  - Utility
+  description: 'BoxBuddy is a graphical user interface for Distrobox.
+
+
+    Distrobox allows users to create container images of many different Linux distributions
+    which are nicely integrated with your host system, but still completely separate.
+
+
+    BoxBuddy makes creating and using these containers simple and convenient by providing
+    a simple UI for many common tasks.
+
+
+    NOTE: BoxBuddy does not package Distrobox, it must be installed on your system
+    separately.'
+  homepage: https://github.com/Dvlv/BoxBuddyRS
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/boxbuddyrs.png
+  keywords:
+  - container
+  - podman
+  - distrobox
+  license: MIT
+  mimetypes:
+  - application/x-rpm
+  - application/vnd.debian.binary-package
+  mobile: 1
+  name: BoxBuddy
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxbuddyrs-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxbuddyrs-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/boxbuddyrs-2.png
+  src_pkg_name: app/io.github.dvlv.boxbuddyrs/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: A Graphical Distrobox Manager
+gwenview:
+  author: KDE
+  categories:
+  - Graphics
+  - Viewer
+  - Photography
+  description: 'Gwenview is a fast and easy to use image viewer by KDE, ideal for
+    browsing and displaying a collection of images.
+
+
+    Features:
+
+    - Simple image editing: rotate, crop, resize, mirror, flip, reduce red eye, and
+    adjust brightness, contrast, or gamma
+
+    - Annotate and mark up images with arrows, shapes, text boxes, image stamps, and
+    more
+
+    - Basic file management actions such as copy, move, delete, and others
+
+    - Functions both as a standalone application and an embedded viewer in the Konqueror
+    web browser'
+  donate_url: https://www.kde.org/community/donations/?app=gwenview&source=appdata
+  homepage: https://apps.kde.org/gwenview
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gwenview.png
+  license: GPL-2.0+
+  mimetypes:
+  - inode/directory
+  - image/avif
+  - image/gif
+  - image/heif
+  - image/jpeg
+  - image/jxl
+  - image/png
+  - image/bmp
+  - image/x-eps
+  - image/x-icns
+  - image/x-ico
+  - image/x-portable-bitmap
+  - image/x-portable-graymap
+  - image/x-portable-pixmap
+  - image/x-xbitmap
+  - image/x-xpixmap
+  - image/tiff
+  - image/x-psd
+  - image/x-webp
+  - image/webp
+  - image/x-tga
+  - image/x-xcf
+  - application/x-krita
+  mobile: 1
+  name: Gwenview
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gwenview-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gwenview-1.png
+  src_pkg_name: app/org.kde.gwenview/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt, kde app
+  summary: Image Viewer
+lime3ds:
+  author: Lime3DS Emulator Team
+  categories:
+  - Game
+  - Emulator
+  description: 'Lime3DS is a fork of Citra, a popular open-source Nintendo 3DS emulator
+    which ceased development.
+
+
+    This project aims to pick up where Citra left off, continuing to fix bugs and
+    implement new features.
+
+
+    Note: Patch notes only reflect changes relevant to the Flatpak release. For full
+    changelogs, visit the project''s GitHub page'
+  homepage: https://lime3ds.github.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/lime3ds.png
+  keywords:
+  - 3DS
+  - Nintendo
+  license: GPL-2.0
+  mimetypes:
+  - application/x-ctr-3dsx
+  - application/x-ctr-cci
+  - application/x-ctr-cia
+  - application/x-ctr-cxi
+  mobile: 1
+  name: Lime3DS
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/lime3ds-0.png
+  src_pkg_name: app/io.github.lime3ds.Lime3DS/x86_64/stable
+  still_rating: 0
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \      Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \      or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n      for complying with all applicable laws when using emulators."
+  summary: 3DS emulator forked from Citra
+mame:
+  author: MAMEDev and contributors
+  categories:
+  - Game
+  - ArcadeGame
+  - Emulator
+  description: "MAME's purpose is to preserve decades of software history. As electronic\
+    \ technology continues to rush\n        forward, MAME prevents this important\
+    \ \"vintage\" software from being lost and forgotten. This is\n        achieved\
+    \ by documenting the hardware and how it functions. The source code to MAME serves\
+    \ as this documentation.\n        The fact that the software is usable serves\
+    \ primarily to validate the accuracy of the documentation (how else\n        can\
+    \ you prove that you have recreated the hardware faithfully?). Over time, MAME\
+    \ (originally stood for Multiple\n        Arcade Machine Emulator) absorbed the\
+    \ sister-project MESS (Multi Emulator Super System), so MAME now documents a\n\
+    \        wide variety of (mostly vintage) computers, video game consoles and calculators,\
+    \ in addition to the arcade video\n        games that were its initial focus."
+  homepage: https://www.mamedev.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/mame.png
+  license: GPL-2.0-or-later
+  mobile: 1
+  name: MAME
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mame-0.png
+  src_pkg_name: app/org.mamedev.MAME/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Emulators allow running software designed for other systems.
+    Use emulators responsibly and only to play games you legally own. Downloading
+    or distributing copyrighted ROMs without permission is illegal. Users are responsible
+    for complying with all applicable laws when using emulators.
+  summary: MAME is a multi-purpose emulation framework.
+drawio:
+  author: JGraph
+  categories:
+  - Graphics
+  description: "draw.io is the most flexible and privacy-focused of any production\n\
+    \      grade diagramming tool. Create flowcharts, process diagrams, org\n    \
+    \  charts, UML, ER diagrams, network diagrams and much more."
+  homepage: https://about.draw.io
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/drawio.png
+  keywords:
+  - chart
+  - diagram
+  - draw
+  - flowchart
+  - uml
+  license: Apache-2.0
+  mimetypes:
+  - application/vnd.jgraph.mxfile
+  - application/vnd.visio
+  mobile: 1
+  name: draw.io
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/drawio-0.png
+  src_pkg_name: app/com.jgraph.drawio.desktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded theme
+  summary: Create and share diagrams
+cheese:
+  author: The GNOME Project
+  categories:
+  - AudioVideo
+  - Video
+  - Recorder
+  description: "Cheese uses your webcam to take photos and videos, applies fancy\n\
+    \      special effects and lets you share the fun with others.\n\n      Take multiple\
+    \ photos in quick succession with burst mode.\n      Use the countdown to give\
+    \ yourself time to strike a pose, and wait for the\n      flash!\n\n      Under\
+    \ the hood, Cheese uses GStreamer to apply fancy effects to\n      photos and\
+    \ videos.\n      With Cheese it is easy to take photos of you, your friends, pets\
+    \ or\n      whatever you want and share them with others."
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://wiki.gnome.org/Apps/Cheese
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/cheese.png
+  keywords:
+  - photo
+  - video
+  - webcam
+  - camera
+  - selfie
+  license: GPL-2.0+
+  mobile: 1
+  name: Cheese
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/cheese-0.png
+  src_pkg_name: app/org.gnome.Cheese/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Take photos and videos with your webcam, with fun graphical effects
+gnome-maps:
+  author: The GNOME Project
+  categories:
+  - Utility
+  description: "Maps gives you quick access to maps all across the world. It allows\
+    \ you\n      to quickly find the place you\u2019re looking for by searching for\
+    \ a city or\n      street, or locate a place to meet a friend.\n\n      Maps uses\
+    \ the collaborative OpenStreetMap database, made by hundreds of\n      thousands\
+    \ of people across the globe."
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Maps/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gnome-maps.png
+  keywords:
+  - Maps
+  license: GPL-2.0-or-later
+  mimetypes:
+  - application/vnd.geo+json
+  - x-scheme-handler/geo
+  - x-scheme-handler/maps
+  - application/vnd.google-earth.kml+xml
+  - application/gpx+xml
+  - application/fits
+  mobile: 1
+  name: Maps
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-maps-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-maps-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-maps-2.png
+  src_pkg_name: app/org.gnome.Maps/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Find places around the world
+snes9x:
+  author: Snes9x
+  categories:
+  - Emulator
+  - Game
+  description: Snes9x is a portable, freeware Super Nintendo Entertainment System
+    (SNES) emulator. It basically allows you to play most games designed for the SNES
+    and Super Famicom Nintendo game systems on your PC or Workstation; which includes
+    some real gems that were only ever released in Japan.
+  homepage: http://snes9x.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/snes9x.png
+  license: LicenseRef-proprietary=https://raw.githubusercontent.com/snes9xgit/snes9x/master/docs/snes9x-license.txt
+    AND LGPL-2.1
+  mimetypes:
+  - application/vnd.nintendo.snes.rom
+  - application/x-snes-rom
+  mobile: 1
+  name: Snes9x
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/snes9x-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/snes9x-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/snes9x-2.png
+  src_pkg_name: app/com.snes9x.Snes9x/x86_64/stable
+  still_rating: 1
+  still_rating_notes: Emulators allow running software designed for other systems.
+    Use emulators responsibly and only to play games you legally own. Downloading
+    or distributing copyrighted ROMs without permission is illegal. Users are responsible
+    for complying with all applicable laws when using emulators.
+  summary: A Super Nintendo emulator
+weather:
+  author: The GNOME Project
+  categories:
+  - Utility
+  - Core
+  description: "A small application that allows you to monitor the current weather\n\
+    \      conditions for your city, or anywhere in the world.\n\n      It provides\
+    \ access to detailed forecasts, up to 7 days, with hourly\n      details for the\
+    \ current and next day, using various internet services.\n\n      It also optionally\
+    \ integrates with the GNOME Shell, allowing you to see\n      the current conditions\
+    \ of the most recently searched cities by just\n      typing the name in the Activities\
+    \ Overview."
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Weather/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/weather.png
+  keywords:
+  - Weather
+  - Forecast
+  license: GPL-2.0-or-later and CC-BY-3.0 and CC-BY-SA-3.0
+  mobile: 1
+  name: Weather
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/weather-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/weather-1.png
+  src_pkg_name: app/org.gnome.Weather/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Show weather conditions and forecast
+openrgb:
+  author: OpenRGB Developers and Contributors
+  categories:
+  - Utility
+  description: "One of the biggest complaints about RGB is the software ecosystem\n\
+    \      surrounding it.  Every manufacturer has their own app, their own brand,\n\
+    \      their own style.  If you want to mix and match devices, you end up with\
+    \ a\n      ton of conflicting, functionally identical apps competing for your\n\
+    \      background resources.  On top of that, these apps are proprietary and\n\
+    \      Windows-only.  Some even require online accounts.  What if there was a\
+    \ way\n      to control all of your RGB devices from a single app, on both Windows\
+    \ and\n      Linux, without any nonsense?  That is what OpenRGB sets out to achieve.\n\
+    \      One app to rule them all.\n\n      Features\n\n- Set colors and select\
+    \ effect modes for a wide variety of RGB\n      hardware\n- Save and load profiles\n\
+    - Control lighting from third party software using the OpenRGB SDK\n- Command\
+    \ line interface\n- Connect multiple instances of OpenRGB to synchronize lighting\n\
+    \      across multiple PCs\n- Can operate standalone or in a client/headless server\
+    \ configuration\n- View device information\n- No official/manufacturer software\
+    \ required\n- Graphical view of device LEDs makes creating custom patterns easy"
+  donate_url: https://gitlab.com/CalcProgrammer1/OpenRGB/-/blob/master/README.md#support-openrgb
+  homepage: https://openrgb.org
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/openrgb.png
+  keywords:
+  - rgb
+  - utility
+  license: GPL-2.0-or-later
+  mobile: 1
+  name: OpenRGB
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openrgb-0.png
+  src_pkg_name: app/org.openrgb.OpenRGB/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded qt theme
+  summary: Open source RGB lighting control
+arduinoide2:
+  author: Arduino SA
+  categories:
+  - Development
+  - IDE
+  - Electronics
+  description: "NOTE: This wrapper is not verified by, affiliated with, or supported\
+    \ by Arduino.\n\t\t\tArduino do not offer official support for the Flatpak wrapper,\
+    \ and so to offer the best support and experience for the Flatpak wrapper please\
+    \ report ALL issues at the Flathub issue tracker (linked by the issue button/link\
+    \ on this page).\n\t\t\tThis allows with issues to be dealt with correctly. For\
+    \ more info press the issues button/link on this page.\n\n\t\t\tIf you would like\
+    \ to limit the app's filesystem access and avoid cluttered configuration files,\
+    \ please see limit-filesystem-access.md in the Flathub repo.\n\n\t\t\tArduino\
+    \ is an open-source electronics prototyping platform based\n\t\t\ton flexible,\
+    \ easy-to-use hardware and software.  It's intended for\n\t\t\tartists, designers,\
+    \ hobbyists, and anyone interested in creating\n\t\t\tinteractive objects or environments.\n\
+    \n\t\t\tIncluded is an integrated development environment that can be used\n\t\
+    \t\tto develop and upload code to compatible microcontrollers.\n\n\t\t\tThe new\
+    \ major release of the Arduino IDE is faster and even more powerful! \n\t\t\t\
+    In addition to a more modern editor and a more responsive interface it features\
+    \ \n\t\t\tautocompletion, code navigation, and even a live debugger.\n\n\t\t\t\
+    The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions\
+    \ to upload a sketch, preferably, the user has to be part of the dialout group.\n\
+    \n\t\t\tAlternatively, add the following 2 lines to /etc/udev/rules.d/50-arduino.rules:\n\
+    \n\t\t\tKERNEL==\"ttyUSB[0-9]*\",MODE=\"0666\"\n\n\t\t\tKERNEL==\"ttyACM[0-9]*\"\
+    ,MODE=\"0666\""
+  donate_url: https://www.arduino.cc/en/donate/
+  homepage: https://www.arduino.cc/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/arduinoide2.png
+  keywords:
+  - embedded electronics
+  - avr
+  - microcontroller
+  license: AGPL-3.0
+  mimetypes:
+  - text/x-arduino
+  mobile: 1
+  name: Arduino IDE v2
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/arduinoide2-0.png
+  src_pkg_name: app/cc.arduino.IDE2/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded non-system theme
+  summary: Open-source electronics prototyping platform
+snapshot:
+  author: The GNOME Project
+  categories:
+  - AudioVideo
+  - Video
+  - Recorder
+  description: Take pictures and videos on your computer, tablet, or phone.
+  donate_url: https://www.gnome.org/donate
+  homepage: https://apps.gnome.org/Snapshot/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/snapshot.png
+  keywords:
+  - picture
+  - photos
+  - camera
+  - webcam
+  - snapshot
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Camera
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/snapshot-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/snapshot-1.png
+  src_pkg_name: app/org.gnome.Snapshot/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Take pictures and videos
+gwe:
+  author: Roberto Leinardi
+  categories:
+  - Utility
+  description: "GWE is a GTK system utility designed to provide information, control\
+    \ the fans and overclock your NVIDIA video\n            card and graphics processor."
+  homepage: https://gitlab.com/leinardi/gwe
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gwe.png
+  keywords:
+  - GWE
+  - nvidia
+  - overclock
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: GreenWithEnvy
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gwe-0.png
+  src_pkg_name: app/com.leinardi.gwe/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: System utility designed to provide information, control the fans and overclock
+    your NVIDIA card
+gnome-calendar:
+  author: The GNOME Project
+  categories:
+  - Office
+  - Calendar
+  - Core
+  description: "GNOME Calendar is an elegant tool to help you plan and stay on top\
+    \ of your schedule for\n      upcoming days and weeks, whether your months are\
+    \ filled with meetings and appointments,\n      public events, travel logistics,\
+    \ or other commitments in your life.\n\n      Easily create and manage unlimited\
+    \ calendars and events with GNOME Calendar's infinite\n      scrolling month view,\
+    \ week timetable, and scheduling list view.\n\n      Integrating the latest GNOME\
+    \ technologies and design best practices, GNOME Calendar builds on\n      top\
+    \ of the mature Evolution data server to manage large quantities of events and\
+    \ to provide\n      integration with other applications. You can add calendars\
+    \ from various online calendaring\n      services (like NextCloud, Google Calendar,\
+    \ and CalDAV / WebDAV servers), enabling you to\n      synchronize your events\
+    \ across multiple devices and platforms. GNOME Calendar also supports\n      local\
+    \ and offline calendaring, so you can use it anywhere and anytime while travelling\n\
+    \      (or after civilization's collapse.)"
+  donate_url: https://www.gnome.org/donate/
+  homepage: https://apps.gnome.org/Calendar/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gnome-calendar.png
+  keywords:
+  - Calendar
+  - Event
+  - Reminder
+  license: GPL-3.0-or-later
+  mimetypes:
+  - text/calendar
+  mobile: 1
+  name: Calendar
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calendar-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calendar-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/gnome-calendar-2.png
+  src_pkg_name: app/org.gnome.Calendar/x86_64/stable
+  still_rating: 5
+  still_rating_notes: No notes have been provided.
+  summary: Manage your schedule
+xournalpp:
+  author: Xournalpp Developers
+  categories:
+  - Office
+  description: "Xournal++ is a hand note-taking software written in C++ with the target\
+    \ of\n      flexibility, functionality and speed. Stroke recognizer and other\
+    \ parts are\n      based on Xournal Code, which you can find at sourceforge. It\
+    \ supports GNU/Linux\n      (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows.\
+    \ Supports pen input\n      from devices such as Wacom Tablets.\n\n      Xournal++\
+    \ features:\n\n- Supports pressure-sensitive styluses and digital pen tables (e.g.\
+    \ Wacom, Huion, XP Pen, etc. tablets)\n- Paper backgrounds for note-taking, scratch\
+    \ paper, or whiteboarding\n- Annotate on top of PDFs\n- Select text from the background\
+    \ PDF, copy, highlight or underline it or strike it through\n- Follow links from\
+    \ the background PDF\n- Export to a variety of formats including SVG, PNG and\
+    \ PDF, both from the GUI and command line\n- Different drawing tools (e.g. pen,\
+    \ highlighter) and stroke styles (e.g. solid, dotted)\n- Shape drawing (line,\
+    \ arrow, circle, rectangle, spline)\n- Use the set-square and compass tools for\
+    \ measurements or as a guide for drawing straight lines, circular arcs and radii\n\
+    - Fill shape functionality\n- Shape resizing and rotation\n- Rotation and grid\
+    \ snapping for precise alignment of objects\n- Input stabilization for smoother\
+    \ writing/drawing\n- Text tool for adding text in different fonts, colors, and\
+    \ sizes\n- Enhanced support for image insertion\n- Eraser with multiple configurations\n\
+    - LaTeX support (requires a working LaTeX installation) with customizable template\
+    \ and a resizable editor with syntax highlighting\n- Sidebar containing page previews\
+    \ with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)\n\
+    - Allows mapping different tools/colors etc. to stylus/mouse buttons\n- Customizable\
+    \ toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape\n\
+    - Custom color palette support using the .gpl format\n- Page template definitions\n\
+    - Bug reporting, autosave, and auto backup tools\n- Audio recording and playback\
+    \ alongside with handwritten notes\n- Multi language support (over 20 languages\
+    \ supported)\n- Plugins using Lua scripting"
+  homepage: https://xournalpp.github.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/xournalpp.png
+  keywords:
+  - tablet
+  - Wacom
+  - pen input
+  - PDF Annotation
+  - markup
+  license: GPL-2.0
+  mimetypes:
+  - application/x-xojpp
+  - application/x-xopp
+  - application/x-xopt
+  mobile: 1
+  name: Xournal++
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xournalpp-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xournalpp-1.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/xournalpp-2.png
+  src_pkg_name: app/com.github.xournalpp.xournalpp/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Take handwritten notes
+earthpro:
+  author: Google
+  categories:
+  - Network
+  description: 'Create maps with advanced tools: Google Earth Pro on desktop is free
+    for users with advanced feature needs. Import and export GIS data, and go back
+    in time with historical imagery
+
+
+    NOTE: This wrapper is not verified by, affiliated with, or supported by Google'
+  homepage: https://www.google.com/earth/versions/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/earthpro.png
+  license: LicenseRef-proprietary
+  mimetypes:
+  - application/vnd.google-earth.kml+xml
+  - application/vnd.google-earth.kmz
+  - application/earthviewer
+  - application/keyhole
+  mobile: 1
+  name: Google Earth Pro
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/earthpro-0.png
+  src_pkg_name: app/com.google.EarthPro/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hardcoded non-gtk theme, files can only save to Downloads by
+    default due to Flatpak sandboxing
+  summary: 3D planet viewer
+openshot:
+  author: OpenShot Studios, LLC
+  categories:
+  - AudioVideo
+  - Video
+  - AudioVideoEditing
+  description: "OpenShot Video Editor is an award-winning, open-source video editor,\
+    \ available on Linux, Mac, Chrome OS,\n        and Windows. OpenShot can create\
+    \ stunning videos, films, and animations with an easy-to-use interface\n     \
+    \   and rich set of features.\n\nFeatures include:\n- Free & open-source (licensed\
+    \ under GPLv3)\n- Cross-platform (Linux, OS X, Chrome OS, and Windows)\n- Easy-to-use\
+    \ user interface (designed for beginners, built-in tutorial)\n- Supports most\
+    \ video, audio, & image formats (based on FFmpeg)\n- Includes popular video profiles\
+    \ & presets (over 70+ profiles, including YouTube HD)\n- Advanced timeline (including\
+    \ drag and drop, scrolling, panning, zooming, and snapping)\n- Advanced clips\
+    \ (including trimming, alpha, scaling, location, rotation, and shearing)\n- Real-time\
+    \ preview (multi-threaded, and optimized for performance)\n- Simple & advanced\
+    \ views (or customize your own unique view)\n- Powerful, curve-based Keyframe\
+    \ animations (linear, B\xE9zier, and constant interpolation)\n- Compositing, image\
+    \ overlays, watermarks, & transparency\n- Unlimited tracks / layers (support for\
+    \ complex projects)\n- Video transitions, masks, & wipes (grayscale images and\
+    \ animated masks)\n- Video & audio effects (including brightness, gamma, hue,\
+    \ chroma key / blue screen, and more)\n- Image sequences & 2D animations (001.png,\
+    \ 002.png, 003.png, etc\u2026)\n- Blender 3D integration (animated 3D title templates)\n\
+    - Vector file support & editing (SVG / scalable vector graphics used for titles\
+    \ and credits)\n- Audio mixing, waveform, & editing\n- Emojis (open-source stickers\
+    \ & artwork included)\n- Frame accuracy (step through each frame of video)\n-\
+    \ Time mapping & speed changes (slow/fast, forward/backward)\n- Advanced AI (motion\
+    \ tracking, object detection, & stabilization effects)\n- Credits & captions (scrolling\
+    \ and animated)\n- Hardware accelerated (encoding & decoding supports NVIDIA,\
+    \ AMD, Intel and more)\n- Import & export (EDL and Final Cut Pro formats, supports\
+    \ most video editors)\n- Customizable keyboard shortcuts\n- Translations (available\
+    \ in 100+ languages)"
+  donate_url: https://www.openshot.org/donate/
+  homepage: https://www.openshot.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/openshot.png
+  license: GPL-3.0-or-later
+  mimetypes:
+  - application/vnd.openshot-qt-project
+  mobile: 1
+  name: OpenShot Video Editor
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openshot-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/openshot-1.png
+  src_pkg_name: app/org.openshot.OpenShot/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded Qt theme
+  summary: An easy to use, quick to learn, and surprisingly powerful video editor
+networkdisplays:
+  author: Benjamin Berg, Christian Glombek
+  categories:
+  - AudioVideo
+  description: "GNOME Network Displays allows you to cast your desktop to a remote\
+    \ display.\n\t\tSupports the Miracast and Chromecast protocols.\n\n\t\tThis software\
+    \ requires PipeWire version 0.3.8 or higher on the host."
+  homepage: https://gitlab.gnome.org/GNOME/gnome-network-displays
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/networkdisplays.png
+  license: GPL-3.0-or-later
+  mobile: 1
+  name: Network Displays
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/networkdisplays-0.png
+  src_pkg_name: app/org.gnome.NetworkDisplays/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Screencasting for GNOME
+anki:
+  author: Damien Elmes
+  categories:
+  - Education
+  - Languages
+  description: 'Anki is a program which makes remembering things easy. Because it''s
+    a lot more efficient than traditional study methods, you can either greatly decrease
+    your time spent studying, or greatly increase the amount you learn.
+
+
+    Anyone who needs to remember things in their daily life can benefit from Anki.
+    Since it is content-agnostic and supports images, audio, videos and scientific
+    markup (via LaTeX), the possibilities are endless.
+
+
+    Optional LaTeX support is provided by the TeX Live Flatpak extension org.freedesktop.Sdk.Extension.texlive.'
+  donate_url: https://apps.ankiweb.net/support/
+  homepage: https://apps.ankiweb.net/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/anki.png
+  license: AGPL-3.0+
+  mimetypes:
+  - application/x-apkg
+  - application/x-anki
+  - application/x-ankiaddon
+  mobile: 1
+  name: Anki
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/anki-0.png
+  src_pkg_name: app/net.ankiweb.Anki/x86_64/stable
+  still_rating: 2
+  still_rating_notes: Hardcoded qt theme, fall back window border, breaks if you set
+    to Vulkan rendering
+  summary: Powerful, intelligent flash cards
+mpv:
+  author: The mpv player contributors
+  categories:
+  - AudioVideo
+  - Audio
+  - Video
+  - Player
+  - TV
+  description: 'Mpv is a movie player based on MPlayer and mplayer2. It supports a
+    wide variety
+
+    of video file formats, audio and video codecs, and subtitle types. Special
+
+    input URL types are available to read input from a variety of sources other
+
+    than disk files. Depending on platform, a variety of different video and audio
+
+    output methods are supported.
+
+
+    Features:
+
+    - Drag and drop playlist
+
+    - Loading external configuration files
+
+    - Flatpak: mpv-mpris support - multimedia keys play/pause support
+
+    - Flatpak: mpv.conf: Screenshots (shortcut key ''s'') are saved in ~/Pictures/mpv
+    directory
+
+    - Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv
+
+    - Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts
+
+    - Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME
+    while playing media
+
+    - Flatpak: mpv scripts needs write access. Use flatseal app to set home or host
+    write permission'
+  homepage: https://mpv.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/mpv.png
+  keywords:
+  - mpv
+  - media
+  - player
+  - video
+  - audio
+  - tv
+  license: GPL-2.0+ AND LGPL-2.0-or-later
+  mimetypes:
+  - application/ogg
+  - application/x-ogg
+  - application/mxf
+  - application/sdp
+  - application/smil
+  - application/x-smil
+  - application/streamingmedia
+  - application/x-streamingmedia
+  - application/vnd.rn-realmedia
+  - application/vnd.rn-realmedia-vbr
+  - audio/aac
+  - audio/x-aac
+  - audio/vnd.dolby.heaac.1
+  - audio/vnd.dolby.heaac.2
+  - audio/aiff
+  - audio/x-aiff
+  - audio/m4a
+  - audio/x-m4a
+  - application/x-extension-m4a
+  - audio/mp1
+  - audio/x-mp1
+  - audio/mp2
+  - audio/x-mp2
+  - audio/mp3
+  - audio/x-mp3
+  - audio/mpeg
+  - audio/mpeg2
+  - audio/mpeg3
+  - audio/mpegurl
+  - audio/x-mpegurl
+  - audio/mpg
+  - audio/x-mpg
+  - audio/rn-mpeg
+  - audio/musepack
+  - audio/x-musepack
+  - audio/ogg
+  - audio/scpls
+  - audio/x-scpls
+  - audio/vnd.rn-realaudio
+  - audio/wav
+  - audio/x-pn-wav
+  - audio/x-pn-windows-pcm
+  - audio/x-realaudio
+  - audio/x-pn-realaudio
+  - audio/x-ms-wma
+  - audio/x-pls
+  - audio/x-wav
+  - video/mpeg
+  - video/x-mpeg2
+  - video/x-mpeg3
+  - video/mp4v-es
+  - video/x-m4v
+  - video/mp4
+  - application/x-extension-mp4
+  - video/divx
+  - video/vnd.divx
+  - video/msvideo
+  - video/x-msvideo
+  - video/ogg
+  - video/quicktime
+  - video/vnd.rn-realvideo
+  - video/x-ms-afs
+  - video/x-ms-asf
+  - audio/x-ms-asf
+  - application/vnd.ms-asf
+  - video/x-ms-wmv
+  - video/x-ms-wmx
+  - video/x-ms-wvxvideo
+  - video/x-avi
+  - video/avi
+  - video/x-flic
+  - video/fli
+  - video/x-flc
+  - video/flv
+  - video/x-flv
+  - video/x-theora
+  - video/x-theora+ogg
+  - video/x-matroska
+  - video/mkv
+  - audio/x-matroska
+  - application/x-matroska
+  - video/webm
+  - audio/webm
+  - audio/vorbis
+  - audio/x-vorbis
+  - audio/x-vorbis+ogg
+  - video/x-ogm
+  - video/x-ogm+ogg
+  - application/x-ogm
+  - application/x-ogm-audio
+  - application/x-ogm-video
+  - application/x-shorten
+  - audio/x-shorten
+  - audio/x-ape
+  - audio/x-wavpack
+  - audio/x-tta
+  - audio/AMR
+  - audio/ac3
+  - audio/eac3
+  - audio/amr-wb
+  - video/mp2t
+  - audio/flac
+  - audio/mp4
+  - application/x-mpegurl
+  - video/vnd.mpegurl
+  - application/vnd.apple.mpegurl
+  - audio/x-pn-au
+  - video/3gp
+  - video/3gpp
+  - video/3gpp2
+  - audio/3gpp
+  - audio/3gpp2
+  - video/dv
+  - audio/dv
+  - audio/opus
+  - audio/vnd.dts
+  - audio/vnd.dts.hd
+  - audio/x-adpcm
+  - application/x-cue
+  - audio/m3u
+  - audio/vnd.wave
+  - video/vnd.avi
+  mobile: 1
+  name: mpv
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/mpv-0.png
+  src_pkg_name: app/io.mpv.Mpv/x86_64/stable
+  still_rating: 2
+  still_rating_notes: 'App has learning curve
+
+    Window Titlebar is hidden which makes moving and resizing window confusing
+
+    Configuration is through a file'
+  summary: A free, open source, and cross-platform media player
+q4wine:
+  author: Oleksii S. Malakhov
+  categories:
+  - System
+  description: Q4Wine is a Qt GUI for Wine. It will help you manage Wine prefixes
+    and installed applications.
+  donate_url: https://www.comebackalive.in.ua/donate
+  homepage: https://q4wine.brezblock.org.ua
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/q4wine.png
+  keywords:
+  - Wine
+  - Windows
+  - Emulator
+  license: GPL-3.0-or-later
+  mimetypes:
+  - application/x-ms-dos-executable
+  - application/x-msi
+  mobile: 1
+  name: q4wine
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/q4wine-0.png
+  src_pkg_name: app/ua.org.brezblock.q4wine/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Qt app, uses gtk2 theme?
+  summary: Utility for Wine applications and prefixes management
+cemu:
+  author: Cemu Project
+  categories:
+  - Game
+  - Emulator
+  description: 'Cemu is a Nintendo Wii U emulator that is able to run most Wii U games
+    and homebrew in a playable state. Created by Exzap, and written in C/C++.
+
+
+    This emulator aims at providing both high-accuracy and performance, and is actively
+    being developed with new features and fixes to increase compatibility, convenience
+    and usability.
+
+
+    It was written from scratch and development on the project began roughly early
+    2015.'
+  homepage: https://cemu.info
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/cemu.png
+  keywords:
+  - nintendo
+  license: MPL-2.0
+  mimetypes:
+  - application/x-wii-u-rom
+  mobile: 1
+  name: Cemu
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/cemu-0.png
+  src_pkg_name: app/info.cemu.Cemu/x86_64/stable
+  still_rating: 1
+  still_rating_notes: "Emulators allow running software designed for other systems.\n\
+    \      Use emulators responsibly and only to play games you legally own. Downloading\n\
+    \      or distributing copyrighted ROMs without permission is illegal. Users are\
+    \ responsible\n      for complying with all applicable laws when using emulators."
+  summary: Nintendo Wii U Emulator
+cpu-x:
+  author: The Tumultuous Unicorn Of Darkness
+  categories:
+  - System
+  description: "CPU-X is a Free software that gathers information on CPU, motherboard\
+    \ and more.\n\t\tCPU-X is similar to CPU-Z (Windows), but CPU-X is a Free and\
+    \ Open Source software designed for GNU/Linux; also, it works on *BSD.\n\t\tThis\
+    \ software is written in C++ and built with CMake tool.\n\t\tIt can be used in\
+    \ graphical mode by using GTK or in text-based mode by using NCurses. A dump mode\
+    \ is present from command line."
+  homepage: https://thetumultuousunicornofdarkness.github.io/CPU-X/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/cpu-x.png
+  keywords:
+  - CPU
+  - system
+  - core
+  - speed
+  - clock
+  - rate
+  - Intel
+  - AMD
+  - motherboard
+  license: GPL-3.0+
+  mobile: 1
+  name: CPU-X
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/cpu-x-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/cpu-x-1.png
+  src_pkg_name: app/io.github.thetumultuousunicornofdarkness.cpu-x/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Gathers information on CPU, motherboard and more
+pinta:
+  author: Jonathan Pobst
+  categories:
+  - Graphics
+  - 2DGraphics
+  - RasterGraphics
+  description: 'Pinta is a image editing, drawing and painting application with a
+    simple yet powerful interface. Pinta has a wide range of drawing tools, including:
+    freehand, rectangles, circles and lines. It also has over 35 effects to apply
+    to your images, and also has the ability to create unlimited layers to help organize
+    your creativity.'
+  homepage: https://www.pinta-project.com
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pinta.png
+  keywords:
+  - draw
+  - drawing
+  - paint
+  - painting
+  - graphics
+  - raster
+  - 2d
+  license: MIT
+  mimetypes:
+  - image/bmp
+  - image/gif
+  - image/jpeg
+  - image/jpg
+  - image/pjpeg
+  - image/png
+  - image/svg+xml
+  - image/tiff
+  - image/x-bmp
+  - image/x-gray
+  - image/x-icb
+  - image/x-ico
+  - image/x-png
+  - image/x-portable-anymap
+  - image/x-portable-bitmap
+  - image/x-portable-graymap
+  - image/x-portable-pixmap
+  - image/x-xbitmap
+  - image/x-xpixmap
+  - image/x-pcx
+  - image/x-targa
+  - image/x-tga
+  - image/openraster
+  mobile: 1
+  name: Pinta
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/pinta-0.png
+  src_pkg_name: app/com.github.PintaProject.Pinta/x86_64/stable
+  still_rating: 4
+  still_rating_notes: No notes have been provided.
+  summary: Edit images and paint digitally
+strawberry:
+  author: strawberrymusicplayer.org
+  categories:
+  - Audio
+  - AudioVideo
+  - Player
+  description: 'Strawberry is a music player and music collection organizer. It is
+    aimed at music collectors and audiophiles. With Strawberry you can play and manage
+    your digital music collection, or stream your favorite radios. It also has unofficial
+    streaming support for Tidal and Qobuz. Strawberry is free software released under
+    GPL. The source code is available on GitHub. It''s written in C++ using the Qt
+    toolkit and GStreamer. Strawberry is compatible with both Qt version 5 and 6.
+
+
+    Features:
+
+    - Play and organize music
+
+    - Supports most popular audio formats and CD playback
+
+    - Native desktop notifications
+
+    - Playlist management and playlists in multiple formats
+
+    - Smart and dynamic playlists
+
+    - Advanced audio output and device configuration for bit-perfect playback on Linux
+
+    - Edit tags on audio files
+
+    - Automatically retrieve tags from MusicBrainz
+
+    - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal,
+    Qobuz and Spotify
+
+    - Song lyrics from Genius, Musixmatch, ChartLyrics, lyrics.ovh, lololyrics.com,
+    songlyrics.com, azlyrics.com, elyrics.net and lyricsmode.com
+
+    - Support for multiple backends
+
+    - Audio analyzer and equalizer
+
+    - Transfer music to mass-storage USB players, MTP compatible devices and iPod
+    Nano/Classic
+
+    - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz
+
+    - Streaming support for Subsonic-compatible servers
+
+    - Unofficial streaming support for Tidal and Qobuz'
+  homepage: https://www.strawberrymusicplayer.org/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/strawberry.png
+  keywords:
+  - Audio
+  - Player
+  license: GPL-3.0+
+  mimetypes:
+  - application/ogg
+  - application/x-ogg
+  - application/x-ogm-audio
+  - audio/aac
+  - audio/flac
+  - audio/mp4
+  - audio/mpeg
+  - audio/mpegurl
+  - audio/ogg
+  - audio/vnd.rn-realaudio
+  - audio/vorbis
+  - audio/x-ape
+  - audio/x-flac
+  - audio/x-mp3
+  - audio/x-mpeg
+  - audio/x-mpegurl
+  - audio/x-ms-wma
+  - audio/x-musepack
+  - audio/x-oggflac
+  - audio/x-pn-realaudio
+  - audio/x-scpls
+  - audio/x-speex
+  - audio/x-vorbis
+  - audio/x-vorbis+ogg
+  - audio/x-wav
+  - audio/x-wavpack
+  - video/x-ms-asf
+  - x-content/audio-player
+  - x-scheme-handler/tidal
+  mobile: 1
+  name: Strawberry Music Player
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/strawberry-0.png
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/strawberry-1.png
+  src_pkg_name: app/org.strawberrymusicplayer.strawberry/x86_64/stable
+  still_rating: 2
+  still_rating_notes: Qt, some icons are dark which look bad on dark backgrounds
+  summary: A music player and collection organizer
+podmandesktop:
+  author: Red Hat, Inc.
+  categories:
+  - Development
+  description: 'Podman Desktop is an open source graphical tool enabling you to seamlessly
+    work with containers and Kubernetes from your local environment.
+
+
+    Build, run and manage containers:
+
+    - Build images from Containerfile or Dockerfile.
+
+    - Pull images from remote registries.
+
+    - Start, Stop, Restart containers and pods.
+
+    - Easily get a terminal in your container.
+
+    - Inspect container logs.
+
+    - Push images to OCI registries.
+
+    - Deploy and test images on Kubernetes.
+
+
+    Multiple configuration options
+
+    - Manage OCI registries; add, edit, or delete registries.
+
+    - Configure your proxy settings (work in progress.)
+
+    - Configure CPU, memory, and disk of Podman machines (work in progress.)
+
+    - Handle multiple container engines at the same time (Podman, Docker, Lima...)
+
+
+    You can also bring new features with Podman Desktop plug-ins or Docker Desktop
+    extensions.'
+  homepage: https://podman-desktop.io/
+  icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/podmandesktop.png
+  license: Apache-2.0
+  mobile: 1
+  name: Podman Desktop
+  pricing: 1
+  primary_src: flathub
+  screenshot_urls:
+  - https://raw.githubusercontent.com/stillhq/saDB-repo/main/screenshots/podmandesktop-0.png
+  src_pkg_name: app/io.podman_desktop.PodmanDesktop/x86_64/stable
+  still_rating: 3
+  still_rating_notes: Hard coded themed
+  summary: Manage Podman and other container engines from a single UI and tray
