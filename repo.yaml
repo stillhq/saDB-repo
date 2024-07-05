@@ -3449,7 +3449,8 @@ loupe:
   src_pkg_name: app/org.gnome.Loupe/x86_64/stable
   still_rating: 5
   still_rating_notes: No notes provided.
-  summary: View imagesokular:
+  summary: View images
+okular:
   author: KDE
   categories:
   - Graphics
