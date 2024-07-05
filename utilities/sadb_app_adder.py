@@ -1,6 +1,7 @@
 import os
 
 import threading
+import traceback
 from html.parser import HTMLParser
 import re
 from urllib.parse import urlparse
@@ -78,7 +79,6 @@ def html_to_plain_text(html):
 
 
 def download_image(url, dest_path):
-    print("downloading: " + url)
     response = requests.get(url, stream=True)
     response.raise_for_status()  # Raise exception if invalid response
     # Get the file extension from the URL
@@ -134,59 +134,82 @@ class Application(Adw.Application):
         self.screenshot_box = self.builder.get_object("screenshot_box")
 
         self.flatpak_package.connect("apply", self.flatpak_id_apply)
+        self.flatpak_package.connect("changed", lambda _entry: self.flatpak_package.remove_css_class("error"))
         self.icon_url.connect("apply", lambda _button: self.update_icon())
         self.add_button.connect("clicked", self.add_to_yaml_clicked)
         self.preview_screenshots_button.connect("clicked", lambda _button: self.update_screenshots())
 
+    def error_importing_flatpak(self, error: str):
+        self.flatpak_package.set_text(error)
+        self.flatpak_package.add_css_class("error")
+
     def flatpak_id_apply(self, _entry):
         flatpak_id = self.flatpak_package.get_text()
-        component = find_appstream(flatpak_id)
-        if component is None:
-            component = find_appstream(flatpak_id + ".desktop")
+        pkg_name = f"app/{flatpak_id}/x86_64/stable"
+
+        # Check for duplicate packages in the repo
+        with open(os.path.join(ARTIFACTS_DIR, "repo.yaml"), 'r') as file:
+            data = yaml.safe_load(file)
+
+        for item_data in data.values():
+            if 'src_pkg_name' in item_data and item_data['src_pkg_name'] == pkg_name:
+                self.error_importing_flatpak(f"{pkg_name} already in repo")
+                return
+
         try:
-            self.sadb_id.set_text(flatpak_id.split(".")[-1].lower())
-        except IndexError:
-            self.sadb_id.set_text(flatpak_id.replace(".", "-").lower())
-        self.name.set_text(component.get_name())
-        try:
-            self.author.set_text(component.get_developer().get_name())
-        except (IndexError, TypeError):
-            pass
-        self.summary.set_text(component.get_summary())
-        self.primary_src.set_text("flathub")
-        self.src_pkg_name.set_text(f"app/{flatpak_id}/x86_64/stable")
-        self.categories.set_text(", ".join(component.get_categories()))
-        # mimetypes
-        if component.get_provided_for_kind(AppStream.ProvidedKind.MEDIATYPE):
-            self.mimetypes.set_text(", ".join(component.get_provided_for_kind(AppStream.ProvidedKind.MEDIATYPE).get_items()))
-        self.keywords.set_text(", ".join(component.get_keywords()))
-        self.pricing.set_selected(1)
-        self.still_rating.set_selected(0)
-        self.mobile.set_selected(1)
-        self.icon_url.set_text(f"https://flathub.org/repo/appstream/x86_64/icons/128x128/{flatpak_id}.png")
-        self.license.set_text(component.get_project_license())
+            component = find_appstream(flatpak_id)
+            if component is None:
+                component = find_appstream(flatpak_id + ".desktop")
+            if component is None:
+                self.error_importing_flatpak(f"Could not find data for {flatpak_id}")
+                return
+            try:
+                self.sadb_id.set_text(flatpak_id.split(".")[-1].lower())
+            except IndexError:
+                self.sadb_id.set_text(flatpak_id.replace(".", "-").lower())
+            self.name.set_text(component.get_name())
+            try:
+                self.author.set_text(component.get_developer().get_name())
+            except (IndexError, TypeError):
+               pass
+            self.summary.set_text(component.get_summary())
+            self.primary_src.set_text("flathub")
+            self.src_pkg_name.set_text(pkg_name)
+            self.categories.set_text(", ".join(component.get_categories()))
+            # mimetypes
+            if component.get_provided_for_kind(AppStream.ProvidedKind.MEDIATYPE):
+                self.mimetypes.set_text(", ".join(component.get_provided_for_kind(AppStream.ProvidedKind.MEDIATYPE).get_items()))
+            self.keywords.set_text(", ".join(component.get_keywords()))
+            self.pricing.set_selected(1)
+            self.still_rating.set_selected(0)
+            self.mobile.set_selected(1)
+            self.icon_url.set_text(f"https://flathub.org/repo/appstream/x86_64/icons/128x128/{flatpak_id}.png")
+            self.license.set_text(component.get_project_license())
 
-        if component.get_url(AppStream.UrlKind.HOMEPAGE):
-            self.homepage.set_text(component.get_url(AppStream.UrlKind.HOMEPAGE))
-        if component.get_url(AppStream.UrlKind.DONATION):
-            self.donate.set_text(component.get_url(AppStream.UrlKind.DONATION))
+            if component.get_url(AppStream.UrlKind.HOMEPAGE):
+                self.homepage.set_text(component.get_url(AppStream.UrlKind.HOMEPAGE))
+            if component.get_url(AppStream.UrlKind.DONATION):
+                self.donate.set_text(component.get_url(AppStream.UrlKind.DONATION))
 
-        self.description.get_buffer().set_text(html_to_plain_text(component.get_description()))
-        self.still_rating_notes.get_buffer().set_text("No notes have been provided.")
+            self.description.get_buffer().set_text(html_to_plain_text(component.get_description()))
+            self.still_rating_notes.get_buffer().set_text("No notes have been provided.")
 
-        screenshots_all = component.get_screenshots_all()
-        screenshots = []
-        for screenshot in screenshots_all:
-            images = screenshot.get_images()
-            highest_quality_image = get_highest_resolution_image(images)
-            screenshots.append(highest_quality_image)
-        self.screenshots.get_buffer().set_text("\n".join(screenshots))
+            screenshots_all = component.get_screenshots_all()
+            screenshots = []
+            for screenshot in screenshots_all:
+                images = screenshot.get_images()
+                highest_quality_image = get_highest_resolution_image(images)
+                screenshots.append(highest_quality_image)
+            self.screenshots.get_buffer().set_text("\n".join(screenshots))
 
-        self.update_icon()
-        try:
-            self.update_screenshots()
-        except GLib.Error:
-            pass
+            self.update_icon()
+            try:
+                self.update_screenshots()
+            except GLib.Error:
+                pass
+        except Exception as e:
+            type(traceback.format_exc())
+            self.error_importing_flatpak(traceback.format_exc())
 
     def on_receive_bytes(self, session, result, user_data):
         message, picture = user_data

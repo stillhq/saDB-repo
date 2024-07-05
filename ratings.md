@@ -12,10 +12,10 @@ Warning:
       or distributing copyrighted ROMs without permission is illegal. Users are responsible
       for complying with all applicable laws when using emulators.
     - Torrent Warning:
-      ****Torrent clients allow peer-to-peer file sharing over decentralized
+      Torrent clients allow peer-to-peer file sharing over decentralized
       networks. Use torrents responsibly and only to download or share content you have permission for.
       Downloading or distributing copyrighted material without authorization is illegal.
-      Users are responsible for complying with all applicable laws when using torrent software.****
+      Users are responsible for complying with all applicable laws when using torrent software.
 
 Bronze:
 - Qt (without hard coded theme)
