@@ -192,6 +192,7 @@ vlc:
   homepage: https://www.videolan.org/vlc/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vlc.png
   keywords:
+  - essentials
   - Player
   - Capture
   - DVD
@@ -407,6 +408,8 @@ steam:
     flatpak override --user --filesystem=/path/to/your/Steam/Library com.valvesoftware.Steam'
   homepage: https://store.steampowered.com/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/steam.png
+  keywords:
+  - essentials
   license: LicenseRef-proprietary
   mimetypes:
   - x-scheme-handler/steam
@@ -598,7 +601,7 @@ bottles:
   still_rating: 5
   still_rating_notes: No notes have been provided.
   summary: Run Windows Software
-Telegram:
+telegram:
   author: John Preston
   categories:
   - Network
@@ -760,6 +763,7 @@ vscode:
   homepage: https://code.visualstudio.com
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/vscode.png
   keywords:
+  - usedforstillos
   - vscode
   license: LicenseRef-proprietary=https://code.visualstudio.com/license
   mimetypes:
@@ -1182,6 +1186,7 @@ gimp:
   homepage: https://www.gimp.org/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/gimp.png
   keywords:
+  - essentials
   - GIMP
   - Photoshop
   license: GPL-3.0+ AND LGPL-3.0+
@@ -1534,6 +1539,7 @@ onlyoffice:
   homepage: https://onlyoffice.com
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/onlyoffice.png
   keywords:
+  - essentials
   - Text
   - Document
   - OpenDocument Text
@@ -1982,6 +1988,7 @@ thunderbird:
   - email
   - mail
   - mozilla
+  - essentials
   license: MPL-2.0
   mimetypes:
   - message/rfc822
@@ -2727,6 +2734,7 @@ inkscape:
   homepage: https://inkscape.org
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/inkscape.png
   keywords:
+  - usedforstillos
   - image
   - editor
   - vector
@@ -3029,6 +3037,7 @@ audacity:
   homepage: https://www.audacityteam.org/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/audacity.png
   keywords:
+  - essentials
   - sound
   - music editing
   - voice channel
@@ -3299,6 +3308,8 @@ chiaki4deck:
   donate_url: https://buymeacoffee.com/streetpea
   homepage: https://streetpea.github.io/chiaki4deck
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/chiaki4deck.png
+  keywords:
+  - usedforstillos
   license: AGPL-3.0-only
   mobile: 1
   name: Chiaki4deck
@@ -3840,6 +3851,8 @@ pycharm-community:
     Database Tools.'
   homepage: http://www.jetbrains.com/pycharm/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/pycharm-community.png
+  keywords:
+  - usedforstillos
   license: Apache-2.0
   mobile: 1
   name: PyCharm-Community
@@ -4058,6 +4071,7 @@ webstorm:
   homepage: http://www.jetbrains.com/webstorm/
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/webstorm.png
   keywords:
+  - usedforstillos
   - development
   - javascript
   - webstorm
@@ -4311,7 +4325,7 @@ androidstudio:
     \ due to the sandboxing.\nWe recommend installation through Toolbox: https://www.jetbrains.com/toolbox-app/\n\
     \ "
   summary: IDE for Android app development
-client:
+skype:
   author: Microsoft Corporation
   categories:
   - Network
@@ -5724,7 +5738,7 @@ steamlink:
   still_rating: 3
   still_rating_notes: Hard-coded non system theme
   summary: Stream games from another computer with Steam
-desktop:
+shiftkey:
   author: shiftkey
   categories:
   - Development
@@ -5750,6 +5764,8 @@ desktop:
     \ version of GitHub Desktop is a fork that adds support for Linux."
   homepage: https://github.com/shiftkey/desktop#readme
   icon_url: https://raw.githubusercontent.com/stillhq/saDB-repo/main/icons/desktop.png
+  keywords:
+  - usedforstillos
   license: MIT
   mimetypes:
   - x-scheme-handler/x-github-client
